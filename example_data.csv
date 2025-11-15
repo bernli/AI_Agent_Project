@@ -1,0 +1,21 @@
+name,age,salary,department,experience_years,performance_score
+Alice Johnson,28,55000,Engineering,3,8.5
+Bob Smith,35,72000,Engineering,8,9.2
+Charlie Brown,42,65000,Sales,12,7.8
+Diana Prince,31,58000,Marketing,5,8.9
+Eve Wilson,29,61000,Engineering,4,8.1
+Frank Miller,38,68000,Sales,10,7.5
+Grace Lee,26,52000,Marketing,2,8.7
+Henry Taylor,45,78000,Engineering,15,9.0
+Ivy Chen,33,64000,Sales,7,8.3
+Jack Robinson,27,54000,Marketing,3,7.9
+Kate Anderson,36,70000,Engineering,9,8.8
+Liam Murphy,41,66000,Sales,11,7.6
+Maria Garcia,30,60000,Marketing,5,8.4
+Nathan Scott,34,67000,Engineering,7,8.6
+Olivia White,28,56000,Sales,4,8.0
+Paul Harris,39,71000,Engineering,10,9.1
+Quinn Turner,32,63000,Marketing,6,8.2
+Rachel Green,37,69000,Sales,9,7.7
+Sam Cooper,25,51000,Engineering,1,8.5
+Tina Martinez,40,73000,Marketing,12,8.9
