@@ -2,6 +2,15 @@
 
 Ein einfacher KI-Agent für automatisierte Datenanalyse. Analysiert CSV-Dateien und liefert statistische Insights, Visualisierungen und Korrelationen.
 
+## 📚 Dokumentation
+
+- **[QUICK_START.md](QUICK_START.md)** - Schnellstart Guide (5 Minuten)
+- **[AGENT_SYSTEM_GUIDE.md](AGENT_SYSTEM_GUIDE.md)** - Vollständiger Guide zu Agent-Architekturen
+  - Single-Agent vs Multi-Agent Systeme
+  - Agent Shutton Multi-Agent Architektur
+  - Wie man Multi-Agent Systeme baut
+  - Praktische Beispiele & Best Practices
+
 ## Features
 
 - **Automatische Datenanalyse**: Lädt CSV-Dateien und erstellt umfassende statistische Zusammenfassungen
@@ -20,6 +29,9 @@ cd AI_Agent_Project
 
 # Dependencies installieren
 pip install -r requirements.txt
+
+# Optional: Architektur-Diagramme erstellen
+python visualize_agent_architectures.py
 ```
 
 ## Schnellstart
