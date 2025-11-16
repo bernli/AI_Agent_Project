@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/python.exe -m adk:*)",
+      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/Scripts/adk.exe web --help)",
+      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/python.exe:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
