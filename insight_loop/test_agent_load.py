@@ -32,7 +32,8 @@ try:
     # Test 4: Check tools
     print("\n[4/4] Checking tools...")
     for tool in interactive_analyst_agent.tools:
-        print(f"      - {tool.__name__}")
+        tool_name = getattr(tool, "name", None) or getattr(tool, "__name__", type(tool).__name__)
+        print(f"      - {tool_name}")
     print("      [OK] All tools loaded")
 
     print("\n" + "=" * 50)

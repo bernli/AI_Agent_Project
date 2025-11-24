@@ -7,7 +7,7 @@ from dataclasses import dataclass
 class InsightLoopConfig:
     """Configuration for InsightLoop agent system."""
     # Model configuration
-    main_model: str = "gemini-2.5-pro"
+    main_model: str = "gemini-2.5-flash"
     worker_model: str = "gemini-2.5-flash"
 
     # Retry configuration

@@ -6,12 +6,6 @@ import numpy as np
 import io
 from typing import Dict, Any, Optional
 
-try:
-    import duckdb
-    DUCKDB_AVAILABLE = True
-except ImportError:
-    DUCKDB_AVAILABLE = False
-
 
 def _convert_to_native(obj):
     """Convert numpy types to native Python types for JSON serialization."""
@@ -178,6 +172,23 @@ def execute_python_analysis(
     import matplotlib.pyplot as plt
     import numpy as np
 
+    disallowed_patterns = (
+        "os.remove",
+        "os.rmdir",
+        "shutil.rmtree",
+        "subprocess",
+        "requests",
+        "socket",
+        "http.client",
+    )
+    lowered_code = code.lower()
+    if any(pat in lowered_code for pat in disallowed_patterns):
+        return {
+            "status": "error",
+            "error_message": "Generated code contains disallowed operations. Please revise and try again.",
+            "error_type": "SafetyCheckError"
+        }
+
     # Validate data_path before execution
     if not data_path:
         return {
@@ -194,6 +205,15 @@ def execute_python_analysis(
         }
 
     try:
+        import contextlib
+        import io as string_io
+
+        # Strip FILE_PATH marker lines from executable code
+        executable_code = "\n".join(
+            line for line in code.splitlines()
+            if not line.strip().lower().startswith("file_path")
+        )
+
         # Create execution namespace
         namespace = {
             'pd': pd,
@@ -206,8 +226,11 @@ def execute_python_analysis(
         # Load data from CSV
         namespace['df'] = pd.read_csv(data_path)
 
-        # Execute code
-        exec(code, namespace)
+        # Capture stdout/stderr to aid debugging
+        stdout_buffer = string_io.StringIO()
+        stderr_buffer = string_io.StringIO()
+        with contextlib.redirect_stdout(stdout_buffer), contextlib.redirect_stderr(stderr_buffer):
+            exec(executable_code, namespace)
 
         # Extract results
         results = {
@@ -230,6 +253,13 @@ def execute_python_analysis(
             results['chart_data'] = chart_results['chart_data']
             results['output'] = f"Code executed successfully. Created {len(chart_results['file_paths'])} chart(s)."
 
+        stdout_value = stdout_buffer.getvalue().strip()
+        stderr_value = stderr_buffer.getvalue().strip()
+        if stdout_value:
+            results["stdout"] = stdout_value
+        if stderr_value:
+            results["stderr"] = stderr_value
+
         return _convert_to_native(results)
 
     except Exception as e:
@@ -238,52 +268,6 @@ def execute_python_analysis(
             "error_message": str(e),
             "error_type": type(e).__name__
         }
-
-
-def execute_sql_query(query: str, data_path: Optional[str] = None) -> Dict[str, Any]:
-    """
-    Execute SQL query using DuckDB.
-
-    Args:
-        query: SQL query to execute
-        data_path: Optional path to CSV data
-
-    Returns:
-        Dictionary containing query results
-    """
-    if not DUCKDB_AVAILABLE:
-        return {
-            "status": "error",
-            "error_message": "DuckDB is not installed. Please install with: pip install duckdb"
-        }
-
-    try:
-        # Create in-memory DuckDB connection
-        con = duckdb.connect(':memory:')
-
-        # Load data if provided
-        if data_path and os.path.exists(data_path):
-            # Register CSV as table
-            con.execute(f"CREATE TABLE data AS SELECT * FROM read_csv_auto('{data_path}')")
-
-        # Execute query
-        result = con.execute(query).fetchdf()
-
-        return {
-            "status": "success",
-            "result": result.to_dict('records'),
-            "row_count": len(result),
-            "columns": result.columns.tolist()
-        }
-
-    except Exception as e:
-        return {
-            "status": "error",
-            "error_message": str(e),
-            "error_type": type(e).__name__
-        }
-    finally:
-        con.close()
 
 
 def style_chart(figure_path: Optional[str] = None) -> Dict[str, Any]:

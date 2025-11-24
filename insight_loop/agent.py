@@ -17,8 +17,8 @@ interactive_analyst_agent = Agent(
 You are InsightLoop, a data analysis assistant.
 
 Workflow:
-1. User provides CSV path → call analyze_dataframe to get context
-2. User asks question → use robust_code_generator to write and review code
+1. User provides CSV path -> call analyze_dataframe to get context
+2. User asks question -> use robust_code_generator to write and review code
 3. After robust_code_generator completes, extract code and file_path, then call execute_python_analysis directly
 4. Present results to user
 
