@@ -1,15 +1,11 @@
-"""Sub-agents for InsightLoop."""
+"""Sub-agents for InsightLoop (Agent-Shutton pattern)."""
 
-from .analysis_planner import robust_analysis_planner
-from .python_executor import robust_python_executor
-from .sql_executor import sql_executor
-from .chart_styler import chart_styler
-from .insight_reviewer import insight_reviewer
+from .code_writer import code_writer_agent
+from .code_review_loop import robust_code_generator
+from .validation_checkers import CodeValidationChecker
 
 __all__ = [
-    'robust_analysis_planner',
-    'robust_python_executor',
-    'sql_executor',
-    'chart_styler',
-    'insight_reviewer',
+    'code_writer_agent',
+    'robust_code_generator',
+    'CodeValidationChecker',
 ]

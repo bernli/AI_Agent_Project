@@ -1,17 +1,31 @@
 """Configuration for InsightLoop agents."""
 
-# Model configuration - Using Gemini 2.5 Flash
-PLANNER_MODEL = "gemini-2.5-flash"
-PYTHON_EXECUTOR_MODEL = "gemini-2.5-flash"
-SQL_EXECUTOR_MODEL = "gemini-2.5-flash"
-CHART_STYLER_MODEL = "gemini-2.5-flash"
-INSIGHT_REVIEWER_MODEL = "gemini-2.5-flash"
-MAIN_AGENT_MODEL = "gemini-2.5-flash"
+from dataclasses import dataclass
 
-# Retry configuration for LoopAgents
-MAX_RETRIES = 3
 
-# Chart styling configuration
-CHART_DPI = 300
-CHART_STYLE = "seaborn-v0_8-darkgrid"
-COLOR_PALETTE = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
+@dataclass
+class InsightLoopConfig:
+    """Configuration for InsightLoop agent system."""
+    # Model configuration
+    main_model: str = "gemini-2.5-pro"
+    worker_model: str = "gemini-2.5-flash"
+
+    # Retry configuration
+    max_retries: int = 3
+
+    # Chart styling
+    chart_dpi: int = 300
+    chart_style: str = "seaborn-v0_8-darkgrid"
+    color_palette: tuple = ("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd")
+
+
+# Default configuration instance
+config = InsightLoopConfig()
+
+# Export individual values for convenience
+MAIN_AGENT_MODEL = config.main_model
+WORKER_MODEL = config.worker_model
+MAX_RETRIES = config.max_retries
+CHART_DPI = config.chart_dpi
+CHART_STYLE = config.chart_style
+COLOR_PALETTE = list(config.color_palette)

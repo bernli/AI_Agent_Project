@@ -2,95 +2,236 @@
 
 import os
 import pandas as pd
+import numpy as np
 import io
 from typing import Dict, Any, Optional
-import duckdb
+
+try:
+    import duckdb
+    DUCKDB_AVAILABLE = True
+except ImportError:
+    DUCKDB_AVAILABLE = False
 
 
-def load_csv_data(file_path: str) -> Dict[str, Any]:
+def _convert_to_native(obj):
+    """Convert numpy types to native Python types for JSON serialization."""
+    if isinstance(obj, dict):
+        return {k: _convert_to_native(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [_convert_to_native(v) for v in obj]
+    elif isinstance(obj, (np.integer, np.int64, np.int32)):
+        return int(obj)
+    elif isinstance(obj, (np.floating, np.float64, np.float32)):
+        return float(obj)
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif pd.isna(obj):
+        return None
+    return obj
+
+
+def analyze_dataframe(file_path: str) -> dict:
+    """Analyzes a CSV file and returns complete context for code generation."""
+    if not os.path.exists(file_path):
+        return {"status": "error", "error": f"File not found: {file_path}"}
+
+    df = pd.read_csv(file_path)
+
+    # Get unique values for categorical columns
+    unique_values = {}
+    for col in df.columns:
+        if df[col].dtype == 'object' or 'date' in col.lower():
+            vals = df[col].unique()
+            if len(vals) <= 20:
+                unique_values[col] = sorted(vals.tolist())
+            else:
+                unique_values[col] = {
+                    "count": len(vals),
+                    "first": sorted(vals.tolist())[:5],
+                    "last": sorted(vals.tolist())[-5:]
+                }
+
+    return _convert_to_native({
+        "status": "success",
+        "file_path": file_path,
+        "columns": df.columns.tolist(),
+        "dtypes": df.dtypes.astype(str).to_dict(),
+        "shape": list(df.shape),
+        "unique_values": unique_values,
+        "sample_data": df.head(5).to_dict('records'),
+        "statistics": df.describe().to_dict()
+    })
+
+
+def _apply_professional_styling():
     """
-    Load CSV data and return schema information.
-    
-    Args:
-        file_path: Path to the CSV file
-        
+    Apply professional styling to all current matplotlib figures.
+    Uses the style_chart configuration.
+    """
+    import matplotlib.pyplot as plt
+
+    # Get styling configuration
+    style_config = style_chart()['style_config']
+
+    # Apply to all current figures
+    for fig_num in plt.get_fignums():
+        fig = plt.figure(fig_num)
+        ax = fig.gca()
+
+        # Apply grid
+        if style_config['grid']['enabled']:
+            ax.grid(
+                alpha=style_config['grid']['alpha'],
+                color=style_config['grid']['color'],
+                linestyle=style_config['grid']['linestyle']
+            )
+
+        # Apply axes styling
+        ax.set_facecolor(style_config['axes']['facecolor'])
+        for spine in ax.spines.values():
+            spine.set_edgecolor(style_config['axes']['edgecolor'])
+            spine.set_linewidth(style_config['axes']['linewidth'])
+
+        # Apply font styling to existing labels
+        if ax.get_title():
+            ax.title.set_fontsize(style_config['fonts']['title']['size'])
+            ax.title.set_fontweight(style_config['fonts']['title']['weight'])
+
+        if ax.get_xlabel():
+            ax.xaxis.label.set_fontsize(style_config['fonts']['labels']['size'])
+
+        if ax.get_ylabel():
+            ax.yaxis.label.set_fontsize(style_config['fonts']['labels']['size'])
+
+        ax.tick_params(labelsize=style_config['fonts']['ticks']['size'])
+
+        # Apply legend styling if legend exists
+        legend = ax.get_legend()
+        if legend:
+            legend.set_frame_on(True)
+            legend.get_frame().set_alpha(style_config['legend']['framealpha'])
+
+
+def _save_matplotlib_charts() -> Dict[str, Any]:
+    """
+    Save all matplotlib figures to files and as base64 encoded data.
+
     Returns:
-        Dictionary containing schema, sample rows, and data summary
+        Dictionary with file paths and base64 encoded chart data
     """
-    try:
-        # Read CSV
-        df = pd.read_csv(file_path)
-        
-        # Get schema information
-        schema = {
-            "columns": df.columns.tolist(),
-            "dtypes": df.dtypes.astype(str).to_dict(),
-            "shape": df.shape,
-            "null_counts": df.isnull().sum().to_dict()
-        }
-        
-        # Get sample rows
-        sample_rows = df.head(5).to_dict('records')
-        
-        # Basic statistics for numeric columns
-        numeric_summary = df.describe().to_dict() if len(df.select_dtypes(include='number').columns) > 0 else {}
-        
-        return {
-            "status": "success",
-            "schema": schema,
-            "sample_rows": sample_rows,
-            "numeric_summary": numeric_summary,
-            "file_path": file_path
-        }
-        
-    except Exception as e:
-        return {
-            "status": "error",
-            "error_message": str(e)
-        }
+    import matplotlib.pyplot as plt
+    import base64
+    from io import BytesIO
+
+    # Apply professional styling before saving
+    _apply_professional_styling()
+
+    saved_charts = []
+    chart_data_list = []
+    charts_dir = "charts"
+    os.makedirs(charts_dir, exist_ok=True)
+
+    for i, fig_num in enumerate(plt.get_fignums()):
+        fig = plt.figure(fig_num)
+        chart_path = os.path.join(charts_dir, f"chart_{i+1}.png")
+
+        # Save to file
+        fig.savefig(chart_path, format='png', dpi=300, bbox_inches='tight')
+        saved_charts.append(chart_path)
+
+        # Also save as base64 for inline display
+        buffer = BytesIO()
+        fig.savefig(buffer, format='png', dpi=300, bbox_inches='tight')
+        buffer.seek(0)
+        chart_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+        chart_data_list.append({
+            'filename': f"chart_{i+1}.png",
+            'data': chart_base64,
+            'mime_type': 'image/png'
+        })
+        buffer.close()
+
+        plt.close(fig)
+
+    return {
+        'file_paths': saved_charts,
+        'chart_data': chart_data_list
+    }
 
 
-def execute_python_analysis(code: str, data_path: Optional[str] = None) -> Dict[str, Any]:
+def execute_python_analysis(
+    code: str,
+    data_path: Optional[str] = None
+) -> Dict[str, Any]:
     """
     Execute Python code for data analysis.
-    
+
     Args:
         code: Python code to execute
-        data_path: Optional path to CSV data
-        
+        data_path: Optional path to CSV data file
+
     Returns:
         Dictionary containing execution results
     """
+    import matplotlib
+    matplotlib.use('Agg')  # Non-interactive backend
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    # Validate data_path before execution
+    if not data_path:
+        return {
+            "status": "error",
+            "error_message": "data_path is required. Please provide the path to the CSV file.",
+            "error_type": "ValueError"
+        }
+
+    if not os.path.exists(data_path):
+        return {
+            "status": "error",
+            "error_message": f"File not found: {data_path}. Please provide a valid file path.",
+            "error_type": "FileNotFoundError"
+        }
+
     try:
         # Create execution namespace
         namespace = {
             'pd': pd,
-            'plt': None,  # Will be imported in code if needed
-            'np': None,   # Will be imported in code if needed
+            'plt': plt,
+            'np': np,
+            'io': io,
+            'os': os
         }
-        
-        # Load data if path provided
-        if data_path and os.path.exists(data_path):
-            namespace['df'] = pd.read_csv(data_path)
-        
+
+        # Load data from CSV
+        namespace['df'] = pd.read_csv(data_path)
+
         # Execute code
         exec(code, namespace)
-        
+
         # Extract results
         results = {
             "status": "success",
             "output": "Code executed successfully"
         }
-        
-        # Try to extract common result variables
+
+        # Extract DataFrames
         if 'result_df' in namespace:
             results['dataframe'] = namespace['result_df'].to_dict('records')
-        
+
+        # Extract scalar values
         if 'result_value' in namespace:
             results['value'] = namespace['result_value']
-            
-        return results
-        
+
+        # Save any matplotlib charts that were created
+        chart_results = _save_matplotlib_charts()
+        if chart_results['file_paths']:
+            results['charts'] = chart_results['file_paths']
+            results['chart_data'] = chart_results['chart_data']
+            results['output'] = f"Code executed successfully. Created {len(chart_results['file_paths'])} chart(s)."
+
+        return _convert_to_native(results)
+
     except Exception as e:
         return {
             "status": "error",
@@ -102,33 +243,39 @@ def execute_python_analysis(code: str, data_path: Optional[str] = None) -> Dict[
 def execute_sql_query(query: str, data_path: Optional[str] = None) -> Dict[str, Any]:
     """
     Execute SQL query using DuckDB.
-    
+
     Args:
         query: SQL query to execute
         data_path: Optional path to CSV data
-        
+
     Returns:
         Dictionary containing query results
     """
+    if not DUCKDB_AVAILABLE:
+        return {
+            "status": "error",
+            "error_message": "DuckDB is not installed. Please install with: pip install duckdb"
+        }
+
     try:
         # Create in-memory DuckDB connection
         con = duckdb.connect(':memory:')
-        
+
         # Load data if provided
         if data_path and os.path.exists(data_path):
             # Register CSV as table
             con.execute(f"CREATE TABLE data AS SELECT * FROM read_csv_auto('{data_path}')")
-        
+
         # Execute query
         result = con.execute(query).fetchdf()
-        
+
         return {
             "status": "success",
             "result": result.to_dict('records'),
             "row_count": len(result),
             "columns": result.columns.tolist()
         }
-        
+
     except Exception as e:
         return {
             "status": "error",
@@ -139,40 +286,96 @@ def execute_sql_query(query: str, data_path: Optional[str] = None) -> Dict[str, 
         con.close()
 
 
-def style_chart(chart_config: Dict[str, Any]) -> Dict[str, Any]:
+def style_chart(figure_path: Optional[str] = None) -> Dict[str, Any]:
     """
-    Apply professional styling to charts.
-    
+    Apply standard professional styling to matplotlib charts.
+
     Args:
-        chart_config: Configuration for chart styling
-        
+        figure_path: Optional path to saved matplotlib figure
+
     Returns:
-        Dictionary with styling recommendations
+        Dictionary with standard styling configuration applied
+    """
+    # Standard professional styling configuration
+    standard_style = {
+        "color_palette": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
+        "fonts": {
+            "title": {"size": 14, "weight": "bold", "family": "sans-serif"},
+            "labels": {"size": 12, "family": "sans-serif"},
+            "ticks": {"size": 10}
+        },
+        "grid": {
+            "enabled": True,
+            "alpha": 0.3,
+            "color": "#cccccc",
+            "linestyle": "--"
+        },
+        "figure": {
+            "dpi": 300,
+            "size": (10, 6),
+            "facecolor": "white"
+        },
+        "legend": {
+            "enabled": True,
+            "location": "best",
+            "framealpha": 0.9
+        },
+        "axes": {
+            "facecolor": "white",
+            "edgecolor": "#333333",
+            "linewidth": 1.2
+        }
+    }
+
+    return {
+        "status": "success",
+        "styling_applied": True,
+        "style_config": standard_style,
+        "message": "Standard professional styling configuration ready to apply"
+    }
+
+
+def save_csv_string_to_file(csv_content: str, file_name: str = "temp_data.csv") -> Dict[str, Any]:
+    """
+    Save CSV string content to a file in the current directory.
+
+    Args:
+        csv_content: CSV data as string
+        file_name: Name of the file (default: "temp_data.csv")
+
+    Returns:
+        Dictionary with absolute file path
     """
     try:
-        # This is a simplified version - in practice would modify matplotlib figures
-        recommendations = {
-            "color_palette": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"],
-            "font_size": {
-                "title": 14,
-                "labels": 12,
-                "ticks": 10
-            },
-            "dpi": 300,
-            "grid": True,
-            "legend": True
-        }
-        
+        # Create data directory if it doesn't exist
+        data_dir = os.path.join(os.getcwd(), "data")
+        os.makedirs(data_dir, exist_ok=True)
+
+        # Create absolute path
+        file_path = os.path.join(data_dir, file_name)
+
+        # Save CSV content
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(csv_content)
+
+        # Verify file was created
+        if not os.path.exists(file_path):
+            return {
+                "status": "error",
+                "error_message": f"Failed to create file at {file_path}"
+            }
+
         return {
             "status": "success",
-            "styling_applied": True,
-            "recommendations": recommendations
+            "file_path": file_path,
+            "message": f"CSV content saved to {file_path}"
         }
-        
+
     except Exception as e:
         return {
             "status": "error",
-            "error_message": str(e)
+            "error_message": str(e),
+            "error_type": type(e).__name__
         }
 
 

@@ -3,7 +3,14 @@
     "allow": [
       "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/python.exe -m adk:*)",
       "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/Scripts/adk.exe web --help)",
-      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/python.exe:*)"
+      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python311/python.exe:*)",
+      "Bash(python3:*)",
+      "Bash(pip --version:*)",
+      "Bash(/c/Users/olive/AppData/Local/Programs/Python/Python314/python.exe:*)",
+      "Bash(.venv/Scripts/python.exe test_agent_load.py)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(.venv/Scripts/pip.exe install:*)",
+      "Bash(\"../.venv/Scripts/python.exe\" test_imports.py)"
     ],
     "deny": [],
     "ask": []
