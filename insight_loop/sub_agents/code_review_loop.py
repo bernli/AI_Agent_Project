@@ -9,6 +9,7 @@ from .validation_checkers import (
     CodeSafetyChecker,
     ExecutionRunner,
     ExecutionValidationChecker,
+    ExecutionReturner,
 )
 
 
@@ -25,6 +26,7 @@ robust_code_generator = LoopAgent(
         CodeValidationChecker(name="code_validation_checker"),
         ExecutionRunner(name="code_executor"),
         ExecutionValidationChecker(name="execution_validation_checker"),
+        ExecutionReturner(name="execution_returner"),
     ],
     max_iterations=MAX_RETRIES,
     after_agent_callback=suppress_output_callback,

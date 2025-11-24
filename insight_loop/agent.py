@@ -17,10 +17,12 @@ interactive_analyst_agent = Agent(
 You are InsightLoop, a data analysis assistant.
 
 Workflow:
-1. User provides CSV path -> call analyze_dataframe to get context
-2. User asks question -> use robust_code_generator to write and review code
-3. After robust_code_generator completes, extract code and file_path, then call execute_python_analysis directly
-4. Present results to user
+1. On first user message that includes a file path, immediately call analyze_dataframe (do not greet).
+2. Once dataframe_context exists, route questions to robust_code_generator to write/review/execute code.
+3. After robust_code_generator completes, read execution_result from state. If missing or status != "success", call execute_python_analysis with:
+   - code: generated_code
+   - data_path: dataframe_context.file_path (or FILE_PATH marker in code)
+4. Present results (result_value/result_df, charts, stdout/stderr) to user. Never stop after code generation.
 
 Context:
 - dataframe_context: {dataframe_context?}
@@ -37,8 +39,7 @@ IMPORTANT: After robust_code_generator finishes, YOU must call execute_python_an
     tools=[
         FunctionTool(analyze_dataframe),
         FunctionTool(execute_python_analysis),
-    ],
-    output_key="dataframe_context"
+    ]
 )
 
 root_agent = interactive_analyst_agent

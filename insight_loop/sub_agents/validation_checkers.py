@@ -55,16 +55,44 @@ class DataframeValidationChecker(BaseAgent):
 
 
 class ExecutionValidationChecker(BaseAgent):
-    """Checks if code execution was successful."""
+    """Checks if code execution was successful (no escalation here)."""
 
     async def _run_async_impl(
         self, ctx: InvocationContext
     ) -> AsyncGenerator[Event, None]:
         result = ctx.session.state.get("execution_result", {})
-        if isinstance(result, dict) and result.get("status") == "success":
-            yield Event(author=self.name, actions=EventActions(escalate=True))
+        # No escalation; ExecutionReturner will escalate with payload
+        yield Event(author=self.name)
+
+
+class ExecutionReturner(BaseAgent):
+    """Returns execution_result so the loop response contains the payload."""
+
+    async def _run_async_impl(
+        self, ctx: InvocationContext
+    ) -> AsyncGenerator[Event, None]:
+        result = ctx.session.state.get("execution_result", {})
+        # Build a minimal summary so the user sees something even with suppressed outputs
+        if isinstance(result, dict):
+            status = result.get("status")
+            if status == "success":
+                if "value" in result:
+                    summary = f"Execution succeeded. result_value={result['value']}"
+                elif "dataframe" in result:
+                    summary = f"Execution succeeded. Returned dataframe with {len(result['dataframe'])} rows."
+                else:
+                    summary = "Execution succeeded."
+            else:
+                summary = f"Execution returned status={status}: {result.get('error_message', 'No error message')}"
         else:
-            yield Event(author=self.name)
+            summary = "Execution completed with unknown result."
+
+        yield Event(
+            author=self.name,
+            content=summary,
+            data={"execution_result": result},
+            actions=EventActions(escalate=True),
+        )
 
 
 class ExecutionRunner(BaseAgent):
@@ -94,7 +122,8 @@ class ExecutionRunner(BaseAgent):
 
         result = execute_python_analysis(code=generated_code, data_path=data_path)
         ctx.session.state["execution_result"] = result
-        yield Event(author=self.name, actions=EventActions(escalate=result.get("status") == "success"))
+        # Do not escalate here; let ExecutionValidationChecker decide based on result.
+        yield Event(author=self.name)
 
 
 def _extract_data_path(ctx: InvocationContext, code: str) -> Optional[str]:
