@@ -14,8 +14,8 @@ from .validation_checkers import (
 
 
 # Simplified LoopAgent pattern (like Agent-Shutton's blog_planner)
-# Flow: code_writer -> safety_checker -> validation_checker -> execution_runner -> execution_validation
-# Exits when: execution succeeds; retries until MAX_RETRIES
+# Flow: code_writer -> safety_checker -> validation_checker -> execution_runner -> execution_validation -> execution_returner
+# Exits when: execution completes and returner provides the result
 
 robust_code_generator = LoopAgent(
     name="robust_code_generator",
@@ -29,5 +29,4 @@ robust_code_generator = LoopAgent(
         ExecutionReturner(name="execution_returner"),
     ],
     max_iterations=MAX_RETRIES,
-    after_agent_callback=suppress_output_callback,
 )

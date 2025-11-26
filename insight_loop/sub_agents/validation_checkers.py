@@ -9,37 +9,28 @@ from ..tools import execute_python_analysis
 
 
 class CodeValidationChecker(BaseAgent):
-    """Checks generated code is present and marks revision status (no execution)."""
+    """Minimal gate: ensure generated code exists and a data path is available; escalate when ready."""
 
     async def _run_async_impl(
         self, ctx: InvocationContext
     ) -> AsyncGenerator[Event, None]:
         generated_code = ctx.session.state.get("generated_code")
-        review_result = ctx.session.state.get("review_result", "")
         df_ctx = ctx.session.state.get("dataframe_context", {}) or {}
         ctx_file_path = df_ctx.get("file_path") if isinstance(df_ctx, dict) else None
         marker_file_path = _extract_data_path_from_code(generated_code or "")
 
         if not generated_code:
+            ctx.session.state["review_result"] = "NEEDS_REVISION: No code generated."
             yield Event(author=self.name)
             return
 
-        # Carry forward prior revision flags
-        if str(review_result).startswith("NEEDS_REVISION"):
-            ctx.session.state["review_result"] = review_result
-            yield Event(author=self.name)
-            return
-
-        # Require a usable data path
         if not ctx_file_path and not marker_file_path:
             ctx.session.state["review_result"] = "NEEDS_REVISION: Add '# FILE_PATH: <path>' so execution can run."
             yield Event(author=self.name)
             return
 
-        ctx.session.state["review_result"] = "APPROVED: Validation checks passed."
-
-        # Do not escalate; execution agent will decide success/failure.
-        yield Event(author=self.name)
+        ctx.session.state["review_result"] = "APPROVED"
+        yield Event(author=self.name, actions=EventActions(escalate=True))
 
 
 class DataframeValidationChecker(BaseAgent):

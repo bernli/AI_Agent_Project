@@ -10,7 +10,15 @@
       "Bash(.venv/Scripts/python.exe test_agent_load.py)",
       "Bash(.venv/Scripts/python.exe:*)",
       "Bash(.venv/Scripts/pip.exe install:*)",
-      "Bash(\"../.venv/Scripts/python.exe\" test_imports.py)"
+      "Bash(\"../.venv/Scripts/python.exe\" test_imports.py)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(rm:*)",
+      "Bash(echo:*)",
+      "Bash(.gitignore)"
     ],
     "deny": [],
     "ask": []

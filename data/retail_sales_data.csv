@@ -1,0 +1,143 @@
+date,region,customer_segment,product_category,revenue,units_sold,customer_id
+2023-01-15,North America,Enterprise,Electronics,125000,450,C001
+2023-01-15,EMEA,SMB,Clothing,45000,890,C002
+2023-01-15,APAC,Enterprise,Home & Garden,98000,320,C003
+2023-01-20,North America,SMB,Electronics,67000,280,C004
+2023-01-20,LATAM,Enterprise,Sports & Outdoors,52000,190,C005
+2023-02-10,North America,Enterprise,Electronics,135000,510,C001
+2023-02-10,EMEA,Enterprise,Clothing,78000,1240,C006
+2023-02-10,APAC,SMB,Electronics,43000,180,C007
+2023-02-15,LATAM,SMB,Home & Garden,28000,140,C008
+2023-02-15,North America,Enterprise,Sports & Outdoors,91000,340,C009
+2023-03-05,EMEA,SMB,Electronics,51000,220,C010
+2023-03-05,APAC,Enterprise,Clothing,112000,1850,C003
+2023-03-10,North America,SMB,Home & Garden,39000,195,C011
+2023-03-10,LATAM,Enterprise,Electronics,88000,370,C005
+2023-03-20,North America,Enterprise,Electronics,142000,560,C001
+2023-04-12,APAC,SMB,Sports & Outdoors,31000,125,C012
+2023-04-12,EMEA,Enterprise,Electronics,156000,640,C013
+2023-04-15,North America,Enterprise,Clothing,98000,1620,C014
+2023-04-20,LATAM,SMB,Home & Garden,24000,115,C015
+2023-05-08,North America,Enterprise,Electronics,148000,590,C001
+2023-05-08,APAC,Enterprise,Clothing,124000,2050,C003
+2023-05-15,EMEA,SMB,Sports & Outdoors,47000,195,C016
+2023-05-20,LATAM,Enterprise,Electronics,95000,405,C005
+2023-06-10,North America,SMB,Home & Garden,42000,210,C017
+2023-06-10,APAC,SMB,Electronics,48000,205,C018
+2023-06-15,EMEA,Enterprise,Clothing,165000,2720,C019
+2023-07-05,North America,Enterprise,Electronics,152000,610,C001
+2023-07-05,LATAM,SMB,Sports & Outdoors,29000,120,C020
+2023-07-10,APAC,Enterprise,Home & Garden,118000,385,C003
+2023-07-15,EMEA,SMB,Electronics,54000,235,C021
+2023-08-08,North America,Enterprise,Clothing,105000,1730,C022
+2023-08-08,LATAM,Enterprise,Electronics,102000,440,C005
+2023-08-15,APAC,SMB,Sports & Outdoors,35000,145,C023
+2023-08-20,EMEA,Enterprise,Home & Garden,89000,350,C024
+2023-09-10,North America,Enterprise,Electronics,158000,635,C001
+2023-09-10,APAC,Enterprise,Clothing,132000,2180,C003
+2023-09-15,EMEA,SMB,Electronics,58000,250,C025
+2023-09-20,LATAM,SMB,Home & Garden,27000,130,C026
+2023-10-05,North America,SMB,Sports & Outdoors,48000,200,C027
+2023-10-05,APAC,Enterprise,Electronics,145000,610,C003
+2023-10-10,EMEA,Enterprise,Clothing,178000,2930,C028
+2023-10-15,LATAM,Enterprise,Home & Garden,67000,265,C005
+2023-11-08,North America,Enterprise,Electronics,168000,675,C001
+2023-11-08,APAC,SMB,Clothing,52000,860,C029
+2023-11-15,EMEA,Enterprise,Electronics,185000,770,C030
+2023-11-20,LATAM,SMB,Sports & Outdoors,32000,135,C031
+2023-12-10,North America,Enterprise,Home & Garden,125000,495,C001
+2023-12-10,APAC,Enterprise,Electronics,158000,665,C003
+2023-12-15,EMEA,SMB,Clothing,64000,1055,C032
+2023-12-20,LATAM,Enterprise,Sports & Outdoors,78000,315,C005
+2024-01-15,North America,Enterprise,Electronics,172000,690,C001
+2024-01-15,EMEA,SMB,Clothing,68000,1120,C033
+2024-01-15,APAC,Enterprise,Home & Garden,162000,525,C003
+2024-01-20,North America,SMB,Electronics,72000,305,C034
+2024-01-20,LATAM,Enterprise,Sports & Outdoors,82000,330,C005
+2024-02-10,North America,Enterprise,Electronics,178000,715,C001
+2024-02-10,EMEA,Enterprise,Clothing,185000,3050,C035
+2024-02-10,APAC,SMB,Electronics,56000,240,C036
+2024-02-15,LATAM,SMB,Home & Garden,31000,150,C037
+2024-02-15,North America,Enterprise,Sports & Outdoors,102000,415,C038
+2024-03-05,EMEA,SMB,Electronics,62000,270,C039
+2024-03-05,APAC,Enterprise,Clothing,168000,2770,C003
+2024-03-10,North America,SMB,Home & Garden,45000,225,C040
+2024-03-10,LATAM,Enterprise,Electronics,98000,420,C005
+2024-03-20,North America,Enterprise,Electronics,185000,745,C001
+2024-04-12,APAC,SMB,Sports & Outdoors,38000,160,C041
+2024-04-12,EMEA,Enterprise,Electronics,195000,815,C042
+2024-04-15,North America,Enterprise,Clothing,118000,1950,C043
+2024-04-20,LATAM,SMB,Home & Garden,28000,135,C044
+2024-05-08,North America,Enterprise,Electronics,192000,775,C001
+2024-05-08,APAC,Enterprise,Clothing,178000,2935,C003
+2024-05-15,EMEA,SMB,Sports & Outdoors,58000,245,C045
+2024-05-20,LATAM,Enterprise,Electronics,105000,450,C005
+2024-06-10,North America,SMB,Home & Garden,48000,240,C046
+2024-06-10,APAC,SMB,Electronics,62000,265,C047
+2024-06-15,EMEA,Enterprise,Clothing,205000,3380,C048
+2024-07-05,North America,Enterprise,Electronics,198000,800,C001
+2024-07-05,LATAM,SMB,Sports & Outdoors,34000,145,C049
+2024-07-10,APAC,Enterprise,Home & Garden,185000,600,C003
+2024-07-15,EMEA,SMB,Electronics,67000,290,C050
+2024-08-08,North America,Enterprise,Clothing,128000,2110,C051
+2024-08-08,LATAM,Enterprise,Electronics,112000,480,C005
+2024-08-15,APAC,SMB,Sports & Outdoors,42000,180,C052
+2024-08-20,EMEA,Enterprise,Home & Garden,102000,405,C053
+2024-09-10,North America,Enterprise,Electronics,205000,830,C001
+2024-09-10,APAC,Enterprise,Clothing,195000,3215,C003
+2024-09-15,EMEA,SMB,Electronics,72000,310,C054
+2024-09-20,LATAM,SMB,Home & Garden,32000,155,C055
+2024-10-05,North America,SMB,Sports & Outdoors,55000,235,C056
+2024-10-05,APAC,Enterprise,Electronics,198000,830,C003
+2024-10-10,EMEA,Enterprise,Clothing,218000,3595,C057
+2024-10-15,LATAM,Enterprise,Home & Garden,78000,310,C005
+2024-11-08,North America,Enterprise,Electronics,215000,870,C001
+2024-11-08,APAC,SMB,Clothing,68000,1120,C058
+2024-11-15,EMEA,Enterprise,Electronics,228000,955,C059
+2024-11-20,LATAM,SMB,Sports & Outdoors,38000,160,C060
+2024-12-10,North America,Enterprise,Home & Garden,145000,575,C001
+2024-12-10,APAC,Enterprise,Electronics,212000,895,C003
+2024-12-15,EMEA,SMB,Clothing,78000,1285,C061
+2024-12-20,LATAM,Enterprise,Sports & Outdoors,92000,375,C005
+2025-01-15,North America,Enterprise,Electronics,225000,910,C001
+2025-01-15,EMEA,SMB,Clothing,82000,1350,C062
+2025-01-15,APAC,Enterprise,Home & Garden,218000,705,C003
+2025-01-20,North America,SMB,Electronics,78000,335,C063
+2025-01-20,LATAM,Enterprise,Sports & Outdoors,98000,400,C005
+2025-02-10,North America,Enterprise,Electronics,232000,940,C001
+2025-02-10,EMEA,Enterprise,Clothing,225000,3710,C064
+2025-02-10,APAC,SMB,Electronics,72000,310,C065
+2025-02-15,LATAM,SMB,Home & Garden,36000,175,C066
+2025-02-15,North America,Enterprise,Sports & Outdoors,118000,480,C067
+2025-03-05,EMEA,SMB,Electronics,75000,325,C068
+2025-03-05,APAC,Enterprise,Clothing,215000,3545,C003
+2025-03-10,North America,SMB,Home & Garden,52000,260,C069
+2025-03-10,LATAM,Enterprise,Electronics,108000,465,C005
+2025-03-20,North America,Enterprise,Electronics,238000,965,C001
+2025-04-12,APAC,SMB,Sports & Outdoors,45000,190,C070
+2025-04-12,EMEA,Enterprise,Electronics,238000,1000,C071
+2025-04-15,North America,Enterprise,Clothing,135000,2230,C072
+2025-04-20,LATAM,SMB,Home & Garden,33000,160,C073
+2025-05-08,North America,Enterprise,Electronics,242000,980,C001
+2025-05-08,APAC,Enterprise,Clothing,228000,3760,C003
+2025-05-15,EMEA,SMB,Sports & Outdoors,68000,290,C074
+2025-05-20,LATAM,Enterprise,Electronics,115000,495,C005
+2025-06-10,North America,SMB,Home & Garden,55000,275,C075
+2025-06-10,APAC,SMB,Electronics,75000,325,C076
+2025-06-15,EMEA,Enterprise,Clothing,245000,4040,C077
+2025-07-05,North America,Enterprise,Electronics,248000,1005,C001
+2025-07-05,LATAM,SMB,Sports & Outdoors,40000,170,C078
+2025-07-10,APAC,Enterprise,Home & Garden,235000,760,C003
+2025-07-15,EMEA,SMB,Electronics,82000,355,C079
+2025-08-08,North America,Enterprise,Clothing,145000,2395,C080
+2025-08-08,LATAM,Enterprise,Electronics,125000,540,C005
+2025-08-15,APAC,SMB,Sports & Outdoors,48000,205,C081
+2025-08-20,EMEA,Enterprise,Home & Garden,118000,470,C082
+2025-09-10,North America,Enterprise,Electronics,255000,1035,C001
+2025-09-10,APAC,Enterprise,Clothing,242000,3990,C003
+2025-09-15,EMEA,SMB,Electronics,88000,380,C083
+2025-09-20,LATAM,SMB,Home & Garden,38000,185,C084
+2025-10-05,North America,SMB,Sports & Outdoors,62000,265,C085
+2025-10-05,APAC,Enterprise,Electronics,245000,1030,C003
+2025-10-10,EMEA,Enterprise,Clothing,258000,4255,C086
+2025-10-15,LATAM,Enterprise,Home & Garden,88000,350,C005
