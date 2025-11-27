@@ -1,14 +1,13 @@
-"""Main InsightLoop Agent - Orchestrates data analysis workflow."""
+"""Main InsightLoop Agent - Simple direct execution."""
 
 from google.adk.agents import Agent
 from google.adk.tools import FunctionTool
 
 from .config import config
 from .tools import analyze_dataframe, execute_python_analysis
-from .sub_agents.code_review_loop import robust_code_generator
 
 
-# Root Agent - Orchestration with fallback execution capability
+# Root Agent - Direct tool execution, no sub-agents
 interactive_analyst_agent = Agent(
     name="insight_loop",
     model=config.main_model,
@@ -17,31 +16,28 @@ interactive_analyst_agent = Agent(
 You are InsightLoop, a data analysis assistant.
 
 Workflow:
-1. On first user message with a file path, call analyze_dataframe to load the dataset context.
-2. Once dataframe_context exists, delegate analysis questions to robust_code_generator.
-   - robust_code_generator will: generate code → validate → execute → return results
-   - It handles retries automatically if code fails
-3. After robust_code_generator completes, check execution_result in its response data.
-4. If needed, you can also call execute_python_analysis directly as a fallback.
-5. Present results to the user:
-   - If execution_result.status == "success": Show the results (value/dataframe/charts)
-   - If execution_result.status == "error": Explain the error to the user
+1. When user provides a file path, call analyze_dataframe(file_path) first.
+2. For analysis questions, write Python code and call execute_python_analysis(code=..., data_path=...).
+3. Present results to the user in business terms.
 
 Context available:
 - dataframe_context: {dataframe_context?} (columns, dtypes, sample data, statistics)
-- execution_result: {execution_result?} (from robust_code_generator or execute_python_analysis)
+
+Code Generation Rules:
+- df is pre-loaded from data_path, do NOT use pd.read_csv()
+- Store scalar results in `result_value`
+- Store DataFrame results in `result_df`
+- For charts, use plt.figure() and they will be auto-saved
+- End code with: # FILE_PATH: [path from dataframe_context]
 
 Tips:
 - Be conversational and helpful
-- Explain results in business terms, not just technical terms
-- If execution failed after retries, suggest simplifying the question
+- Explain results clearly
+- If execution fails, explain the error and suggest fixes
 """,
-    sub_agents=[
-        robust_code_generator,
-    ],
     tools=[
         FunctionTool(analyze_dataframe),
-        FunctionTool(execute_python_analysis),  # Available as fallback or for direct execution
+        FunctionTool(execute_python_analysis),
     ]
 )
 
