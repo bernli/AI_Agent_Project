@@ -5,6 +5,9 @@ import re
 import pandas as pd
 import numpy as np
 import io
+import matplotlib
+matplotlib.use('Agg')  # Set non-interactive backend before any other matplotlib imports
+import matplotlib.pyplot as plt
 from typing import Dict, Any, Optional
 from .config import DISALLOWED_PATTERNS
 
@@ -171,10 +174,7 @@ def execute_python_analysis(
     Returns:
         Dictionary containing execution results
     """
-    import matplotlib
-    matplotlib.use('Agg')  # Non-interactive backend
-    import matplotlib.pyplot as plt
-    import numpy as np
+    # matplotlib and plt are already imported at module level
     import signal
     from contextlib import contextmanager
 
