@@ -46,23 +46,10 @@ class DataframeValidationChecker(BaseAgent):
             yield Event(author=self.name)
 
 
-class ExecutionValidationChecker(BaseAgent):
-    """Checks if code execution was successful (no escalation here)."""
-
-    async def _run_async_impl(
-        self, ctx: InvocationContext
-    ) -> AsyncGenerator[Event, None]:
-        result = ctx.session.state.get("execution_result", {})
-        # No escalation; ExecutionReturner will escalate with payload
-        yield Event(author=self.name)
-
-
 class ExecutionReturner(BaseAgent):
     """
-    Returns execution_result and decides whether to exit loop or retry.
-
-    Escalates (exits loop) only on SUCCESS.
-    Continues loop (no escalate) on FAILURE to trigger retry with improved code.
+    Returns execution_result and always escalates to exit the loop.
+    Simple: execute once, return result, done.
     """
 
     async def _run_async_impl(
@@ -70,51 +57,12 @@ class ExecutionReturner(BaseAgent):
     ) -> AsyncGenerator[Event, None]:
         result = ctx.session.state.get("execution_result", {})
 
-        # Build a minimal summary
-        if isinstance(result, dict):
-            status = result.get("status")
-            if status == "success":
-                # SUCCESS: Build success summary
-                if "value" in result:
-                    summary = f"✅ Analysis complete. Result: {result['value']}"
-                elif "dataframe" in result:
-                    summary = f"✅ Analysis complete. Returned {len(result['dataframe'])} rows."
-                elif "charts" in result:
-                    summary = f"✅ Analysis complete. Created {len(result['charts'])} chart(s)."
-                else:
-                    summary = "✅ Analysis complete."
-
-                # Escalate to exit loop - we're done!
-                yield Event(
-                    author=self.name,
-                    content=summary,
-                    data={"execution_result": result},
-                    actions=EventActions(escalate=True),
-                )
-            else:
-                # FAILURE: Provide feedback for retry
-                error_msg = result.get('error_message', 'Unknown error')
-                error_type = result.get('error_type', 'Error')
-
-                summary = f"❌ Execution failed ({error_type}): {error_msg}"
-
-                # Set review_result to guide code_writer on next iteration
-                ctx.session.state["review_result"] = f"NEEDS_REVISION: {error_msg}"
-
-                # DO NOT escalate - continue loop to retry
-                yield Event(
-                    author=self.name,
-                    content=summary,
-                )
-        else:
-            # Unknown result format - escalate to avoid infinite loop
-            summary = "⚠️ Execution completed with unknown result format."
-            yield Event(
-                author=self.name,
-                content=summary,
-                data={"execution_result": result},
-                actions=EventActions(escalate=True),
-            )
+        # Always escalate with the execution result
+        yield Event(
+            author=self.name,
+            data={"execution_result": result},
+            actions=EventActions(escalate=True),
+        )
 
 
 class ExecutionRunner(BaseAgent):
