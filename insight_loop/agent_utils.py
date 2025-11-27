@@ -26,48 +26,53 @@ def selective_feedback_callback(callback_context: CallbackContext) -> Content:
     - Internal validation details
     """
     agent_name = callback_context.agent_name
-    response = callback_context.response
+    state = callback_context.state
 
-    # Extract text content if available
-    if not response or not response.candidates:
-        return Content()
+    # Check state for important information
+    review_result = state.get("review_result", "")
+    execution_result = state.get("execution_result", {})
 
-    text = ""
-    for part in response.candidates[0].content.parts:
-        if hasattr(part, 'text'):
-            text += part.text
-
-    # Determine if this is important feedback
-    important_keywords = [
-        "approved", "needs_revision", "error", "failed", "success",
-        "executing", "generating", "analyzing", "completed"
-    ]
-
-    text_lower = text.lower()
-    is_important = any(keyword in text_lower for keyword in important_keywords)
-
-    # Code writer outputs code - suppress that (too verbose)
+    # Code writer - just show simple message
     if agent_name == "code_writer":
         return Content(parts=[{"text": "📝 Code generated"}])
 
-    # Safety/validation checks - show if there are issues
+    # Safety/validation checks - show based on review_result
     if agent_name in ["code_safety_checker", "code_validation_checker"]:
-        if "needs_revision" in text_lower or "error" in text_lower:
-            return Content(parts=[{"text": f"⚠️ Validation: {text[:200]}"}])
-        elif "approved" in text_lower:
-            return Content(parts=[{"text": "✅ Validation passed"}])
+        if review_result:
+            if "NEEDS_REVISION" in review_result:
+                return Content(parts=[{"text": f"⚠️ {review_result[:200]}"}])
+            elif "APPROVED" in review_result:
+                return Content(parts=[{"text": "✅ Validation passed"}])
         return Content()
 
-    # Execution - always show
-    if agent_name in ["code_executor", "execution_returner"]:
-        if "success" in text_lower:
-            return Content(parts=[{"text": "✅ Execution completed"}])
-        elif "error" in text_lower:
-            return Content(parts=[{"text": f"❌ Execution failed: {text[:300]}"}])
-        return response.candidates[0].content
+    # Execution runner
+    if agent_name == "code_executor":
+        if isinstance(execution_result, dict):
+            status = execution_result.get("status")
+            if status == "success":
+                return Content(parts=[{"text": "✅ Code executed successfully"}])
+            elif status == "error":
+                error_msg = execution_result.get("error_message", "Unknown error")
+                return Content(parts=[{"text": f"❌ Execution failed: {error_msg[:200]}"}])
+        return Content()
 
-    # For other agents, show if important
-    if is_important:
-        return response.candidates[0].content
+    # Execution returner - show final result
+    if agent_name == "execution_returner":
+        if isinstance(execution_result, dict):
+            status = execution_result.get("status")
+            if status == "success":
+                if "value" in execution_result:
+                    return Content(parts=[{"text": f"✅ Analysis complete. Result: {execution_result['value']}"}])
+                elif "dataframe" in execution_result:
+                    return Content(parts=[{"text": f"✅ Analysis complete. Returned {len(execution_result['dataframe'])} rows."}])
+                elif "charts" in execution_result:
+                    return Content(parts=[{"text": f"✅ Analysis complete. Created {len(execution_result['charts'])} chart(s)."}])
+                else:
+                    return Content(parts=[{"text": "✅ Analysis complete."}])
+            else:
+                error_msg = execution_result.get("error_message", "Unknown error")
+                return Content(parts=[{"text": f"❌ Execution failed: {error_msg[:200]}"}])
+        return Content()
 
+    # For other agents, suppress output
     return Content()
