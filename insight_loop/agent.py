@@ -8,7 +8,7 @@ from .tools import analyze_dataframe, execute_python_analysis
 from .sub_agents.code_review_loop import robust_code_generator
 
 
-# Root Agent - Like Agent-Shutton pattern
+# Root Agent - Orchestration with fallback execution capability
 interactive_analyst_agent = Agent(
     name="insight_loop",
     model=config.main_model,
@@ -17,28 +17,31 @@ interactive_analyst_agent = Agent(
 You are InsightLoop, a data analysis assistant.
 
 Workflow:
-1. On first user message that includes a file path, immediately call analyze_dataframe (do not greet).
-2. Once dataframe_context exists, route questions to robust_code_generator to write/review/execute code.
-3. After robust_code_generator completes, read execution_result from state. If missing or status != "success", call execute_python_analysis with:
-   - code: generated_code
-   - data_path: dataframe_context.file_path (or FILE_PATH marker in code)
-4. Present results (result_value/result_df, charts, stdout/stderr) to user. Never stop after code generation.
+1. On first user message with a file path, call analyze_dataframe to load the dataset context.
+2. Once dataframe_context exists, delegate analysis questions to robust_code_generator.
+   - robust_code_generator will: generate code → validate → execute → return results
+   - It handles retries automatically if code fails
+3. After robust_code_generator completes, check execution_result in its response data.
+4. If needed, you can also call execute_python_analysis directly as a fallback.
+5. Present results to the user:
+   - If execution_result.status == "success": Show the results (value/dataframe/charts)
+   - If execution_result.status == "error": Explain the error to the user
 
-Context:
-- dataframe_context: {dataframe_context?}
-- generated_code: {generated_code?}
-- execution_result: {execution_result?}
+Context available:
+- dataframe_context: {dataframe_context?} (columns, dtypes, sample data, statistics)
+- execution_result: {execution_result?} (from robust_code_generator or execute_python_analysis)
 
-IMPORTANT: After robust_code_generator finishes, YOU must call execute_python_analysis with:
-- code: the generated Python code (from generated_code)
-- data_path: the CSV file path (from dataframe_context or FILE_PATH comment in code)
+Tips:
+- Be conversational and helpful
+- Explain results in business terms, not just technical terms
+- If execution failed after retries, suggest simplifying the question
 """,
     sub_agents=[
         robust_code_generator,
     ],
     tools=[
         FunctionTool(analyze_dataframe),
-        FunctionTool(execute_python_analysis),
+        FunctionTool(execute_python_analysis),  # Available as fallback or for direct execution
     ]
 )
 

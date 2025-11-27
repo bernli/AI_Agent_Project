@@ -2,7 +2,7 @@
 
 from google.adk.agents import LoopAgent
 from ..config import MAX_RETRIES
-from ..agent_utils import suppress_output_callback
+from ..agent_utils import suppress_output_callback, selective_feedback_callback
 from .code_writer import code_writer_agent
 from .validation_checkers import (
     CodeValidationChecker,
@@ -14,8 +14,14 @@ from .validation_checkers import (
 
 
 # Simplified LoopAgent pattern
-# Flow: code_writer -> safety_checker -> validation_checker -> execution_runner -> execution_validation
-# Exits when: execution succeeds; retries until MAX_RETRIES
+# Flow: code_writer -> safety_checker -> validation_checker -> execution_runner -> execution_validation -> execution_returner
+# Exits when: execution_returner escalates (always, regardless of success/failure)
+# Retries: If validation fails or execution errors, loop continues until MAX_RETRIES
+
+# Toggle between full suppression vs selective feedback
+# Use selective_feedback_callback for better UX (shows progress & errors)
+# Use suppress_output_callback for minimal output (original behavior)
+FEEDBACK_MODE = selective_feedback_callback  # Change to suppress_output_callback if needed
 
 robust_code_generator = LoopAgent(
     name="robust_code_generator",
@@ -29,5 +35,5 @@ robust_code_generator = LoopAgent(
         ExecutionReturner(name="execution_returner"),
     ],
     max_iterations=MAX_RETRIES,
-    after_agent_callback=suppress_output_callback,
+    after_agent_callback=FEEDBACK_MODE,
 )
