@@ -1,11 +1,12 @@
 """Validation checkers for InsightLoop agents (Agent-Shutton pattern)."""
 
 import re
-from typing import AsyncGenerator, ClassVar, Tuple, Optional
+from typing import AsyncGenerator, Optional
 from google.adk.agents import BaseAgent
 from google.adk.agents.invocation_context import InvocationContext
 from google.adk.events import Event, EventActions
 from ..tools import execute_python_analysis
+from ..config import DISALLOWED_PATTERNS as CONFIG_DISALLOWED_PATTERNS
 
 
 class CodeValidationChecker(BaseAgent):
@@ -128,27 +129,28 @@ def _extract_data_path(ctx: InvocationContext, code: str) -> Optional[str]:
 
 def _extract_data_path_from_code(code: str) -> Optional[str]:
     """Parse FILE_PATH marker from generated code."""
+    import os
+
     for line in code.splitlines():
         if "file_path" in line.lower():
-            match = re.search(r"file_path[:=]\s*#?\s*(.*)", line, flags=re.IGNORECASE)
+            # Stricter regex to prevent path traversal: only allows safe path characters
+            match = re.search(r"file_path[:=]\s*#?\s*([a-zA-Z0-9_./\\:\-]+)", line, flags=re.IGNORECASE)
             if match:
-                return match.group(1).strip()
+                path = match.group(1).strip()
+                # Additional security: resolve to absolute path and validate
+                try:
+                    abs_path = os.path.abspath(path)
+                    # Only allow paths within current working directory or its subdirectories
+                    if abs_path.startswith(os.path.abspath(os.getcwd())):
+                        return path
+                except (ValueError, OSError):
+                    # Invalid path, skip
+                    continue
     return None
 
 
 class CodeSafetyChecker(BaseAgent):
     """Lightweight static checks to catch unsafe or malformed generated code."""
-
-    DISALLOWED_PATTERNS: ClassVar[Tuple[str, ...]] = (
-        "pd.read_csv",
-        "subprocess",
-        "os.remove",
-        "os.rmdir",
-        "shutil.rmtree",
-        "requests",
-        "http.client",
-        "socket",
-    )
 
     async def _run_async_impl(
         self, ctx: InvocationContext
@@ -160,8 +162,11 @@ class CodeSafetyChecker(BaseAgent):
             yield Event(author=self.name)
             return
 
+        # Use centralized disallowed patterns from config, plus pd.read_csv specific to this checker
+        extended_patterns = list(CONFIG_DISALLOWED_PATTERNS) + ["pd.read_csv"]
+
         lowered = code.lower()
-        for pattern in self.DISALLOWED_PATTERNS:
+        for pattern in extended_patterns:
             if pattern in lowered:
                 issues.append(f"Disallowed usage detected: {pattern}")
 

@@ -1,10 +1,12 @@
 """Custom tools for InsightLoop agents."""
 
 import os
+import re
 import pandas as pd
 import numpy as np
 import io
 from typing import Dict, Any, Optional
+from .config import DISALLOWED_PATTERNS
 
 
 def _convert_to_native(obj):
@@ -155,14 +157,16 @@ def _save_matplotlib_charts() -> Dict[str, Any]:
 
 def execute_python_analysis(
     code: str,
-    data_path: Optional[str] = None
+    data_path: Optional[str] = None,
+    timeout_seconds: int = 30
 ) -> Dict[str, Any]:
     """
-    Execute Python code for data analysis.
+    Execute Python code for data analysis with timeout protection.
 
     Args:
         code: Python code to execute
         data_path: Optional path to CSV data file
+        timeout_seconds: Maximum execution time in seconds (default: 30)
 
     Returns:
         Dictionary containing execution results
@@ -171,18 +175,37 @@ def execute_python_analysis(
     matplotlib.use('Agg')  # Non-interactive backend
     import matplotlib.pyplot as plt
     import numpy as np
+    import signal
+    from contextlib import contextmanager
 
-    disallowed_patterns = (
-        "os.remove",
-        "os.rmdir",
-        "shutil.rmtree",
-        "subprocess",
-        "requests",
-        "socket",
-        "http.client",
-    )
+    @contextmanager
+    def timeout(seconds):
+        """Context manager for timeout protection."""
+        def timeout_handler(signum, frame):
+            raise TimeoutError(f"Code execution exceeded {seconds} seconds timeout")
+
+        # Set the signal handler and alarm
+        if hasattr(signal, 'SIGALRM'):  # Unix/Linux/Mac only
+            original_handler = signal.signal(signal.SIGALRM, timeout_handler)
+            signal.alarm(seconds)
+            try:
+                yield
+            finally:
+                signal.alarm(0)
+                signal.signal(signal.SIGALRM, original_handler)
+        else:
+            # Windows doesn't support SIGALRM, use threading instead
+            import threading
+            timer = threading.Timer(seconds, lambda: (_ for _ in ()).throw(TimeoutError(f"Code execution exceeded {seconds} seconds timeout")))
+            timer.start()
+            try:
+                yield
+            finally:
+                timer.cancel()
+
+    # Security check: validate code against disallowed patterns
     lowered_code = code.lower()
-    if any(pat in lowered_code for pat in disallowed_patterns):
+    if any(pat in lowered_code for pat in DISALLOWED_PATTERNS):
         return {
             "status": "error",
             "error_message": "Generated code contains disallowed operations. Please revise and try again.",
@@ -226,11 +249,12 @@ def execute_python_analysis(
         # Load data from CSV
         namespace['df'] = pd.read_csv(data_path)
 
-        # Capture stdout/stderr to aid debugging
+        # Capture stdout/stderr to aid debugging and execute with timeout protection
         stdout_buffer = string_io.StringIO()
         stderr_buffer = string_io.StringIO()
-        with contextlib.redirect_stdout(stdout_buffer), contextlib.redirect_stderr(stderr_buffer):
-            exec(executable_code, namespace)
+        with timeout(timeout_seconds):
+            with contextlib.redirect_stdout(stdout_buffer), contextlib.redirect_stderr(stderr_buffer):
+                exec(executable_code, namespace)
 
         # Extract results
         results = {
@@ -262,6 +286,12 @@ def execute_python_analysis(
 
         return _convert_to_native(results)
 
+    except TimeoutError as e:
+        return {
+            "status": "error",
+            "error_message": str(e),
+            "error_type": "TimeoutError"
+        }
     except Exception as e:
         return {
             "status": "error",
@@ -331,12 +361,33 @@ def save_csv_string_to_file(csv_content: str, file_name: str = "temp_data.csv") 
         Dictionary with absolute file path
     """
     try:
+        # Security: Validate filename to prevent path traversal
+        if ".." in file_name or "/" in file_name or "\\" in file_name or ":" in file_name:
+            return {
+                "status": "error",
+                "error_message": "Invalid file name: path separators and '..' are not allowed"
+            }
+
+        # Only allow safe characters in filename
+        if not re.match(r'^[a-zA-Z0-9_\-\.]+$', file_name):
+            return {
+                "status": "error",
+                "error_message": "Invalid file name: only alphanumeric, underscore, hyphen, and dot are allowed"
+            }
+
         # Create data directory if it doesn't exist
         data_dir = os.path.join(os.getcwd(), "data")
         os.makedirs(data_dir, exist_ok=True)
 
         # Create absolute path
         file_path = os.path.join(data_dir, file_name)
+
+        # Additional security: ensure resolved path is still within data_dir
+        if not os.path.abspath(file_path).startswith(os.path.abspath(data_dir)):
+            return {
+                "status": "error",
+                "error_message": "Invalid file path: must be within data directory"
+            }
 
         # Save CSV content
         with open(file_path, 'w', encoding='utf-8') as f:
