@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bigquery": {
+      "command": "c:\\Users\\olive\\Desktop\\Projects\\claude\\AI_Agent_Project\\mcp-toolbox\\toolbox-bigquery.exe",
+      "args": ["--prebuilt", "bigquery", "--stdio"],
+      "env": {
+        "BIGQUERY_PROJECT": "gen-lang-client-0152066550"
+      }
+    }
+  }
+}

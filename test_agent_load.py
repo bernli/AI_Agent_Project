@@ -3,8 +3,8 @@
 import sys
 import os
 
-# Add insight_loop to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'insight_loop'))
+# Add analytics_agent to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'analytics_agent'))
 
 from tools import save_csv_string_to_file, load_csv_data
 

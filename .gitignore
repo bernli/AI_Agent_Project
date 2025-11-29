@@ -5,3 +5,6 @@ mcp-toolbox/service-account-key.json
 mcp-toolbox/*-key.json
 *.json.key
 service-account*.json
+
+# MCP Toolbox Executables (too large for GitHub - 100MB+ files)
+mcp-toolbox/*.exe

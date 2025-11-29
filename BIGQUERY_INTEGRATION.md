@@ -1,4 +1,4 @@
-# BigQuery Integration in InsightLoop
+# BigQuery Integration in Analytics Agent
 
 ## ✅ Setup abgeschlossen (29.11.2024)
 
@@ -9,7 +9,7 @@
    - Service Account mit BigQuery Zugriff erstellt
    - `.mcp.json` konfiguriert
 
-2. **InsightLoop erweitert**
+2. **Analytics Agent erweitert**
    - Agent instruction aktualisiert
    - Automatisches Routing: BigQuery vs. CSV
    - **Keine Code-Änderungen nötig** - nur Instruction!
@@ -32,7 +32,7 @@
 ```
 User Question
      ↓
-InsightLoop Agent
+Analytics Agent
      ↓
   Keywords erkannt?
      ↓
@@ -110,7 +110,7 @@ Analysiere die Datei data/sales.csv und zeige mir Trends.
 }
 ```
 
-### Agent Instruction (insight_loop/agent.py)
+### Agent Instruction (analytics_agent/agent.py)
 - Erweitert um BigQuery Data Source
 - Keywords für automatisches Routing
 - MCP Tools werden direkt genutzt
@@ -154,7 +154,7 @@ Analysiere die Datei data/sales.csv und zeige mir Trends.
 **29.11.2024 - Initial BigQuery Integration**
 - MCP Toolbox v0.7.0 installiert
 - Service Account erstellt
-- InsightLoop instruction erweitert
+- Analytics Agent instruction erweitert
 - Keyword-basiertes Routing implementiert
 - Status: ✅ Produktiv
 

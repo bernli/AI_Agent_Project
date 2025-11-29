@@ -1,8 +1,8 @@
-## Project Overview - InsightLoop
+## Project Overview - Analytics Agent
 
 NOTE: This project was developed for the [Kaggle Agents Intensive Capstone project](https://www.kaggle.com/competitions/agents-intensive-course-capstone-2025/).
 
-This project contains the core logic for InsightLoop, a multi-agent data analysis system designed to transform business questions into actionable insights. The agent is built using Google Agent Development Kit (ADK) and follows a modular architecture.
+This project contains the core logic for Analytics Agent, a multi-agent data analysis system designed to transform business questions into actionable insights. The agent is built using Google Agent Development Kit (ADK) and follows a modular architecture.
 
 ![Architecture](./thumbnail.png "InsightLoop Architecture")
 
@@ -12,11 +12,11 @@ Business teams need fast answers to make informed decisions, but getting insight
 
 ### Solution Statement
 
-InsightLoop automates the complete data analysis workflow through intelligent agent coordination. When a business user asks a question in natural language, the system automatically researches the dataset schema, generates a comprehensive analysis plan, executes real pandas code and SQL queries in parallel for validation, produces publication-ready styled visualizations, and delivers plain-English business insights—all in approximately 30 seconds. The agents work together to transform raw tabular data from CSV files and SQL databases into professional KPI dashboards and actionable recommendations, eliminating the need for technical skills or analyst bottlenecks. By maintaining conversation context through session memory, InsightLoop supports iterative exploration where users can refine their analysis with follow-up questions, dramatically accelerating the path from curiosity to confident decision-making.
+Analytics Agent automates the complete data analysis workflow through intelligent agent coordination. When a business user asks a question in natural language, the system automatically researches the dataset schema, generates a comprehensive analysis plan, executes real pandas code and SQL queries in parallel for validation, produces publication-ready styled visualizations, and delivers plain-English business insights—all in approximately 30 seconds. The agents work together to transform raw tabular data from CSV files and SQL databases into professional KPI dashboards and actionable recommendations, eliminating the need for technical skills or analyst bottlenecks. By maintaining conversation context through session memory, Analytics Agent supports iterative exploration where users can refine their analysis with follow-up questions, dramatically accelerating the path from curiosity to confident decision-making.
 
 ### Architecture
 
-Core to InsightLoop is the `data_analyst_agent`—a prime example of a multi-agent system. It's not a monolithic application but an ecosystem of specialized agents, each contributing to a different stage of the data analysis process. This modular approach, facilitated by Google's Agent Development Kit, allows for a sophisticated and robust workflow. The central orchestrator of this system is the `interactive_analyst_agent`.
+Core to Analytics Agent is the `data_analyst_agent`—a prime example of a multi-agent system. It's not a monolithic application but an ecosystem of specialized agents, each contributing to a different stage of the data analysis process. This modular approach, facilitated by Google's Agent Development Kit, allows for a sophisticated and robust workflow. The central orchestrator of this system is the `interactive_analyst_agent`.
 
 ![Architecture](./flow_adk_web.png "InsightLoop Agent Flow")
 
@@ -70,7 +70,7 @@ These custom `BaseAgent` implementations are a key part of the system's robustne
 
 ### Sessions & Memory
 
-InsightLoop uses ADK session management to maintain conversation context across multiple queries. The system remembers previously loaded datasets, applied filters, analysis history, and user preferences (chart styles, output formats). This enables natural follow-up questions like "Now show only premium customers" or "Compare to last year," where the agent understands the ongoing context without requiring users to repeat information.
+Analytics Agent uses ADK session management to maintain conversation context across multiple queries. The system remembers previously loaded datasets, applied filters, analysis history, and user preferences (chart styles, output formats). This enables natural follow-up questions like "Now show only premium customers" or "Compare to last year," where the agent understands the ongoing context without requiring users to repeat information.
 
 ### Observability
 
@@ -80,11 +80,11 @@ The system leverages ADK's built-in logging and tracing capabilities to monitor 
 
 The beauty of the `data_analyst_agent` lies in its coordinated workflow. The `interactive_analyst_agent` acts as a project manager, orchestrating the efforts of its specialized team. It delegates planning to the strategic planner, executes analysis through parallel Python and SQL engines, validates results through cross-checking, enhances visualizations through the chart styler, and delivers business insights through the translator agent. This multi-agent coordination, powered by the Google ADK, results in a system that is modular, reusable, and scalable.
 
-InsightLoop is a compelling demonstration of how multi-agent systems, built with powerful frameworks like Google's Agent Development Kit, can tackle complex, real-world business intelligence problems. By breaking down the process of data analysis into a series of manageable tasks and assigning them to specialized agents, it creates a workflow that is both efficient and robust—transforming a 48-hour analyst bottleneck into a 30-second self-service experience.
+Analytics Agent is a compelling demonstration of how multi-agent systems, built with powerful frameworks like Google's Agent Development Kit, can tackle complex, real-world business intelligence problems. By breaking down the process of data analysis into a series of manageable tasks and assigning them to specialized agents, it creates a workflow that is both efficient and robust—transforming a 48-hour analyst bottleneck into a 30-second self-service experience.
 
 ### Value Statement
 
-InsightLoop reduced my data analysis time from 48 hours (waiting for analysts) to 30 seconds, enabling me to make faster business decisions with higher confidence. The dual validation approach (Python + SQL) eliminated manual errors that previously required time-consuming corrections. I've also been able to explore data across new business domains—the agent handles complex SQL queries and statistical analysis that I wouldn't be able to do myself given time constraints and technical expertise gaps.
+Analytics Agent reduced my data analysis time from 48 hours (waiting for analysts) to 30 seconds, enabling me to make faster business decisions with higher confidence. The dual validation approach (Python + SQL) eliminated manual errors that previously required time-consuming corrections. I've also been able to explore data across new business domains—the agent handles complex SQL queries and statistical analysis that I wouldn't be able to do myself given time constraints and technical expertise gaps.
 
 If I had more time I would add additional agents for automatic anomaly detection, forecasting, and A/B test analysis. I would also integrate enterprise data warehouse connectors (BigQuery, Snowflake) and build a KPI monitoring agent that proactively alerts when metrics deviate from expected ranges. This would require integrating applicable MCP servers or building custom database connection tools.
 
@@ -114,7 +114,7 @@ python -m tests.test_agent
 
 The project is organized as follows:
 
-*   `insight_loop/`: The main Python package for the agent.
+*   `analytics_agent/`: The main Python package for the agent.
     *   `agent.py`: Defines the main `interactive_analyst_agent` and orchestrates the sub-agents.
     *   `sub_agents/`: Contains the individual sub-agents, each responsible for a specific task.
         *   `analysis_planner.py`: Generates the analysis plan.

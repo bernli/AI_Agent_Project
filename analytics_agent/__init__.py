@@ -1,4 +1,4 @@
-"""InsightLoop - AI-Powered Business Intelligence Agent."""
+"""Analytics Agent - AI-Powered Business Intelligence Agent."""
 
 from .agent import interactive_analyst_agent, root_agent
 

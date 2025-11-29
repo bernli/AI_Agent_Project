@@ -59,102 +59,6 @@ def analyze_dataframe(file_path: str) -> dict:
     })
 
 
-def _apply_professional_styling():
-    """
-    Apply professional styling to all current matplotlib figures.
-    Uses the style_chart configuration.
-    """
-    import matplotlib.pyplot as plt
-
-    # Get styling configuration
-    style_config = style_chart()['style_config']
-
-    # Apply to all current figures
-    for fig_num in plt.get_fignums():
-        fig = plt.figure(fig_num)
-        ax = fig.gca()
-
-        # Apply grid
-        if style_config['grid']['enabled']:
-            ax.grid(
-                alpha=style_config['grid']['alpha'],
-                color=style_config['grid']['color'],
-                linestyle=style_config['grid']['linestyle']
-            )
-
-        # Apply axes styling
-        ax.set_facecolor(style_config['axes']['facecolor'])
-        for spine in ax.spines.values():
-            spine.set_edgecolor(style_config['axes']['edgecolor'])
-            spine.set_linewidth(style_config['axes']['linewidth'])
-
-        # Apply font styling to existing labels
-        if ax.get_title():
-            ax.title.set_fontsize(style_config['fonts']['title']['size'])
-            ax.title.set_fontweight(style_config['fonts']['title']['weight'])
-
-        if ax.get_xlabel():
-            ax.xaxis.label.set_fontsize(style_config['fonts']['labels']['size'])
-
-        if ax.get_ylabel():
-            ax.yaxis.label.set_fontsize(style_config['fonts']['labels']['size'])
-
-        ax.tick_params(labelsize=style_config['fonts']['ticks']['size'])
-
-        # Apply legend styling if legend exists
-        legend = ax.get_legend()
-        if legend:
-            legend.set_frame_on(True)
-            legend.get_frame().set_alpha(style_config['legend']['framealpha'])
-
-
-def _save_matplotlib_charts() -> Dict[str, Any]:
-    """
-    Save all matplotlib figures to files and as base64 encoded data.
-
-    Returns:
-        Dictionary with file paths and base64 encoded chart data
-    """
-    import matplotlib.pyplot as plt
-    import base64
-    from io import BytesIO
-
-    # Apply professional styling before saving
-    _apply_professional_styling()
-
-    saved_charts = []
-    chart_data_list = []
-    charts_dir = "charts"
-    os.makedirs(charts_dir, exist_ok=True)
-
-    for i, fig_num in enumerate(plt.get_fignums()):
-        fig = plt.figure(fig_num)
-        chart_path = os.path.join(charts_dir, f"chart_{i+1}.png")
-
-        # Save to file
-        fig.savefig(chart_path, format='png', dpi=300, bbox_inches='tight')
-        saved_charts.append(chart_path)
-
-        # Also save as base64 for inline display
-        buffer = BytesIO()
-        fig.savefig(buffer, format='png', dpi=300, bbox_inches='tight')
-        buffer.seek(0)
-        chart_base64 = base64.b64encode(buffer.read()).decode('utf-8')
-        chart_data_list.append({
-            'filename': f"chart_{i+1}.png",
-            'data': chart_base64,
-            'mime_type': 'image/png'
-        })
-        buffer.close()
-
-        plt.close(fig)
-
-    return {
-        'file_paths': saved_charts,
-        'chart_data': chart_data_list
-    }
-
-
 def execute_python_analysis(
     code: str,
     data_path: Optional[str] = None,
@@ -270,13 +174,6 @@ def execute_python_analysis(
         if 'result_value' in namespace:
             results['value'] = namespace['result_value']
 
-        # Save any matplotlib charts that were created
-        chart_results = _save_matplotlib_charts()
-        if chart_results['file_paths']:
-            results['charts'] = chart_results['file_paths']
-            results['chart_data'] = chart_results['chart_data']
-            results['output'] = f"Code executed successfully. Created {len(chart_results['file_paths'])} chart(s)."
-
         stdout_value = stdout_buffer.getvalue().strip()
         stderr_value = stderr_buffer.getvalue().strip()
         if stdout_value:
@@ -298,55 +195,6 @@ def execute_python_analysis(
             "error_message": str(e),
             "error_type": type(e).__name__
         }
-
-
-def style_chart(figure_path: Optional[str] = None) -> Dict[str, Any]:
-    """
-    Apply standard professional styling to matplotlib charts.
-
-    Args:
-        figure_path: Optional path to saved matplotlib figure
-
-    Returns:
-        Dictionary with standard styling configuration applied
-    """
-    # Standard professional styling configuration
-    standard_style = {
-        "color_palette": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
-        "fonts": {
-            "title": {"size": 14, "weight": "bold", "family": "sans-serif"},
-            "labels": {"size": 12, "family": "sans-serif"},
-            "ticks": {"size": 10}
-        },
-        "grid": {
-            "enabled": True,
-            "alpha": 0.3,
-            "color": "#cccccc",
-            "linestyle": "--"
-        },
-        "figure": {
-            "dpi": 300,
-            "size": (10, 6),
-            "facecolor": "white"
-        },
-        "legend": {
-            "enabled": True,
-            "location": "best",
-            "framealpha": 0.9
-        },
-        "axes": {
-            "facecolor": "white",
-            "edgecolor": "#333333",
-            "linewidth": 1.2
-        }
-    }
-
-    return {
-        "status": "success",
-        "styling_applied": True,
-        "style_config": standard_style,
-        "message": "Standard professional styling configuration ready to apply"
-    }
 
 
 def save_csv_string_to_file(csv_content: str, file_name: str = "temp_data.csv") -> Dict[str, Any]:

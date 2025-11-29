@@ -1,11 +1,11 @@
-"""Configuration for InsightLoop agents."""
+"""Configuration for Analytics Agent."""
 
 from dataclasses import dataclass
 
 
 @dataclass
-class InsightLoopConfig:
-    """Configuration for InsightLoop agent system."""
+class AnalyticsAgentConfig:
+    """Configuration for Analytics Agent system."""
     # Model configuration
     main_model: str = "gemini-2.5-flash"
     worker_model: str = "gemini-2.5-flash"
@@ -31,7 +31,7 @@ class InsightLoopConfig:
 
 
 # Default configuration instance
-config = InsightLoopConfig()
+config = AnalyticsAgentConfig()
 
 # Export individual values for convenience
 MAIN_AGENT_MODEL = config.main_model

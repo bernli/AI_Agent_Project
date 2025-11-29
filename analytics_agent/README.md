@@ -1,4 +1,4 @@
-# InsightLoop - AI-Powered Business Intelligence Agent
+# Analytics Agent - AI-Powered Business Intelligence Agent
 
 Turn business questions into Python-based insights fast. Built with Google Agent Development Kit (ADK) and Gemini 2.5.
 
@@ -50,8 +50,8 @@ SQL/DuckDB is intentionally removed for now.
 
 ## Testing
 ```bash
-python -m insight_loop.test_agent_load
-python -m insight_loop.test_imports
+python -m analytics_agent.test_agent_load
+python -m analytics_agent.test_imports
 ```
 
 ---
