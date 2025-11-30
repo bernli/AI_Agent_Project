@@ -38,7 +38,8 @@ By maintaining conversation context through ADK session management, Analytics Ag
 
 ## Architecture
 
-![Architecture Flow](./flow_adk_web.png "Analytics Agent Workflow")
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f5228f0-a51e-4cd8-8b5b-9b1fd0421e48" />
+
 
 Analytics Agent is built as a **single-agent system** with specialized tools rather than a multi-agent architecture. This design choice prioritizes simplicity, performance, and maintainability while delivering production-ready analytics capabilities.
 
