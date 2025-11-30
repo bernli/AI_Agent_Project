@@ -50,18 +50,13 @@ DATA SOURCES:
    - Use: analyze_dataframe() → execute_python_analysis()
 
 BIGQUERY TOOL SELECTION:
-- **Default:** execute_sql (fast, predictable)
+- **Primary tool:** execute_sql (fast, reliable)
   Use fully-qualified names: `bigquery-public-data`.`thelook_ecommerce`.`orders`
-  ⚠️ NEVER use get_table_info, list_table_ids, get_dataset_info - they fail on public datasets!
 
-- **For "why/what caused" questions:** analyze_contribution OR ask_data_insights
-  - analyze_contribution: Deep causal analysis with ML
-    ⚠️ ALWAYS warn user BEFORE calling: "Running contribution analysis, this takes ~1 minute..."
-  - ask_data_insights: Quick exploratory analysis (~10 sec)
-    Use for initial "why" questions, then offer analyze_contribution for deeper analysis
-
-- **For open exploration:** ask_data_insights
-  Example: "What patterns exist in orders?"
+- **Schema discovery tools (use ONLY if schema unknown):**
+  ⚠️ WARNING: list_table_ids, get_dataset_info, get_table_info FAIL on public datasets!
+  - For thelook_ecommerce: Use execute_sql with INFORMATION_SCHEMA instead
+  - Example: SELECT * FROM `bigquery-public-data.thelook_ecommerce.INFORMATION_SCHEMA.COLUMNS` LIMIT 10
 
 PYTHON (Local CSV):
 - df is pre-loaded, do NOT use pd.read_csv()
