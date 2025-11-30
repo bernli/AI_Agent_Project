@@ -12,11 +12,11 @@ Analytics Agent is an intelligent data analysis system that transforms business 
 
 ### Problem Statement
 
-Business teams need fast answers to make informed decisions, but getting insights from data is painfully slow. A product manager asking "Which customer segments are driving our Q4 revenue growth?" faces a typical 48-hour wait for the analytics team to respond. Even simple questions require submitting data request tickets, waiting for analyst availability, receiving initial results, requesting corrections, and waiting again.
+Business teams need fast answers to make informed decisions, but getting insights from data is painfully slow. A product manager asking "Which customer segments are driving our Q4 revenue growth?" faces a typical 8-hour wait for the analytics team to respond. Even simple questions require submitting data request tickets, waiting for analyst availability, receiving initial results, requesting corrections, and waiting again.
 
 This creates a critical bottleneck where decisions are delayed by days, opportunities are missed, and momentum is lost. For non-technical business users who can't write SQL or Python themselves, data exploration becomes completely inaccessible. The repetitive nature of manual analysis—loading CSVs, inspecting schemas, writing queries, debugging errors, generating visualizations—drains analyst productivity and prevents them from focusing on high-value strategic work.
 
-**The problem isn't lack of data; it's the 48-hour barrier between question and insight that kills business agility.**
+**The problem isn't lack of data; it's the 8-hour barrier between question and insight that kills business agility.**
 
 ### Solution Statement
 
@@ -33,7 +33,7 @@ The agent works with two primary data sources:
 
 By maintaining conversation context through ADK session management, Analytics Agent supports iterative exploration where users can refine their analysis with follow-up questions, dramatically accelerating the path from curiosity to confident decision-making.
 
-**Response time: ~1-7 seconds** (compared to 48-hour manual analyst workflow)
+**Response time: ~1-7 seconds** (compared to 8-hour manual analyst workflow)
 
 ## Architecture
 
@@ -260,7 +260,7 @@ The Analytics Agent follows this execution flow:
 
 ## Value Statement
 
-Analytics Agent reduced my data analysis time from **48 hours** (waiting for analysts) to **1-7 seconds**, enabling me to make faster business decisions with higher confidence. The automated workflow eliminated manual errors that previously required time-consuming corrections.
+Analytics Agent transforms the business intelligence workflow by reducing typical analysis request turnaround time from **8 hours** to under **10 seconds**. This acceleration enables business teams to explore data iteratively, ask follow-up questions in real-time, and make decisions based on current insights rather than outdated reports.
 
 **Key Benefits:**
 - ⚡ **Instant insights** - Natural language to results in seconds
