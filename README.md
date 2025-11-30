@@ -8,7 +8,8 @@
 
 Analytics Agent is an intelligent data analysis system that transforms business questions into actionable insights using natural language. Built with Google's Agent Development Kit (ADK) and powered by Gemini 2.5 Flash, this agent automates the complete data analysis workflow—from CSV files and BigQuery datasets to statistical analysis and business recommendations.
 
-![Architecture](./thumbnail.png "Analytics Agent Architecture")
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7cf5337c-f74e-46af-8738-09b109fd43c2" />
+
 
 ### Problem Statement
 
