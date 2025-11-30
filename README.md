@@ -116,10 +116,7 @@ class AnalyticsAgentConfig:
     main_model: str = "gemini-2.5-flash"
     worker_model: str = "gemini-2.5-flash"
     max_retries: int = 3
-    chart_dpi: int = 300
-    chart_style: str = "seaborn-v0_8-darkgrid"
-    color_palette: tuple = ("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd")
-    disallowed_patterns: tuple = ("os.system", "subprocess", "eval", "exec")
+    disallowed_patterns: tuple = ("os.remove", "os.rmdir", "shutil.rmtree", "subprocess", "requests", "socket", "http.client")
 ```
 
 ## Installation
@@ -358,7 +355,7 @@ tool_filter=lambda tool, _: tool.name == "execute_sql"
 **Code Security Checks:**
 ```python
 # From analytics_agent/config.py
-DISALLOWED_PATTERNS = ("os.system", "subprocess", "eval", "exec")
+DISALLOWED_PATTERNS = ("os.remove", "os.rmdir", "shutil.rmtree", "subprocess", "requests", "socket", "http.client")
 
 # From analytics_agent/tools.py - Path traversal prevention
 if not os.path.abspath(file_path).startswith(os.path.abspath(data_dir)):
