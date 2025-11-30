@@ -1,0 +1,1001 @@
+order_id,order_date,order_status,user_id,customer_first_name,customer_last_name,customer_email,shipping_address,product_id,product_name,product_category,unit_price,quantity,revenue,currency,sku
+8194,2025-11-17 19:13:41,processing,5639,Dorian,Jost,dorian.jost@example.com,"Zimmermannstrasse 98, 7118 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8998,2025-11-23 20:43:09,completed,5208,Fatmire,Käser,fatmire.käser@example.com,"Fehrstrasse 7, 3319 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8354,2025-11-18 08:32:08,processing,5696,Margarete,Winkler,margarete.winkler@example.com,"Schallerstrasse 58, 6943 Bern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8555,2025-10-03 19:58:28,processing,5556,Joachim,Gross,joachim.gross@example.com,"Scherrerstrasse 37, 1007 Waadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8973,2025-10-05 19:41:06,processing,5242,Vittoria,Studer,vittoria.studer@example.com,"Wyssstrasse 71, 7439 Tessin",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8691,2025-11-13 05:48:31,completed,5400,Jasmina,Koch,jasmina.koch@example.com,"Arnoldstrasse 24, 6160 Zug",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7443,2025-11-15 04:46:52,shipped,5777,Ursula,Küng,ursula.küng@example.com,"Hodelstrasse 54, 4858 Neuenburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7950,2025-10-10 15:06:34,paid,5118,Sanije,Gasser,sanije.gasser@example.com,"Thommenstrasse 374, 5919 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7200,2025-11-23 00:51:07,completed,5146,Gladys,Stauffer,gladys.stauffer@example.com,"Brunstrasse 837, 2872 Freiburg",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7724,2025-10-26 01:01:52,paid,5037,Tristan,Pfister,tristan.pfister@example.com,"Grobstrasse 54, 3025 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8746,2025-09-05 07:58:44,completed,5881,Paula,Bieri,paula.bieri@example.com,"Sidlerstrasse 885, 7843 St. Gallen",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7148,2025-11-22 14:39:53,completed,5281,Sacha,Schuler,sacha.schuler@example.com,"Ackermannstrasse 89, 4714 Nidwalden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7749,2025-11-02 06:41:27,completed,5419,Aisha,Moser,aisha.moser@example.com,"Kaufmannstrasse 38, 3975 Thurgau",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8793,2025-11-15 23:03:42,shipped,5364,Alexander,Ernst,alexander.ernst@example.com,"Walterstrasse 26, 8977 Graubünden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8663,2025-10-19 00:21:23,completed,5735,Jerome,Brunner,jerome.brunner@example.com,"Winklerstrasse 33, 6054 Genf",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7443,2025-11-02 18:34:21,processing,5745,Désirée,Scheidegger,désirée.scheidegger@example.com,"Bühlerstrasse 66, 8253 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7576,2025-10-11 04:46:38,processing,5680,Marlon,Albrecht,marlon.albrecht@example.com,"Häfligerstrasse 95, 6949 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8861,2025-11-10 22:21:55,completed,5822,Wendy,Mäder,wendy.mäder@example.com,"Hürlimannstrasse 68, 2999 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8113,2025-11-25 03:18:00,processing,5330,Déborah,Bieri,déborah.bieri@example.com,"Christenstrasse 1, 5314 Wallis",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7863,2025-10-29 18:55:55,processing,5352,Armend,Ritter,armend.ritter@example.com,"Stockerstrasse 9, 1279 St. Gallen",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7410,2025-09-22 20:32:27,shipped,5963,António,Mayer,antónio.mayer@example.com,"Hafnerstrasse 8, 5370 Wallis",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8787,2025-11-15 15:39:53,completed,5292,Astrit,Schaller,astrit.schaller@example.com,"Langstrasse 70, 6966 Genf",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7613,2025-10-18 00:50:06,paid,5395,Lydia,Benz,lydia.benz@example.com,"Baumannstrasse 2, 6925 Wallis",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8108,2025-10-12 06:42:26,processing,5166,Milo,Steiner,milo.steiner@example.com,"Brunstrasse 94, 3974 Zug",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7641,2025-10-19 01:13:26,completed,5408,Niko,Roos,niko.roos@example.com,"Felderstrasse 86, 5140 Genf",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7828,2025-11-23 02:44:33,paid,5328,Mireille,Stettler,mireille.stettler@example.com,"Portmannstrasse 6, 6675 Tessin",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7309,2025-10-01 07:39:55,completed,5525,Giacomo,Schumacher,giacomo.schumacher@example.com,"Thommenstrasse 53, 2467 Jura",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8602,2025-11-27 13:25:23,shipped,5760,Nelli,Schoch,nelli.schoch@example.com,"Hartmannstrasse 58, 4432 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8757,2025-10-19 07:04:36,paid,5411,Pia,Schenk,pia.schenk@example.com,"Steffenstrasse 35, 7904 Aargau",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7358,2025-10-30 00:14:58,shipped,5620,Giacomo,Kunz,giacomo.kunz@example.com,"Hartmannstrasse 4, 1769 Tessin",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8053,2025-11-26 06:41:08,processing,5800,Kiara,Mayer,kiara.mayer@example.com,"Stutzstrasse 85, 3096 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7915,2025-10-26 04:25:56,shipped,5325,Faruk,Brun,faruk.brun@example.com,"Merzstrasse 571, 3413 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8942,2025-10-13 06:53:52,paid,5907,Silvano,Bieri,silvano.bieri@example.com,"Schärerstrasse 53, 6849 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8114,2025-11-04 04:41:15,paid,5625,Béatrice,Hasler,béatrice.hasler@example.com,"Scheideggerstrasse 357, 3981 Schaffhausen",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7289,2025-10-23 01:17:52,paid,5815,Fatmire,Favre,fatmire.favre@example.com,"Hirtstrasse 8, 8250 Freiburg",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8672,2025-11-16 16:51:00,processing,5390,Dragica,Eichenberger,dragica.eichenberger@example.com,"Walterstrasse 26, 5407 Jura",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7131,2025-10-12 05:20:41,shipped,5143,Maeva,Schürch,maeva.schürch@example.com,"Bergerstrasse 17, 1804 Freiburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8384,2025-10-28 18:25:27,processing,5109,Roger,Fischer,roger.fischer@example.com,"Hodelstrasse 75, 8365 Jura",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7672,2025-10-20 19:52:39,completed,5160,Safet,Meier,safet.meier@example.com,"Joststrasse 48, 9241 Schaffhausen",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7329,2025-10-27 02:13:17,processing,5335,Flora,Baumann,flora.baumann@example.com,"Kernstrasse 747, 9430 Schwyz",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7403,2025-10-10 18:20:52,shipped,5756,Luis,Weber,luis.weber@example.com,"Suterstrasse 7, 8832 Neuenburg",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8979,2025-09-02 10:47:26,processing,5348,Kiara,Schürch,kiara.schürch@example.com,"Zollingerstrasse 31, 8656 Zürich",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8667,2025-09-17 21:06:04,completed,5432,Jayden,Ernst,jayden.ernst@example.com,"Geigerstrasse 8, 1779 Waadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8856,2025-09-03 06:01:34,shipped,5215,Lirim,Graf,lirim.graf@example.com,"Hofmannstrasse 26, 6584 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7649,2025-09-12 09:01:49,shipped,5522,Noa,Schmid,noa.schmid@example.com,"Brunnerstrasse 20, 3619 Neuenburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8947,2025-09-21 05:08:23,shipped,5311,Jeanine,Forster,jeanine.forster@example.com,"Rothstrasse 54, 6067 Uri",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8197,2025-10-26 13:44:36,processing,5145,Jannis,Probst,jannis.probst@example.com,"Michelstrasse 65, 4900 Bern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8300,2025-09-24 20:27:42,shipped,5280,Lilian,Burri,lilian.burri@example.com,"Lehmannstrasse 24, 4274 Zürich",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8143,2025-11-24 21:51:23,paid,5782,Georgette,Hofer,georgette.hofer@example.com,"Burristrasse 84, 1933 Genf",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8105,2025-11-24 21:00:11,completed,5180,Sebastiano,Peter,sebastiano.peter@example.com,"Grobstrasse 40, 2398 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7874,2025-10-14 02:37:35,completed,5839,Jaqueline,Hunziker,jaqueline.hunziker@example.com,"Mayerstrasse 5, 9985 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7315,2025-09-26 19:52:26,paid,5210,Antoinette,Sutter,antoinette.sutter@example.com,"Freystrasse 94, 4352 Waadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7939,2025-11-09 12:30:47,completed,5965,Natasha,Häfliger,natasha.häfliger@example.com,"Baurstrasse 79, 4498 Neuenburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7681,2025-11-03 09:56:22,shipped,5768,Ferdinand,Spörri,ferdinand.spörri@example.com,"Lustenbergerstrasse 60, 9961 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7304,2025-10-24 22:34:41,processing,5896,Sónia,Wüthrich,sónia.wüthrich@example.com,"Ammannstrasse 26, 7881 Jura",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7924,2025-09-08 04:03:07,paid,5196,Henry,Schnyder,henry.schnyder@example.com,"Vogelstrasse 2, 1669 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7039,2025-11-12 16:01:23,shipped,5606,Norman,Staub,norman.staub@example.com,"Schwarzstrasse 63, 1038 Tessin",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7379,2025-09-15 08:46:34,shipped,5338,Anneliese,Gasser,anneliese.gasser@example.com,"Benzstrasse 25, 5188 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8232,2025-10-08 04:12:12,processing,5488,Silja,Koch,silja.koch@example.com,"Martinstrasse 351, 1552 St. Gallen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8435,2025-11-07 14:24:35,shipped,5953,Diego,Bär,diego.bär@example.com,"Hoffmannstrasse 23, 7099 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7261,2025-10-04 13:25:28,processing,5981,Cornel,Berger,cornel.berger@example.com,"Blaserstrasse 82, 8783 Schwyz",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8726,2025-10-24 14:28:45,paid,5443,Fiona,Albrecht,fiona.albrecht@example.com,"Peterstrasse 5, 8124 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8035,2025-09-20 10:56:03,completed,5013,Urban,Wegmann,urban.wegmann@example.com,"Gloorstrasse 53, 3192 Solothurn",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8391,2025-10-15 16:43:23,paid,5763,Gerald,Zehnder,gerald.zehnder@example.com,"Kernstrasse 29, 1595 Zug",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7859,2025-11-06 11:40:38,completed,5659,Eveline,Hirt,eveline.hirt@example.com,"Grossstrasse 3, 2130 Solothurn",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8600,2025-11-25 00:07:05,paid,5058,Marlies,Kälin,marlies.kälin@example.com,"Mäderstrasse 68, 3651 Nidwalden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7359,2025-11-09 12:57:16,processing,5080,Fitim,Vogt,fitim.vogt@example.com,"Frickstrasse 16, 2384 Uri",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8142,2025-10-27 10:00:07,paid,5811,Gregory,Ziegler,gregory.ziegler@example.com,"Staubstrasse 1, 5753 Basel-Landschaft",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7250,2025-10-25 14:37:35,shipped,5277,Livia,Wirth,livia.wirth@example.com,"Beckstrasse 20, 1334 Bern",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8674,2025-09-21 19:41:45,paid,5542,Christos,Stadelmann,christos.stadelmann@example.com,"Sidlerstrasse 69, 4161 Wallis",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8692,2025-10-02 02:22:21,completed,5776,Devin,Schär,devin.schär@example.com,"Schulerstrasse 51, 2028 Luzern",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8227,2025-10-06 04:11:15,paid,5025,Nino,Moser,nino.moser@example.com,"Wirthstrasse 601, 2104 Glarus",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8410,2025-10-15 11:31:14,processing,5456,Halil,Siegrist,halil.siegrist@example.com,"Toblerstrasse 7, 6688 Luzern",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8665,2025-09-27 13:22:09,paid,5979,Viviana,Meister,viviana.meister@example.com,"Wyssstrasse 59, 6020 Freiburg",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7476,2025-10-06 11:09:06,paid,5789,Nebojsa,Erni,nebojsa.erni@example.com,"Bosshardstrasse 629, 8499 Uri",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7903,2025-09-27 18:52:19,processing,5239,Xavier,Meili,xavier.meili@example.com,"Hodelstrasse 632, 9484 Waadt",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7222,2025-10-07 21:47:11,paid,5205,Mahmoud,Scherrer,mahmoud.scherrer@example.com,"Zieglerstrasse 9, 2763 Schwyz",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8622,2025-11-23 12:24:13,processing,5121,Helena,Hofstetter,helena.hofstetter@example.com,"Suterstrasse 8, 3922 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7567,2025-09-23 23:21:46,paid,5028,António,Schoch,antónio.schoch@example.com,"Kesslerstrasse 55, 4416 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7546,2025-11-12 13:48:40,shipped,5154,Elodie,Maurer,elodie.maurer@example.com,"Ernistrasse 8, 9491 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8401,2025-09-12 23:30:11,paid,5924,Johann,Schwab,johann.schwab@example.com,"Hofstetterstrasse 27, 6238 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7670,2025-10-26 13:48:37,processing,5561,Marlene,Kunz,marlene.kunz@example.com,"Freistrasse 3, 6462 Tessin",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8161,2025-10-11 09:50:27,completed,5464,Melina,Ritter,melina.ritter@example.com,"Schwabstrasse 83, 5038 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8503,2025-10-01 15:19:49,shipped,5836,Liana,Amrein,liana.amrein@example.com,"Hafnerstrasse 7, 6911 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8139,2025-09-23 16:02:34,paid,5077,Julius,Stucki,julius.stucki@example.com,"Steinmannstrasse 97, 7171 Bern",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7430,2025-10-17 09:46:58,paid,5249,Jessica,Kohler,jessica.kohler@example.com,"Schulerstrasse 5, 2198 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7651,2025-09-04 08:05:51,completed,5733,Ana,Isler,ana.isler@example.com,"Kuhnstrasse 222, 3493 Schaffhausen",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7635,2025-10-08 22:55:30,processing,5108,Marie-Thérèse,Herzog,marie-thérèse.herzog@example.com,"Hauserstrasse 63, 2025 Bern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7025,2025-09-15 03:49:47,paid,5142,Yvette,Herzog,yvette.herzog@example.com,"Zürcherstrasse 16, 6822 Jura",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7308,2025-10-29 08:00:31,shipped,5012,Adem,Hürlimann,adem.hürlimann@example.com,"Vogtstrasse 10, 1746 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8715,2025-09-06 18:42:51,shipped,5290,Adelina,Sidler,adelina.sidler@example.com,"Flückigerstrasse 92, 6503 Uri",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7919,2025-11-17 12:25:54,shipped,5118,Raquel,Stettler,raquel.stettler@example.com,"Probststrasse 951, 1729 Freiburg",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8689,2025-09-27 23:53:02,completed,5595,Marisa,Gfeller,marisa.gfeller@example.com,"Bättigstrasse 10, 3184 Waadt",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7794,2025-10-30 12:19:40,completed,5941,Adriana,Hess,adriana.hess@example.com,"Sutterstrasse 22, 6118 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8266,2025-09-01 22:54:52,completed,5553,Noëmi,Meister,noëmi.meister@example.com,"Weberstrasse 266, 4210 Bern",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7964,2025-11-03 09:46:44,shipped,5171,Gerlinde,Lüscher,gerlinde.lüscher@example.com,"Meilistrasse 2, 6799 St. Gallen",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7113,2025-09-06 22:52:48,paid,5142,Catia,Hirt,catia.hirt@example.com,"Aebistrasse 7, 5884 Freiburg",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7422,2025-09-27 06:31:48,completed,5897,Eleni,Zbinden,eleni.zbinden@example.com,"Schmidtstrasse 3, 1435 Aargau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8729,2025-09-10 20:59:37,shipped,5009,Dina,Ackermann,dina.ackermann@example.com,"Schwarzstrasse 80, 4397 Waadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8664,2025-11-23 17:02:01,paid,5301,Imelda,Wegmann,imelda.wegmann@example.com,"Steinerstrasse 27, 6296 Neuenburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8578,2025-11-15 13:01:43,shipped,5364,Fabio,Schaub,fabio.schaub@example.com,"Sutterstrasse 3, 9963 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8146,2025-10-28 17:00:42,paid,5183,Esra,Hauser,esra.hauser@example.com,"Eglistrasse 451, 9479 Glarus",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7844,2025-11-13 01:30:51,completed,5235,Nils,Stalder,nils.stalder@example.com,"Bauerstrasse 5, 2062 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7337,2025-11-03 18:27:40,paid,5976,Suzana,Aebi,suzana.aebi@example.com,"Albrechtstrasse 37, 2551 Schwyz",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8919,2025-09-03 04:24:21,shipped,5707,Nancy,Vogel,nancy.vogel@example.com,"Ottstrasse 1, 3747 Waadt",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8365,2025-09-09 09:55:07,processing,5315,Luis,Hermann,luis.hermann@example.com,"Jennistrasse 517, 4478 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7595,2025-09-11 15:07:40,paid,5343,Lavinia,Forster,lavinia.forster@example.com,"Vogtstrasse 91, 3855 Zürich",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7777,2025-09-07 07:46:17,shipped,5535,Jan,Maurer,jan.maurer@example.com,"Kaufmannstrasse 5, 6688 Tessin",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8606,2025-11-16 22:23:49,shipped,5942,Rosa,Sutter,rosa.sutter@example.com,"Forsterstrasse 2, 6959 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8238,2025-09-11 08:54:27,completed,5181,Nadja,Kuhn,nadja.kuhn@example.com,"Küngstrasse 97, 1324 Glarus",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7066,2025-11-14 13:57:30,paid,5492,Adelheid,Lutz,adelheid.lutz@example.com,"Ackermannstrasse 7, 1728 Obwalden",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7480,2025-11-15 16:09:38,paid,5795,Roy,Keller,roy.keller@example.com,"Probststrasse 5, 8316 Jura",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7983,2025-09-14 01:28:13,shipped,5602,Rosaria,Kunz,rosaria.kunz@example.com,"Bättigstrasse 43, 4362 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7762,2025-09-23 23:24:34,completed,5256,Boris,Tobler,boris.tobler@example.com,"Eichenbergerstrasse 58, 5441 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7220,2025-10-09 01:34:14,shipped,5509,Danielle,Benz,danielle.benz@example.com,"Rothstrasse 729, 4586 Luzern",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7943,2025-09-07 11:31:06,shipped,5261,Heidy,Felder,heidy.felder@example.com,"Grossstrasse 88, 1475 Zürich",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8846,2025-11-19 10:57:20,completed,5293,Raphael,Wegmann,raphael.wegmann@example.com,"Grafstrasse 7, 3117 Bern",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7371,2025-09-02 00:55:34,completed,5793,Roberto,Ferrari,roberto.ferrari@example.com,"Walterstrasse 21, 9501 Zürich",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7202,2025-09-02 16:16:27,paid,5876,Gianni,Meyer,gianni.meyer@example.com,"Sennstrasse 8, 9149 Zug",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8049,2025-10-07 18:14:03,completed,5327,Tenzin,Bianchi,tenzin.bianchi@example.com,"Stuckistrasse 573, 6072 Aargau",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8327,2025-10-10 14:47:15,completed,5313,Fred,Scheidegger,fred.scheidegger@example.com,"Bühlerstrasse 43, 6976 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7060,2025-09-29 23:03:29,completed,5092,Emilie,Fischer,emilie.fischer@example.com,"Maurerstrasse 4, 8778 Zug",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8768,2025-09-17 07:15:04,paid,5179,Urban,Blum,urban.blum@example.com,"Walterstrasse 64, 4937 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7679,2025-11-27 22:49:04,paid,5104,Swen,Friedli,swen.friedli@example.com,"Siegriststrasse 39, 7169 Tessin",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7599,2025-11-25 17:31:01,paid,5301,Ali,Bättig,ali.bättig@example.com,"Zinggstrasse 404, 6850 Genf",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8025,2025-10-19 12:10:52,paid,5766,Tomasz,Fehr,tomasz.fehr@example.com,"Steinmannstrasse 33, 1690 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8039,2025-09-29 20:41:29,paid,5184,Jérôme,Gut,jérôme.gut@example.com,"Bättigstrasse 38, 6724 Luzern",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8965,2025-09-09 00:39:20,completed,5921,Miro,Frei,miro.frei@example.com,"Lüscherstrasse 737, 7657 Zürich",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8135,2025-10-18 03:44:45,shipped,5074,Anneliese,Hirt,anneliese.hirt@example.com,"Bieristrasse 54, 7242 Luzern",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7190,2025-09-25 05:51:26,shipped,5574,Beatrice,Albrecht,beatrice.albrecht@example.com,"Bärstrasse 52, 1768 Genf",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8925,2025-11-16 06:14:04,shipped,5988,Manfred,Friedli,manfred.friedli@example.com,"Blumstrasse 23, 1255 Bern",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7048,2025-10-14 22:19:05,processing,5810,Huguette,Imhof,huguette.imhof@example.com,"Schochstrasse 360, 8773 Genf",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7306,2025-10-26 19:19:08,completed,5231,Julius,Hartmann,julius.hartmann@example.com,"Merzstrasse 47, 3937 Aargau",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7224,2025-10-11 00:40:21,shipped,5114,Alena,Thommen,alena.thommen@example.com,"Moserstrasse 38, 9029 Jura",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7730,2025-09-11 10:53:55,completed,5485,Tahir,Tanner,tahir.tanner@example.com,"Gloorstrasse 3, 5663 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7501,2025-10-14 03:57:52,processing,5174,Theodor,Iten,theodor.iten@example.com,"Joststrasse 4, 7842 Glarus",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8212,2025-10-15 04:14:30,processing,5868,Biljana,Schwarz,biljana.schwarz@example.com,"Ackermannstrasse 1, 1018 Genf",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8008,2025-09-07 23:51:11,processing,5779,Damiano,Brunner,damiano.brunner@example.com,"Betschartstrasse 21, 1660 Tessin",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8110,2025-10-22 13:18:47,shipped,5488,Sónia,Küng,sónia.küng@example.com,"Schlatterstrasse 61, 2042 Glarus",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7718,2025-09-29 23:12:36,completed,5778,Darko,Winkler,darko.winkler@example.com,"Stettlerstrasse 73, 4582 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8163,2025-11-18 02:47:09,paid,5655,Lena,Gut,lena.gut@example.com,"Schärstrasse 1, 5606 St. Gallen",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7556,2025-10-19 14:23:42,completed,5718,Margaritha,Beck,margaritha.beck@example.com,"Joststrasse 81, 6291 Schaffhausen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8342,2025-09-28 18:50:59,completed,5729,Katarina,Moser,katarina.moser@example.com,"Lanzstrasse 317, 2512 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8332,2025-11-23 09:58:46,paid,5653,Danica,Hodel,danica.hodel@example.com,"Bernasconistrasse 542, 4639 Thurgau",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8167,2025-09-10 19:39:31,processing,5785,Debora,Schneider,debora.schneider@example.com,"Kellerstrasse 70, 6661 Thurgau",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8266,2025-09-06 14:32:40,completed,5563,Ewa,Schaub,ewa.schaub@example.com,"Sutterstrasse 25, 4269 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7827,2025-09-17 14:53:43,processing,5768,Predrag,Favre,predrag.favre@example.com,"Wolfstrasse 97, 6960 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8752,2025-09-19 02:07:46,completed,5239,Annamaria,Furrer,annamaria.furrer@example.com,"Stadelmannstrasse 71, 4004 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7818,2025-09-23 15:51:44,processing,5881,Giulia,Mäder,giulia.mäder@example.com,"Forsterstrasse 13, 9024 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7335,2025-11-07 12:46:27,shipped,5565,Levin,Fankhauser,levin.fankhauser@example.com,"Hoffmannstrasse 16, 2224 Graubünden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7820,2025-10-31 01:17:48,completed,5128,Konrad,Käser,konrad.käser@example.com,"Gasserstrasse 150, 5546 Basel-Landschaft",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8056,2025-11-03 20:16:41,processing,5691,Marcia,Bianchi,marcia.bianchi@example.com,"Hafnerstrasse 17, 6719 Aargau",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8378,2025-09-18 12:02:17,shipped,5439,Dietmar,Schmidt,dietmar.schmidt@example.com,"Kesslerstrasse 7, 2898 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8351,2025-11-02 08:24:51,paid,5838,Jörg,Eichenberger,jörg.eichenberger@example.com,"Leustrasse 3, 8441 Glarus",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7622,2025-10-05 05:30:25,shipped,5636,Jeanine,Rey,jeanine.rey@example.com,"Meilistrasse 21, 2870 Neuenburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7437,2025-10-01 14:06:25,processing,5052,Nicoletta,Schoch,nicoletta.schoch@example.com,"Schäferstrasse 143, 6632 Jura",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7347,2025-10-26 12:28:10,shipped,5090,Goran,Merz,goran.merz@example.com,"Sutterstrasse 863, 8492 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8618,2025-10-12 20:15:56,shipped,5862,Ina,Zollinger,ina.zollinger@example.com,"Lustenbergerstrasse 773, 3136 Wallis",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7739,2025-11-06 07:21:16,shipped,5117,Dietrich,Leu,dietrich.leu@example.com,"Pfisterstrasse 93, 4907 Luzern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8571,2025-09-12 19:19:50,shipped,5755,Maryline,Gut,maryline.gut@example.com,"Beckstrasse 709, 4480 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8882,2025-09-15 07:00:48,shipped,5398,Tessa,Bolliger,tessa.bolliger@example.com,"Tannerstrasse 49, 7471 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8736,2025-09-13 11:18:10,paid,5449,Margherita,Bosshard,margherita.bosshard@example.com,"Merzstrasse 67, 6050 Genf",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8614,2025-11-14 06:19:17,shipped,5951,Melissa,Ferrari,melissa.ferrari@example.com,"Seilerstrasse 20, 4745 Zug",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7520,2025-10-04 01:43:59,completed,5070,Attila,Hodel,attila.hodel@example.com,"Knechtstrasse 4, 9484 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7166,2025-11-04 15:11:49,completed,5880,Stefan,Näf,stefan.näf@example.com,"Freistrasse 9, 6765 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8913,2025-11-10 23:55:48,processing,5259,Eloïse,Stauffer,eloïse.stauffer@example.com,"Schmidstrasse 617, 7134 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8008,2025-09-09 02:22:07,paid,5505,Lilia,Schuler,lilia.schuler@example.com,"Ferraristrasse 67, 4383 Schaffhausen",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7690,2025-10-12 06:08:48,paid,5350,Stanislav,Lutz,stanislav.lutz@example.com,"Baumgartnerstrasse 12, 8503 Zürich",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8303,2025-10-23 18:47:25,processing,5386,Jaqueline,Eichenberger,jaqueline.eichenberger@example.com,"Wengerstrasse 6, 1292 Schwyz",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8457,2025-11-27 06:02:18,shipped,5349,Richard,Albrecht,richard.albrecht@example.com,"Brunnerstrasse 356, 3010 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8838,2025-09-24 19:18:33,completed,5521,Pamela,Marti,pamela.marti@example.com,"Bättigstrasse 1, 9354 Zug",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7474,2025-11-27 00:38:37,processing,5426,Angelika,Sutter,angelika.sutter@example.com,"Peterstrasse 74, 4133 Freiburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7061,2025-10-16 20:18:05,completed,5254,Diego,Michel,diego.michel@example.com,"Schneiderstrasse 85, 4649 Tessin",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8111,2025-11-04 19:50:38,shipped,5194,Roberta,Meili,roberta.meili@example.com,"Kuhnstrasse 9, 5246 Zürich",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8411,2025-09-11 04:10:47,paid,5006,Leon,Frey,leon.frey@example.com,"Stöcklistrasse 889, 9547 Glarus",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8123,2025-11-05 13:13:58,shipped,5082,Adele,Spörri,adele.spörri@example.com,"Stöcklistrasse 40, 8908 Genf",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8747,2025-09-24 15:52:50,shipped,5721,Charline,Brun,charline.brun@example.com,"Hoferstrasse 1, 9303 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7824,2025-10-22 09:09:25,processing,5919,Ana,Keller,ana.keller@example.com,"Sigriststrasse 313, 4981 Glarus",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7156,2025-11-07 09:12:19,processing,5636,Fabrice,Erni,fabrice.erni@example.com,"Kesslerstrasse 89, 4637 Glarus",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7417,2025-11-12 07:26:03,processing,5693,Arben,Hoffmann,arben.hoffmann@example.com,"Schumacherstrasse 62, 5828 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7702,2025-10-24 22:06:43,completed,5300,Carina,Weber,carina.weber@example.com,"Wehrlistrasse 50, 9584 Schwyz",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7393,2025-09-26 00:47:24,shipped,5079,Margrit,Friedli,margrit.friedli@example.com,"Peterstrasse 9, 5960 Waadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8144,2025-09-12 04:41:59,shipped,5037,Lea,Koch,lea.koch@example.com,"Schallerstrasse 93, 1333 Aargau",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8596,2025-11-07 01:20:16,processing,5450,Andrina,Stadelmann,andrina.stadelmann@example.com,"Mayerstrasse 75, 4641 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8844,2025-09-15 13:25:17,shipped,5007,Fatmir,Bühler,fatmir.bühler@example.com,"Bianchistrasse 26, 4166 Jura",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8917,2025-09-26 05:12:00,paid,5168,Raffael,Zürcher,raffael.zürcher@example.com,"Käserstrasse 213, 2254 Zürich",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7350,2025-09-15 20:49:31,completed,5488,Line,Walter,line.walter@example.com,"Wagnerstrasse 81, 8581 Neuenburg",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7413,2025-11-24 01:01:11,paid,5679,Raimund,Bader,raimund.bader@example.com,"Ammannstrasse 1, 8426 Luzern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7665,2025-10-20 03:01:44,shipped,5870,Romana,Geiger,romana.geiger@example.com,"Lehmannstrasse 233, 2685 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7820,2025-11-24 15:34:57,processing,5221,Nael,Frei,nael.frei@example.com,"Stadelmannstrasse 84, 2087 Nidwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7708,2025-09-06 08:12:52,shipped,5532,Theresia,Brunner,theresia.brunner@example.com,"Brunnerstrasse 12, 4012 Nidwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8554,2025-09-29 22:18:24,shipped,5389,Hendrik,Scherrer,hendrik.scherrer@example.com,"Bachmannstrasse 25, 8838 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8323,2025-09-28 14:22:01,completed,5653,Carole,Bosshard,carole.bosshard@example.com,"Schweizerstrasse 26, 3254 Thurgau",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8386,2025-09-20 20:28:31,completed,5304,Joelle,Knecht,joelle.knecht@example.com,"Hunzikerstrasse 38, 7778 Graubünden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7270,2025-11-24 11:06:03,paid,5207,Joao,Jost,joao.jost@example.com,"Hessstrasse 8, 8786 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8256,2025-11-04 23:21:36,paid,5549,Cedric,Peter,cedric.peter@example.com,"Hoffmannstrasse 70, 7705 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8420,2025-11-08 06:43:55,completed,5697,Marco,Ammann,marco.ammann@example.com,"Zieglerstrasse 9, 6750 Bern",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7714,2025-10-21 04:49:52,paid,5931,Mauro,Bär,mauro.bär@example.com,"Hafnerstrasse 399, 8152 Zürich",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7066,2025-10-09 16:51:22,shipped,5896,Marie-Claude,Frey,marie-claude.frey@example.com,"Langstrasse 871, 6396 Schaffhausen",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8686,2025-09-11 17:10:18,completed,5638,Alessandra,Bieri,alessandra.bieri@example.com,"Burristrasse 76, 2401 Genf",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8467,2025-09-15 06:44:44,processing,5987,Oliver,Näf,oliver.näf@example.com,"Reystrasse 27, 5838 Glarus",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7735,2025-10-05 18:02:51,paid,5071,Fadil,Eugster,fadil.eugster@example.com,"Fischerstrasse 54, 4710 Zug",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8416,2025-09-28 19:04:17,processing,5582,Lydie,Stadelmann,lydie.stadelmann@example.com,"Hessstrasse 819, 4666 Obwalden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8538,2025-10-22 09:05:26,paid,5390,Piero,Portmann,piero.portmann@example.com,"Mäderstrasse 20, 1716 Glarus",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7281,2025-09-02 14:37:53,paid,5885,Erich,Geiger,erich.geiger@example.com,"Kaiserstrasse 9, 8636 Zug",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8131,2025-09-21 11:41:51,processing,5150,Marie-Christine,Jäggi,marie-christine.jäggi@example.com,"Furrerstrasse 413, 7489 Schwyz",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7091,2025-09-28 10:28:27,completed,5847,Raffaele,Scheidegger,raffaele.scheidegger@example.com,"Pfisterstrasse 73, 5603 Glarus",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7800,2025-09-17 22:43:03,shipped,5940,Martine,Kägi,martine.kägi@example.com,"Flückigerstrasse 44, 2185 Appenzell Innerrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8504,2025-10-30 03:52:44,paid,5397,Delia,Hirt,delia.hirt@example.com,"Maurerstrasse 653, 1249 Wallis",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7849,2025-09-23 09:59:02,processing,5552,Lindita,Hodel,lindita.hodel@example.com,"Schneiderstrasse 20, 4826 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7849,2025-11-27 08:10:58,paid,5001,Fatma,Spörri,fatma.spörri@example.com,"Lüthistrasse 3, 5400 Bern",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7542,2025-09-28 03:32:16,paid,5303,Andrin,Merz,andrin.merz@example.com,"Favrestrasse 131, 4150 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8236,2025-10-05 21:55:56,paid,5181,Tahir,Vogt,tahir.vogt@example.com,"Hugstrasse 36, 5872 Wallis",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8711,2025-10-06 11:15:49,paid,5034,Gregor,Koch,gregor.koch@example.com,"Stalderstrasse 23, 1364 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7439,2025-11-21 21:37:50,completed,5007,Josip,Grob,josip.grob@example.com,"Vogelstrasse 48, 7205 Nidwalden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7520,2025-10-20 02:32:54,processing,5112,Annemarie,Meyer,annemarie.meyer@example.com,"Schochstrasse 961, 6177 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7331,2025-11-06 06:08:54,completed,5100,Mirela,Gfeller,mirela.gfeller@example.com,"Eichenbergerstrasse 9, 6773 St. Gallen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7410,2025-11-13 10:00:10,paid,5532,Klaus,Stucki,klaus.stucki@example.com,"Schweizerstrasse 55, 9919 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7769,2025-09-02 00:21:39,paid,5751,Hans-Jörg,Arnold,hans-jörg.arnold@example.com,"Zehnderstrasse 96, 8440 Zürich",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7666,2025-11-07 19:58:56,processing,5410,Christophe,Mettler,christophe.mettler@example.com,"Brunstrasse 76, 4567 Aargau",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7364,2025-09-03 18:44:24,shipped,5802,Serena,Bühler,serena.bühler@example.com,"Wettsteinstrasse 85, 6001 Neuenburg",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7453,2025-11-18 02:32:26,shipped,5687,Steven,Imhof,steven.imhof@example.com,"Schmidstrasse 55, 5804 Appenzell Innerrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7818,2025-10-27 21:04:17,paid,5698,Peter,Wolf,peter.wolf@example.com,"Bärstrasse 24, 9008 Schwyz",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8666,2025-09-08 20:50:43,processing,5156,Michelle,Zingg,michelle.zingg@example.com,"Geigerstrasse 22, 5869 Jura",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7866,2025-09-13 08:32:00,processing,5010,Eloïse,Küng,eloïse.küng@example.com,"Zieglerstrasse 5, 3677 Freiburg",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7162,2025-09-29 12:05:35,paid,5237,Carmen,Blum,carmen.blum@example.com,"Grobstrasse 20, 6447 Wallis",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7487,2025-09-05 07:27:15,paid,5399,Severin,Schlatter,severin.schlatter@example.com,"Hermannstrasse 24, 6489 Waadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8039,2025-09-17 11:16:33,completed,5522,Daniela,Lutz,daniela.lutz@example.com,"Bolligerstrasse 970, 3655 St. Gallen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8974,2025-11-15 10:00:15,processing,5987,Eugenio,Kaufmann,eugenio.kaufmann@example.com,"Wehrlistrasse 597, 7797 Uri",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8000,2025-09-14 02:31:39,shipped,5006,Erina,Gloor,erina.gloor@example.com,"Schaubstrasse 83, 3795 Genf",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7999,2025-10-09 02:28:09,completed,5913,Samantha,Braun,samantha.braun@example.com,"Brunstrasse 50, 5846 Aargau",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8175,2025-10-16 12:27:10,shipped,5761,Kilian,Schärer,kilian.schärer@example.com,"Scherrerstrasse 25, 4057 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8673,2025-09-16 20:37:40,paid,5589,Aleksandra,Wirz,aleksandra.wirz@example.com,"Näfstrasse 8, 1830 Schaffhausen",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7170,2025-09-14 10:51:49,shipped,5667,Ramadan,Meyer,ramadan.meyer@example.com,"Mettlerstrasse 356, 8380 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7809,2025-09-22 16:00:44,processing,5846,Ariana,Schaller,ariana.schaller@example.com,"Felberstrasse 84, 9066 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7823,2025-09-09 10:03:09,paid,5312,Tatjana,Stutz,tatjana.stutz@example.com,"Hotzstrasse 49, 2980 Uri",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7708,2025-11-17 17:14:09,shipped,5750,Hans-Jörg,Scheidegger,hans-jörg.scheidegger@example.com,"Wagnerstrasse 3, 9190 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7191,2025-10-13 18:53:02,processing,5863,Bukurije,Schürch,bukurije.schürch@example.com,"Baderstrasse 1, 4158 Tessin",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7471,2025-11-03 16:13:20,paid,5910,Piero,Bosshard,piero.bosshard@example.com,"Näfstrasse 89, 1408 Basel-Stadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7022,2025-09-18 12:51:49,completed,5352,Haris,Iten,haris.iten@example.com,"Brunnerstrasse 5, 9616 Solothurn",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7236,2025-11-11 00:58:25,processing,5845,Mirlinda,Leu,mirlinda.leu@example.com,"Grafstrasse 96, 4020 Bern",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7714,2025-09-04 12:02:16,paid,5331,Besnik,Wenger,besnik.wenger@example.com,"Herzogstrasse 36, 5750 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8252,2025-09-25 13:04:19,shipped,5213,Yannic,Sutter,yannic.sutter@example.com,"Steinerstrasse 59, 7871 Uri",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8865,2025-09-18 03:56:18,shipped,5220,István,Albrecht,istván.albrecht@example.com,"Fankhauserstrasse 380, 8207 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7482,2025-09-01 09:45:07,processing,5334,Raquel,Hunziker,raquel.hunziker@example.com,"Burristrasse 33, 4850 Glarus",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8016,2025-09-08 23:02:10,paid,5677,Stephan,Brun,stephan.brun@example.com,"Burristrasse 25, 8570 Wallis",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7917,2025-09-28 21:37:10,shipped,5871,Claudia,Jäggi,claudia.jäggi@example.com,"Hunzikerstrasse 56, 3673 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8889,2025-11-03 12:39:28,completed,5091,Ali,Kägi,ali.kägi@example.com,"Grafstrasse 89, 8717 Zürich",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8869,2025-11-01 14:56:10,paid,5624,Arnold,Herzog,arnold.herzog@example.com,"Kellerstrasse 775, 6468 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7666,2025-09-14 16:13:16,paid,5592,Elisabetha,Stalder,elisabetha.stalder@example.com,"Brunnerstrasse 46, 2711 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7787,2025-11-13 13:53:49,shipped,5971,Lucienne,Wolf,lucienne.wolf@example.com,"Frickstrasse 9, 5316 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8295,2025-09-19 12:14:06,paid,5863,Emanuele,Frei,emanuele.frei@example.com,"Lanzstrasse 49, 7164 Obwalden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7867,2025-10-15 11:13:40,shipped,5286,Leander,Hunziker,leander.hunziker@example.com,"Lanzstrasse 98, 6849 Tessin",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7805,2025-11-26 22:56:36,completed,5000,Drilon,Müller,drilon.müller@example.com,"Arnoldstrasse 2, 8379 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8387,2025-09-02 04:21:18,shipped,5563,Charline,Wenger,charline.wenger@example.com,"Zehnderstrasse 325, 6421 Waadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7764,2025-11-19 04:41:59,completed,5751,Arlette,Bühlmann,arlette.bühlmann@example.com,"Ernistrasse 96, 8025 Waadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7782,2025-09-29 00:50:09,completed,5660,Mile,Walter,mile.walter@example.com,"Frickstrasse 99, 2685 Schwyz",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8190,2025-09-18 22:37:48,processing,5143,Elma,Stadelmann,elma.stadelmann@example.com,"Ritterstrasse 619, 1259 Bern",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8340,2025-11-25 20:21:45,completed,5486,Charlotte,Wegmann,charlotte.wegmann@example.com,"Felderstrasse 707, 8466 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7851,2025-09-08 13:46:31,completed,5721,Carmela,Mettler,carmela.mettler@example.com,"Schneiderstrasse 62, 6599 Genf",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7811,2025-10-28 15:10:10,paid,5545,Jean,Stucki,jean.stucki@example.com,"Freystrasse 38, 5178 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8513,2025-09-02 12:06:51,shipped,5728,Léon,Hug,léon.hug@example.com,"Amreinstrasse 500, 2962 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8589,2025-09-24 00:20:44,processing,5091,Besarta,Scheidegger,besarta.scheidegger@example.com,"Maurerstrasse 54, 8798 Uri",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8863,2025-10-26 15:14:50,shipped,5890,Albin,Favre,albin.favre@example.com,"Eugsterstrasse 85, 4072 Neuenburg",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7788,2025-09-29 09:30:40,shipped,5477,Joao,Eichenberger,joao.eichenberger@example.com,"Grossstrasse 73, 3327 Genf",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8272,2025-11-15 08:36:24,paid,5013,Lynn,Hauser,lynn.hauser@example.com,"Zürcherstrasse 365, 3214 Genf",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7633,2025-09-06 10:13:09,paid,5500,Igor,Grob,igor.grob@example.com,"Meyerstrasse 8, 3334 Luzern",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8031,2025-10-03 09:11:18,processing,5182,Filippo,Spörri,filippo.spörri@example.com,"Meyerstrasse 73, 3239 Schwyz",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7910,2025-10-14 04:25:32,completed,5000,Damjan,Martin,damjan.martin@example.com,"Islerstrasse 63, 2070 Schaffhausen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8132,2025-11-21 06:34:30,processing,5793,Elma,Kern,elma.kern@example.com,"Hartmannstrasse 93, 8064 Zug",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7316,2025-10-31 13:31:02,completed,5469,Nenad,Küng,nenad.küng@example.com,"Martistrasse 18, 3512 Uri",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8944,2025-11-01 04:15:27,completed,5411,Michelle,Betschart,michelle.betschart@example.com,"Felberstrasse 17, 2185 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7100,2025-09-29 11:05:00,processing,5154,Tahir,Zbinden,tahir.zbinden@example.com,"Langstrasse 85, 6704 Luzern",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8528,2025-10-10 08:15:18,shipped,5892,Marika,Brun,marika.brun@example.com,"Wagnerstrasse 21, 4262 Neuenburg",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7522,2025-09-11 23:49:28,processing,5578,Predrag,Brunner,predrag.brunner@example.com,"Vogelstrasse 850, 3899 Wallis",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7734,2025-11-21 21:17:52,paid,5655,Ursina,Kern,ursina.kern@example.com,"Steinmannstrasse 51, 7176 Genf",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7707,2025-10-23 22:32:55,completed,5231,Donat,Gerber,donat.gerber@example.com,"Schulerstrasse 90, 3015 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7005,2025-10-02 03:17:21,paid,5325,Tobias,Ernst,tobias.ernst@example.com,"Sennstrasse 99, 9945 Zug",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8674,2025-10-03 21:41:20,processing,5510,William,Frei,william.frei@example.com,"Mayerstrasse 8, 7082 Aargau",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7887,2025-09-06 03:15:00,completed,5233,Tim,Wolf,tim.wolf@example.com,"Thommenstrasse 71, 2150 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8096,2025-11-23 16:23:14,paid,5137,Steven,Schneider,steven.schneider@example.com,"Albrechtstrasse 82, 6994 Nidwalden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7087,2025-10-20 14:50:19,shipped,5723,Idriz,Schumacher,idriz.schumacher@example.com,"Knechtstrasse 81, 2607 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7400,2025-09-15 12:02:41,processing,5212,Gabriele,Bauer,gabriele.bauer@example.com,"Michelstrasse 84, 3464 Tessin",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7376,2025-11-03 11:03:58,processing,5521,Veronica,Gross,veronica.gross@example.com,"Stadelmannstrasse 948, 5571 Solothurn",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7399,2025-11-05 02:05:25,completed,5334,Albina,Portmann,albina.portmann@example.com,"Kälinstrasse 8, 1646 Glarus",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7863,2025-11-13 11:29:11,paid,5041,Uwe,Albrecht,uwe.albrecht@example.com,"Haasstrasse 742, 2227 Genf",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8048,2025-10-28 00:12:43,processing,5219,Yanis,Betschart,yanis.betschart@example.com,"Fankhauserstrasse 4, 9533 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8351,2025-11-07 23:03:26,paid,5211,Marcelo,Roth,marcelo.roth@example.com,"Meierstrasse 12, 9302 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7736,2025-11-15 13:14:38,processing,5019,Armin,Leu,armin.leu@example.com,"Wirzstrasse 94, 9738 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8410,2025-09-10 08:06:27,processing,5629,Christina,Thommen,christina.thommen@example.com,"Scherrerstrasse 9, 4420 Basel-Stadt",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8296,2025-09-13 16:20:46,processing,5716,Ramazan,Winkler,ramazan.winkler@example.com,"Steinerstrasse 1, 1534 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7564,2025-11-12 22:49:42,processing,5300,Margot,Brunner,margot.brunner@example.com,"Thommenstrasse 171, 8761 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8597,2025-09-15 22:40:33,shipped,5377,Maxim,Benz,maxim.benz@example.com,"Peterstrasse 2, 6997 Luzern",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8383,2025-10-31 09:33:41,shipped,5455,Marianne,Friedli,marianne.friedli@example.com,"Moserstrasse 79, 6292 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8222,2025-11-24 06:30:18,shipped,5658,Mariella,Bär,mariella.bär@example.com,"Bauerstrasse 813, 6178 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8283,2025-09-22 04:12:56,completed,5533,Dominique,Bianchi,dominique.bianchi@example.com,"Näfstrasse 67, 5556 Schwyz",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8399,2025-09-14 17:14:30,completed,5753,Enrique,Gfeller,enrique.gfeller@example.com,"Stockerstrasse 29, 7423 Freiburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8233,2025-11-14 05:10:11,completed,5533,Claude,Amrein,claude.amrein@example.com,"Steffenstrasse 547, 8355 Tessin",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7135,2025-11-06 06:08:12,shipped,5616,Abel,Grob,abel.grob@example.com,"Baurstrasse 85, 8854 Bern",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7479,2025-11-03 07:42:41,completed,5020,Ela,Frick,ela.frick@example.com,"Lüthistrasse 1, 7360 Uri",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7791,2025-09-24 19:05:29,completed,5905,Anne,Gloor,anne.gloor@example.com,"Scheideggerstrasse 1, 2562 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7862,2025-10-25 02:24:38,paid,5234,Gian,Frey,gian.frey@example.com,"Ernistrasse 3, 7429 Luzern",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8534,2025-09-22 05:55:13,shipped,5303,Fatima,Ferrari,fatima.ferrari@example.com,"Martinstrasse 94, 2925 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7455,2025-09-06 14:59:23,paid,5294,Filip,Hofstetter,filip.hofstetter@example.com,"Zieglerstrasse 12, 9285 Schaffhausen",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7244,2025-09-21 09:11:53,shipped,5154,Mary,Hofstetter,mary.hofstetter@example.com,"Jennistrasse 28, 6758 Thurgau",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8451,2025-10-09 17:13:54,paid,5370,Alena,Jost,alena.jost@example.com,"Toblerstrasse 7, 2439 Obwalden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8537,2025-10-05 03:23:10,completed,5154,Hedwig,Brun,hedwig.brun@example.com,"Bachmannstrasse 570, 3539 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8439,2025-10-26 21:35:47,paid,5044,Liana,Furrer,liana.furrer@example.com,"Martistrasse 57, 4163 Uri",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7259,2025-10-21 22:31:48,shipped,5295,Jasmin,Friedli,jasmin.friedli@example.com,"Fuchsstrasse 58, 3901 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8713,2025-10-27 07:48:33,paid,5002,Cheyenne,Felder,cheyenne.felder@example.com,"Lutzstrasse 72, 6502 Glarus",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7007,2025-10-21 09:49:03,paid,5610,Hatice,Hartmann,hatice.hartmann@example.com,"Staufferstrasse 433, 2354 Nidwalden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8131,2025-09-23 22:17:18,processing,5370,Anita,Fehr,anita.fehr@example.com,"Meilistrasse 983, 1765 Graubünden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8791,2025-09-09 21:06:06,shipped,5854,Alexa,Baumgartner,alexa.baumgartner@example.com,"Geigerstrasse 62, 8166 Zürich",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8373,2025-10-16 15:55:46,completed,5767,Geneviève,Ferrari,geneviève.ferrari@example.com,"Hauserstrasse 51, 5843 Bern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7549,2025-10-21 02:04:28,paid,5681,Niklas,Geiger,niklas.geiger@example.com,"Bauerstrasse 11, 3895 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8909,2025-10-18 21:05:12,processing,5266,Attila,Ziegler,attila.ziegler@example.com,"Zbindenstrasse 49, 8912 Zürich",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8072,2025-10-10 06:10:38,processing,5210,Ahmed,Steiger,ahmed.steiger@example.com,"Jennistrasse 27, 8537 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8026,2025-11-06 22:40:05,completed,5489,Aldo,Schlatter,aldo.schlatter@example.com,"Kellerstrasse 86, 8966 Graubünden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8090,2025-10-20 20:34:45,paid,5717,Artan,Schmid,artan.schmid@example.com,"Gutstrasse 13, 8365 Freiburg",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7106,2025-10-14 07:38:08,processing,5014,Petr,Hofmann,petr.hofmann@example.com,"Fehrstrasse 8, 6343 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7377,2025-09-04 13:46:55,processing,5556,Graziella,Bieri,graziella.bieri@example.com,"Hodelstrasse 22, 4740 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8668,2025-09-11 17:27:08,paid,5443,Janik,Schwarz,janik.schwarz@example.com,"Suterstrasse 34, 2879 Wallis",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8201,2025-11-07 20:13:21,shipped,5116,Gerold,Schwarz,gerold.schwarz@example.com,"Gloorstrasse 404, 6280 Nidwalden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7886,2025-10-10 09:24:22,paid,5987,Jeannine,Kuhn,jeannine.kuhn@example.com,"Stockerstrasse 48, 4985 Glarus",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8817,2025-09-05 01:38:40,completed,5206,Levin,Schlatter,levin.schlatter@example.com,"Schmidstrasse 27, 7850 Basel-Stadt",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8691,2025-09-12 09:35:15,processing,5189,Pauline,Vogel,pauline.vogel@example.com,"Weberstrasse 53, 2207 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8640,2025-10-31 19:00:13,processing,5029,Odette,Hofstetter,odette.hofstetter@example.com,"Sidlerstrasse 89, 1367 Waadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7878,2025-09-05 22:34:48,paid,5752,Erich,Schenk,erich.schenk@example.com,"Huberstrasse 8, 4347 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8613,2025-11-24 09:42:10,completed,5594,Hansueli,Müller,hansueli.müller@example.com,"Weberstrasse 90, 6383 Solothurn",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8804,2025-10-29 15:57:41,processing,5775,Orlando,Widmer,orlando.widmer@example.com,"Stettlerstrasse 679, 3816 Jura",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8329,2025-10-01 19:14:03,completed,5133,Yasemin,Lutz,yasemin.lutz@example.com,"Spörristrasse 30, 9803 Zürich",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8629,2025-11-12 17:35:54,processing,5820,Drilon,Schenk,drilon.schenk@example.com,"Wüthrichstrasse 392, 6547 Thurgau",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7919,2025-11-27 01:03:18,processing,5543,María,Schmidt,maría.schmidt@example.com,"Walderstrasse 20, 2973 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8871,2025-10-31 20:53:22,shipped,5798,Solange,Stettler,solange.stettler@example.com,"Schallerstrasse 57, 5509 Bern",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8690,2025-09-18 05:57:16,shipped,5352,Adem,Kägi,adem.kägi@example.com,"Winklerstrasse 840, 9991 Bern",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8429,2025-09-26 07:43:07,processing,5739,Severin,Betschart,severin.betschart@example.com,"Steinmannstrasse 784, 9367 Aargau",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8512,2025-09-07 09:34:39,paid,5360,Moritz,Schoch,moritz.schoch@example.com,"Meisterstrasse 41, 1014 Freiburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8618,2025-11-01 08:51:25,processing,5120,Anne,Steiger,anne.steiger@example.com,"Meilistrasse 39, 6714 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7163,2025-09-08 08:32:03,completed,5392,Katarina,Seiler,katarina.seiler@example.com,"Hugstrasse 6, 2128 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7344,2025-11-16 21:29:18,processing,5407,Maria,Brunner,maria.brunner@example.com,"Baumgartnerstrasse 72, 7668 Aargau",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8068,2025-11-08 06:29:14,processing,5931,Janina,Roth,janina.roth@example.com,"Zieglerstrasse 245, 1505 Aargau",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8467,2025-10-13 21:43:25,completed,5850,Blerina,Kern,blerina.kern@example.com,"Sennstrasse 79, 7775 Zürich",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8890,2025-09-21 10:41:16,paid,5004,Sónia,Bühler,sónia.bühler@example.com,"Sidlerstrasse 707, 2005 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8861,2025-10-03 08:11:59,paid,5301,Elmar,Rey,elmar.rey@example.com,"Probststrasse 19, 9793 St. Gallen",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7216,2025-09-23 09:43:11,completed,5911,Domenic,Gut,domenic.gut@example.com,"Portmannstrasse 81, 4030 Obwalden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8338,2025-11-11 21:56:56,processing,5797,Steve,Staub,steve.staub@example.com,"Käserstrasse 4, 2490 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7580,2025-09-20 09:24:57,processing,5426,Franz,Moser,franz.moser@example.com,"Amreinstrasse 31, 6948 Aargau",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8223,2025-10-22 23:47:58,paid,5116,Margreth,Hofer,margreth.hofer@example.com,"Walterstrasse 86, 2058 Obwalden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8588,2025-10-13 00:03:52,processing,5352,Gianfranco,Wirth,gianfranco.wirth@example.com,"Islerstrasse 12, 1812 Zug",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8379,2025-10-19 22:47:10,processing,5489,Cecilia,Mäder,cecilia.mäder@example.com,"Wirzstrasse 37, 7685 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8189,2025-10-23 06:36:39,shipped,5337,Josefina,Schürch,josefina.schürch@example.com,"Hofstetterstrasse 458, 4716 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7298,2025-10-18 13:09:20,shipped,5814,Sedat,Portmann,sedat.portmann@example.com,"Bianchistrasse 6, 3083 Uri",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8413,2025-10-26 05:40:35,shipped,5163,Dejan,Stalder,dejan.stalder@example.com,"Wegmannstrasse 5, 6843 Basel-Stadt",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8399,2025-11-23 22:03:42,paid,5074,Margreth,Kessler,margreth.kessler@example.com,"Bolligerstrasse 61, 8892 Waadt",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7714,2025-11-28 03:43:16,paid,5254,Soraya,Beck,soraya.beck@example.com,"Favrestrasse 692, 6453 Bern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8760,2025-10-31 11:28:37,processing,5259,Greta,Vogel,greta.vogel@example.com,"Hessstrasse 28, 6550 Aargau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8051,2025-11-24 16:28:48,processing,5449,Kenan,Kägi,kenan.kägi@example.com,"Freistrasse 38, 9618 Jura",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8225,2025-09-20 11:08:00,shipped,5710,Henri,Gross,henri.gross@example.com,"Zbindenstrasse 71, 2416 Waadt",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8446,2025-09-21 09:27:14,processing,5453,Lauriane,Ott,lauriane.ott@example.com,"Sigriststrasse 50, 1066 Aargau",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7541,2025-09-28 00:04:26,shipped,5225,Egon,Fuchs,egon.fuchs@example.com,"Schenkstrasse 51, 4267 St. Gallen",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8006,2025-10-29 20:17:28,processing,5651,Umberto,Käser,umberto.käser@example.com,"Haslerstrasse 94, 4137 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7718,2025-10-05 21:30:29,shipped,5090,Assunta,Roth,assunta.roth@example.com,"Freistrasse 331, 8771 Uri",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7984,2025-10-20 15:41:49,shipped,5464,Mohammad,Hunziker,mohammad.hunziker@example.com,"Hofstetterstrasse 9, 2430 Genf",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7455,2025-10-19 16:11:33,processing,5780,Yanik,Gloor,yanik.gloor@example.com,"Thommenstrasse 8, 2499 Jura",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8027,2025-09-26 01:26:01,processing,5892,Beata,Schärer,beata.schärer@example.com,"Hofmannstrasse 44, 6561 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7311,2025-09-29 15:24:32,shipped,5972,Anto,Frey,anto.frey@example.com,"Baderstrasse 18, 9508 Schwyz",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7881,2025-10-29 23:40:19,shipped,5184,Patrik,Kägi,patrik.kägi@example.com,"Eichenbergerstrasse 725, 9837 Aargau",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8579,2025-10-05 20:12:46,shipped,5085,Chiara,Suter,chiara.suter@example.com,"Portmannstrasse 37, 6504 Freiburg",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7303,2025-10-10 12:54:51,paid,5870,Gabriela,Zollinger,gabriela.zollinger@example.com,"Huberstrasse 69, 2492 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7715,2025-11-14 17:17:18,completed,5417,Elodie,Kälin,elodie.kälin@example.com,"Scheideggerstrasse 12, 7550 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8998,2025-11-06 21:14:08,processing,5879,Fatime,Koch,fatime.koch@example.com,"Staubstrasse 229, 4255 Jura",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7152,2025-11-27 17:04:07,shipped,5797,Gisèle,Isler,gisèle.isler@example.com,"Friedlistrasse 43, 7257 Thurgau",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7746,2025-09-13 01:04:21,processing,5732,Eugenio,Walder,eugenio.walder@example.com,"Schmidstrasse 62, 2113 Aargau",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7898,2025-10-04 13:09:57,completed,5300,Andrina,Kälin,andrina.kälin@example.com,"Gasserstrasse 8, 3642 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7065,2025-09-02 20:33:01,paid,5323,Jannis,Bolliger,jannis.bolliger@example.com,"Wirthstrasse 95, 9961 Bern",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8224,2025-09-04 20:57:07,completed,5691,Hasan,Fischer,hasan.fischer@example.com,"Hafnerstrasse 21, 2128 Luzern",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7085,2025-09-04 05:12:30,completed,5335,Mahmut,Bosshard,mahmut.bosshard@example.com,"Grossstrasse 83, 8222 Graubünden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7672,2025-09-07 11:06:03,shipped,5702,Joachim,Meister,joachim.meister@example.com,"Schärstrasse 395, 7670 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7087,2025-11-15 04:26:18,completed,5416,Jakob,Felder,jakob.felder@example.com,"Roosstrasse 83, 7557 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8368,2025-11-26 00:55:11,shipped,5893,Nadège,Beck,nadège.beck@example.com,"Zollingerstrasse 12, 6695 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7760,2025-10-22 12:08:12,paid,5934,Liliane,Vogel,liliane.vogel@example.com,"Schmidstrasse 2, 5083 Solothurn",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8450,2025-09-17 02:51:18,paid,5068,Karl,Schürch,karl.schürch@example.com,"Roosstrasse 783, 8346 Wallis",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8971,2025-09-06 11:17:09,paid,5019,Vjollca,Fankhauser,vjollca.fankhauser@example.com,"Hermannstrasse 78, 1875 Zug",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7074,2025-10-03 17:53:20,paid,5619,Marie-Christine,Forster,marie-christine.forster@example.com,"Ackermannstrasse 26, 2497 Luzern",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8886,2025-09-18 13:19:16,paid,5211,Tiago,Hofer,tiago.hofer@example.com,"Seilerstrasse 462, 8782 Luzern",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8241,2025-10-11 15:26:16,paid,5473,Marcelo,Gross,marcelo.gross@example.com,"Jäggistrasse 17, 2575 Bern",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8135,2025-10-15 09:57:40,shipped,5119,Rosanna,Favre,rosanna.favre@example.com,"Winklerstrasse 1, 5834 Tessin",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8818,2025-10-02 06:07:18,paid,5241,Joseph,Schwab,joseph.schwab@example.com,"Felderstrasse 717, 1739 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7693,2025-11-09 14:59:53,processing,5577,Cordula,Meier,cordula.meier@example.com,"Huberstrasse 3, 2622 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7656,2025-11-03 08:33:14,completed,5191,Flamur,Pfister,flamur.pfister@example.com,"Baderstrasse 308, 6536 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8543,2025-09-09 17:15:07,completed,5621,Nives,Hunziker,nives.hunziker@example.com,"Kaufmannstrasse 16, 2425 Glarus",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7189,2025-11-12 20:50:56,completed,5536,Ina,Steiner,ina.steiner@example.com,"Steinerstrasse 75, 2550 Wallis",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7647,2025-09-18 16:40:47,paid,5885,Ralph,Schenk,ralph.schenk@example.com,"Hürlimannstrasse 44, 4648 Obwalden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8042,2025-09-10 12:47:19,completed,5216,Sascha,Brun,sascha.brun@example.com,"Arnoldstrasse 15, 5680 Solothurn",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8953,2025-09-08 15:49:39,processing,5577,Torsten,Peter,torsten.peter@example.com,"Vogelstrasse 4, 6184 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8064,2025-09-16 18:22:21,paid,5225,Denise,Huber,denise.huber@example.com,"Hessstrasse 858, 7356 St. Gallen",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8289,2025-11-16 21:05:43,processing,5355,Eléonore,Christen,eléonore.christen@example.com,"Wehrlistrasse 78, 9696 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8202,2025-10-11 19:47:33,processing,5894,Alex,Arnold,alex.arnold@example.com,"Bauerstrasse 47, 9446 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8668,2025-11-08 05:50:22,shipped,5966,Sebastian,Burri,sebastian.burri@example.com,"Hauserstrasse 539, 8729 Thurgau",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8647,2025-11-01 12:42:33,processing,5864,Andrée,Ott,andrée.ott@example.com,"Stockerstrasse 32, 1552 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7681,2025-10-12 06:46:25,completed,5826,Darko,Schmidt,darko.schmidt@example.com,"Schenkstrasse 36, 4728 Waadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7096,2025-09-16 18:29:27,paid,5382,Rosalba,Bättig,rosalba.bättig@example.com,"Baumannstrasse 244, 6365 Obwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8578,2025-09-03 20:34:54,completed,5225,Samir,Schmidt,samir.schmidt@example.com,"Spörristrasse 9, 6306 Zürich",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8431,2025-11-09 21:30:48,processing,5566,Melina,Hotz,melina.hotz@example.com,"Hirtstrasse 1, 4490 Waadt",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7085,2025-09-14 07:14:17,shipped,5772,Lukas,Hermann,lukas.hermann@example.com,"Wehrlistrasse 37, 5670 Aargau",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7589,2025-11-07 14:18:44,shipped,5856,Lucette,Hotz,lucette.hotz@example.com,"Kälinstrasse 29, 7762 St. Gallen",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7322,2025-11-20 12:28:55,completed,5749,Caterina,Wenger,caterina.wenger@example.com,"Wirzstrasse 39, 3290 Schaffhausen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8719,2025-10-31 19:25:32,paid,5025,Christophe,Betschart,christophe.betschart@example.com,"Schärstrasse 6, 1673 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8096,2025-11-14 03:18:20,processing,5432,Enver,Ackermann,enver.ackermann@example.com,"Bucherstrasse 34, 1452 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8573,2025-10-25 11:00:30,shipped,5402,Amy,Kohler,amy.kohler@example.com,"Schürchstrasse 37, 9883 Schaffhausen",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8585,2025-11-18 23:28:35,completed,5626,Frieda,Christen,frieda.christen@example.com,"Baderstrasse 791, 5587 Waadt",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7956,2025-09-26 21:13:43,processing,5983,Sebastian,Stalder,sebastian.stalder@example.com,"Schmidtstrasse 826, 5859 Waadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8946,2025-10-13 07:01:35,completed,5992,Natalie,Zollinger,natalie.zollinger@example.com,"Lutzstrasse 10, 2352 Schwyz",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8761,2025-11-17 13:12:36,processing,5455,Senad,Frey,senad.frey@example.com,"Häfligerstrasse 2, 5625 Graubünden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7989,2025-09-21 09:42:04,paid,5525,Danny,Wolf,danny.wolf@example.com,"Wyssstrasse 349, 2016 Aargau",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8674,2025-10-09 08:57:54,processing,5492,Pedro,Fankhauser,pedro.fankhauser@example.com,"Müllerstrasse 85, 6144 Tessin",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7791,2025-09-16 23:44:24,paid,5831,Karolina,Zimmermann,karolina.zimmermann@example.com,"Sutterstrasse 37, 2678 Freiburg",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8368,2025-11-05 00:22:16,processing,5496,István,Ferrari,istván.ferrari@example.com,"Zehnderstrasse 77, 7993 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7783,2025-11-21 11:55:02,shipped,5698,Saverio,Schäfer,saverio.schäfer@example.com,"Zinggstrasse 3, 8958 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7308,2025-11-19 23:44:16,processing,5155,Georgios,Eichenberger,georgios.eichenberger@example.com,"Seilerstrasse 38, 7525 Tessin",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7079,2025-11-16 05:39:01,shipped,5381,Michal,Betschart,michal.betschart@example.com,"Freistrasse 74, 8812 Graubünden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7642,2025-11-17 22:08:46,shipped,5708,Cecilia,Fuchs,cecilia.fuchs@example.com,"Kesslerstrasse 55, 9285 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7781,2025-11-19 06:18:38,processing,5134,Mihaela,Fehr,mihaela.fehr@example.com,"Käserstrasse 46, 7011 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7671,2025-09-05 20:24:30,completed,5002,Achim,Hasler,achim.hasler@example.com,"Baumgartnerstrasse 58, 5478 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7030,2025-09-13 02:19:44,paid,5285,Naomi,Bühlmann,naomi.bühlmann@example.com,"Kunzstrasse 65, 4897 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7529,2025-09-05 15:10:07,paid,5571,Gianfranco,Wyss,gianfranco.wyss@example.com,"Thommenstrasse 28, 5402 Obwalden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7195,2025-10-11 02:53:35,paid,5996,Birgit,Schaub,birgit.schaub@example.com,"Stadelmannstrasse 28, 5868 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7140,2025-10-22 12:24:22,shipped,5753,Seline,Walter,seline.walter@example.com,"Hauserstrasse 57, 3276 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7875,2025-10-24 15:30:40,completed,5858,Francesco,Sutter,francesco.sutter@example.com,"Kaiserstrasse 392, 9776 Wallis",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7849,2025-10-24 02:28:06,processing,5967,Juan,Bucher,juan.bucher@example.com,"Probststrasse 38, 3011 Basel-Stadt",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8301,2025-09-11 21:25:26,completed,5836,Frank,Blaser,frank.blaser@example.com,"Freystrasse 256, 3836 Obwalden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7790,2025-11-12 12:36:31,paid,5857,Karim,Schuler,karim.schuler@example.com,"Joststrasse 24, 1575 Waadt",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8406,2025-09-27 05:09:05,shipped,5401,Rüdiger,Wagner,rüdiger.wagner@example.com,"Lüthistrasse 8, 8960 Uri",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7700,2025-09-07 02:27:49,paid,5656,Bujar,Senn,bujar.senn@example.com,"Stutzstrasse 754, 2013 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7853,2025-09-18 02:10:05,shipped,5986,Isabelle,Fankhauser,isabelle.fankhauser@example.com,"Weberstrasse 68, 3549 Luzern",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8828,2025-09-06 08:06:12,shipped,5185,Walter,Hoffmann,walter.hoffmann@example.com,"Michelstrasse 172, 9810 Genf",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8141,2025-09-18 14:41:57,paid,5252,Henriette,Maier,henriette.maier@example.com,"Schwabstrasse 26, 8403 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7413,2025-10-01 00:17:40,completed,5199,Alfred,Bachmann,alfred.bachmann@example.com,"Schaubstrasse 2, 6008 Basel-Stadt",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7480,2025-09-23 10:22:49,shipped,5122,Ferdinand,Wenger,ferdinand.wenger@example.com,"Eichenbergerstrasse 1, 8786 Schwyz",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8327,2025-09-03 18:28:04,shipped,5624,Claudia,Benz,claudia.benz@example.com,"Häfligerstrasse 819, 5787 Waadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8590,2025-10-07 11:54:28,shipped,5438,Viktor,Hofstetter,viktor.hofstetter@example.com,"Ammannstrasse 5, 1147 Glarus",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8774,2025-11-14 14:45:19,shipped,5843,Antonio,Hürlimann,antonio.hürlimann@example.com,"Brunnerstrasse 95, 7576 Genf",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7409,2025-10-05 06:31:10,completed,5656,Lilia,Staub,lilia.staub@example.com,"Albrechtstrasse 7, 4586 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7832,2025-10-29 01:15:09,completed,5693,Sandra,Schaller,sandra.schaller@example.com,"Hofmannstrasse 59, 3383 Thurgau",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7739,2025-11-02 05:04:11,paid,5197,Yvonne,Lanz,yvonne.lanz@example.com,"Maurerstrasse 39, 3044 Neuenburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7192,2025-10-21 03:36:59,shipped,5251,Concetta,Hotz,concetta.hotz@example.com,"Ackermannstrasse 2, 7330 Jura",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8101,2025-09-25 21:42:19,completed,5506,Valerie,Knecht,valerie.knecht@example.com,"Eichenbergerstrasse 88, 7169 Bern",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7719,2025-11-07 07:05:15,processing,5806,Niko,Schuler,niko.schuler@example.com,"Martistrasse 4, 4082 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7735,2025-09-07 16:00:39,processing,5290,Richard,Staub,richard.staub@example.com,"Schürchstrasse 32, 4246 Solothurn",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7976,2025-09-08 04:07:48,paid,5960,Corina,Peter,corina.peter@example.com,"Martinstrasse 97, 2912 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7159,2025-11-22 16:40:24,completed,5635,Fabiana,Baumann,fabiana.baumann@example.com,"Eglistrasse 5, 5130 Aargau",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7962,2025-09-30 15:20:00,completed,5289,Kenan,Zürcher,kenan.zürcher@example.com,"Hoferstrasse 106, 4825 Freiburg",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7316,2025-10-05 04:48:36,shipped,5956,Miro,Schürch,miro.schürch@example.com,"Winklerstrasse 56, 7128 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8099,2025-09-19 06:34:18,completed,5160,Colin,Stutz,colin.stutz@example.com,"Christenstrasse 13, 3754 Waadt",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8213,2025-10-18 10:59:04,paid,5829,Almir,Bachmann,almir.bachmann@example.com,"Moserstrasse 98, 3634 Jura",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8004,2025-11-18 10:35:37,shipped,5729,Adelina,Frick,adelina.frick@example.com,"Lutzstrasse 7, 3941 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8716,2025-11-26 18:31:47,shipped,5433,Rodolfo,Frick,rodolfo.frick@example.com,"Maurerstrasse 737, 2756 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7007,2025-10-09 21:30:11,paid,5396,Anika,Häfliger,anika.häfliger@example.com,"Rothstrasse 71, 6337 Jura",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8989,2025-10-28 15:25:42,paid,5374,Olaf,Felder,olaf.felder@example.com,"Hürlimannstrasse 4, 1349 Aargau",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8747,2025-11-08 02:36:37,completed,5361,Yvonne,Zürcher,yvonne.zürcher@example.com,"Meyerstrasse 51, 3924 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7780,2025-09-19 08:50:43,completed,5151,Gregor,Schürch,gregor.schürch@example.com,"Schaubstrasse 68, 3261 Waadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8887,2025-10-16 04:00:31,shipped,5380,Ingo,Gasser,ingo.gasser@example.com,"Maierstrasse 5, 9852 Schwyz",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8880,2025-09-15 18:41:56,processing,5892,Adeline,Schuler,adeline.schuler@example.com,"Steigerstrasse 7, 5026 Uri",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8772,2025-10-07 18:38:44,processing,5611,Gabriela,Arnold,gabriela.arnold@example.com,"Hürlimannstrasse 70, 7602 St. Gallen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7815,2025-10-15 02:39:41,paid,5416,Amelie,Stalder,amelie.stalder@example.com,"Fischerstrasse 19, 5927 Neuenburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8757,2025-09-21 12:34:03,completed,5929,Andres,Hess,andres.hess@example.com,"Stadelmannstrasse 83, 4290 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8637,2025-11-12 21:21:33,shipped,5009,Mauro,Jenni,mauro.jenni@example.com,"Reystrasse 1, 5704 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8174,2025-09-11 02:33:49,processing,5293,Gerold,Brun,gerold.brun@example.com,"Wirthstrasse 497, 1831 Schwyz",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7188,2025-09-26 22:12:17,paid,5109,Bajram,Bianchi,bajram.bianchi@example.com,"Grossstrasse 78, 7891 Bern",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8207,2025-10-05 08:02:04,shipped,5969,Olaf,Ferrari,olaf.ferrari@example.com,"Schaubstrasse 167, 8805 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7968,2025-11-13 09:06:23,shipped,5279,Harald,Ernst,harald.ernst@example.com,"Wagnerstrasse 55, 7891 Jura",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7848,2025-10-10 14:48:58,processing,5397,Nikolina,Haas,nikolina.haas@example.com,"Spörristrasse 275, 5910 Thurgau",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8943,2025-09-16 16:44:32,processing,5416,Florence,Schär,florence.schär@example.com,"Meyerstrasse 79, 7816 Graubünden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8721,2025-10-22 21:25:07,shipped,5279,Abdullah,Bieri,abdullah.bieri@example.com,"Hugstrasse 69, 2455 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7465,2025-10-22 00:57:48,processing,5851,Aisha,Widmer,aisha.widmer@example.com,"Geigerstrasse 829, 6740 Genf",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7143,2025-10-04 08:09:08,shipped,5186,Aurelio,Steiner,aurelio.steiner@example.com,"Schärerstrasse 13, 3898 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8511,2025-10-26 18:39:17,shipped,5246,Basil,Lang,basil.lang@example.com,"Ferraristrasse 3, 6891 Genf",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8598,2025-10-23 15:12:29,processing,5271,Alina,Walter,alina.walter@example.com,"Bachmannstrasse 97, 6839 Bern",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7078,2025-09-06 04:20:43,shipped,5840,Piero,Schäfer,piero.schäfer@example.com,"Imhofstrasse 9, 6111 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8367,2025-10-03 12:40:42,shipped,5230,Charles,Gasser,charles.gasser@example.com,"Stutzstrasse 68, 9414 Tessin",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7136,2025-11-10 04:20:01,processing,5545,Marcus,Hug,marcus.hug@example.com,"Lehmannstrasse 45, 1882 Genf",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7321,2025-09-18 07:16:33,processing,5505,Erwin,Bauer,erwin.bauer@example.com,"Sidlerstrasse 94, 9798 Waadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7552,2025-09-12 08:16:08,completed,5496,Arianna,Rüegg,arianna.rüegg@example.com,"Maierstrasse 7, 4223 Wallis",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7422,2025-10-17 18:17:59,shipped,5588,Mael,Häfliger,mael.häfliger@example.com,"Steigerstrasse 81, 8869 Tessin",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7710,2025-09-07 00:34:57,processing,5768,Raymonde,Tobler,raymonde.tobler@example.com,"Lutzstrasse 546, 1167 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7966,2025-11-17 13:45:54,shipped,5190,Shaban,Lanz,shaban.lanz@example.com,"Hauserstrasse 23, 6953 Luzern",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7386,2025-09-06 15:27:45,shipped,5650,Emine,Schumacher,emine.schumacher@example.com,"Toblerstrasse 5, 1241 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7989,2025-10-29 09:30:57,shipped,5556,Audrey,Scheidegger,audrey.scheidegger@example.com,"Bernasconistrasse 3, 7727 Jura",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7336,2025-11-09 22:37:47,paid,5776,Eliana,Stettler,eliana.stettler@example.com,"Sennstrasse 49, 1807 Graubünden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7762,2025-10-07 09:54:43,paid,5867,Aurel,Hotz,aurel.hotz@example.com,"Schumacherstrasse 844, 8219 Uri",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7421,2025-11-17 06:17:58,shipped,5413,Egzon,Lang,egzon.lang@example.com,"Bucherstrasse 82, 9586 Neuenburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8556,2025-10-27 11:21:48,shipped,5097,Salome,Flückiger,salome.flückiger@example.com,"Steigerstrasse 3, 8522 Thurgau",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8888,2025-10-31 07:32:08,shipped,5048,Olga,Roth,olga.roth@example.com,"Zürcherstrasse 16, 6871 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7496,2025-09-09 05:39:46,completed,5825,Luke,Wegmann,luke.wegmann@example.com,"Müllerstrasse 32, 2610 Zug",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8968,2025-11-13 08:44:13,completed,5690,Jesus,Eugster,jesus.eugster@example.com,"Schulerstrasse 692, 9365 Waadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7214,2025-09-06 03:52:56,processing,5200,Özlem,Mettler,özlem.mettler@example.com,"Scheideggerstrasse 98, 5836 Glarus",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7992,2025-09-02 15:28:00,completed,5508,Linda,Peter,linda.peter@example.com,"Maurerstrasse 9, 5348 Zug",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8488,2025-11-19 02:11:43,completed,5238,Wendy,Zürcher,wendy.zürcher@example.com,"Baderstrasse 56, 8393 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8803,2025-09-29 17:07:22,completed,5316,Hans-Rudolf,Hotz,hans-rudolf.hotz@example.com,"Kohlerstrasse 57, 2754 Genf",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8337,2025-09-05 13:54:04,processing,5918,Lilli,Schaub,lilli.schaub@example.com,"Scheideggerstrasse 65, 6990 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7272,2025-11-27 10:13:57,shipped,5923,Jeannette,Bachmann,jeannette.bachmann@example.com,"Mayerstrasse 32, 8608 Uri",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8773,2025-09-19 14:46:36,processing,5912,Simone,Bernasconi,simone.bernasconi@example.com,"Müllerstrasse 859, 2919 Jura",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8339,2025-09-28 20:50:32,shipped,5042,Emmanuelle,Hotz,emmanuelle.hotz@example.com,"Steigerstrasse 4, 3390 Genf",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8504,2025-11-04 15:23:41,completed,5953,Bianca,Baumgartner,bianca.baumgartner@example.com,"Burristrasse 55, 9967 Tessin",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7539,2025-11-07 17:58:05,completed,5482,Filipa,Frick,filipa.frick@example.com,"Brunstrasse 407, 9390 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8707,2025-10-02 18:21:13,paid,5088,Ingrid,Fankhauser,ingrid.fankhauser@example.com,"Frickstrasse 19, 2546 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7684,2025-10-28 16:10:37,shipped,5255,Pamela,Schwab,pamela.schwab@example.com,"Forsterstrasse 45, 9349 Solothurn",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7589,2025-10-13 00:01:38,processing,5198,Jusuf,Tobler,jusuf.tobler@example.com,"Beckstrasse 15, 3855 Wallis",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7783,2025-10-11 08:13:47,completed,5412,Déborah,Isler,déborah.isler@example.com,"Thommenstrasse 11, 1493 Obwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7845,2025-11-11 06:09:08,processing,5494,Andreia,Schneider,andreia.schneider@example.com,"Baurstrasse 73, 6840 Neuenburg",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7305,2025-11-25 16:02:27,completed,5613,Margret,Hürlimann,margret.hürlimann@example.com,"Bachmannstrasse 80, 1131 Obwalden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8423,2025-09-20 13:35:37,completed,5939,Aldin,Schlatter,aldin.schlatter@example.com,"Lehmannstrasse 54, 8578 Wallis",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7671,2025-10-12 21:59:33,shipped,5353,Heiko,Winkler,heiko.winkler@example.com,"Peterstrasse 12, 7824 Luzern",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8465,2025-10-02 04:13:19,paid,5281,Lotte,Zbinden,lotte.zbinden@example.com,"Itenstrasse 82, 2429 Bern",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7119,2025-10-06 15:44:01,shipped,5600,Romy,Walder,romy.walder@example.com,"Schochstrasse 47, 4256 Glarus",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7267,2025-10-16 11:46:56,processing,5599,Livia,Pfister,livia.pfister@example.com,"Braunstrasse 30, 6583 Wallis",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7478,2025-10-03 13:38:05,processing,5388,Nadja,Stocker,nadja.stocker@example.com,"Schochstrasse 89, 9299 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7621,2025-11-28 08:53:35,processing,5734,Lya,Schwab,lya.schwab@example.com,"Winklerstrasse 896, 8257 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7035,2025-10-07 22:56:05,completed,5828,Alwin,Steinmann,alwin.steinmann@example.com,"Huberstrasse 122, 5767 St. Gallen",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7283,2025-11-28 11:41:30,completed,5897,Arben,Berger,arben.berger@example.com,"Suterstrasse 9, 6119 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8594,2025-09-16 19:35:01,processing,5000,Charlotte,Gerber,charlotte.gerber@example.com,"Bieristrasse 64, 8252 Schwyz",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7156,2025-11-16 18:14:06,completed,5091,Marius,Koch,marius.koch@example.com,"Stockerstrasse 86, 9622 Zürich",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8652,2025-10-10 00:00:06,shipped,5071,Gerhard,Schär,gerhard.schär@example.com,"Hessstrasse 58, 2436 Wallis",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7292,2025-10-01 18:30:53,completed,5695,Lothar,Meier,lothar.meier@example.com,"Siegriststrasse 77, 7618 Solothurn",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8961,2025-09-18 20:33:58,processing,5307,Veronica,Schenk,veronica.schenk@example.com,"Seilerstrasse 4, 6474 Tessin",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8857,2025-10-22 10:33:18,shipped,5188,Boban,Müller,boban.müller@example.com,"Kohlerstrasse 87, 1539 Glarus",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8371,2025-09-12 22:14:16,paid,5392,Bettina,Burri,bettina.burri@example.com,"Hofmannstrasse 18, 1640 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8442,2025-09-16 11:06:15,completed,5131,Mirlinda,Kälin,mirlinda.kälin@example.com,"Staubstrasse 38, 6379 Uri",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7381,2025-09-19 02:32:27,processing,5230,Vjollca,Hug,vjollca.hug@example.com,"Hartmannstrasse 8, 5718 Jura",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8997,2025-09-05 23:32:46,processing,5417,Catherine,Baur,catherine.baur@example.com,"Siegriststrasse 5, 6054 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7937,2025-11-22 14:57:13,completed,5688,Hana,Steinmann,hana.steinmann@example.com,"Ammannstrasse 81, 3721 Schwyz",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7606,2025-09-06 02:41:37,processing,5066,Darko,Schweizer,darko.schweizer@example.com,"Küngstrasse 20, 4383 Schaffhausen",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8530,2025-09-12 09:16:36,completed,5761,Ibrahim,Bättig,ibrahim.bättig@example.com,"Eggerstrasse 1, 8080 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7642,2025-09-25 02:16:15,completed,5774,Emanuela,Schäfer,emanuela.schäfer@example.com,"Jennistrasse 1, 6828 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7237,2025-10-10 04:39:24,completed,5298,Serkan,Ott,serkan.ott@example.com,"Joststrasse 20, 4068 Glarus",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7465,2025-09-15 17:00:25,paid,5393,Valentino,Maurer,valentino.maurer@example.com,"Reystrasse 2, 6540 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8141,2025-11-03 17:05:22,processing,5456,Herta,Hoffmann,herta.hoffmann@example.com,"Martinstrasse 79, 8031 St. Gallen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8340,2025-11-07 21:53:13,processing,5058,Rina,Hürlimann,rina.hürlimann@example.com,"Jäggistrasse 4, 7436 Aargau",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8373,2025-09-26 14:26:16,shipped,5186,Adnan,Widmer,adnan.widmer@example.com,"Zehnderstrasse 11, 6713 Bern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7312,2025-10-24 19:59:16,completed,5832,Enya,Küng,enya.küng@example.com,"Freystrasse 79, 4074 Luzern",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8409,2025-11-14 23:24:09,shipped,5883,Kenneth,Maier,kenneth.maier@example.com,"Friedlistrasse 80, 5902 Zürich",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8212,2025-11-19 10:02:27,paid,5897,Timea,Sutter,timea.sutter@example.com,"Maurerstrasse 50, 3248 Solothurn",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8007,2025-10-09 08:17:58,paid,5448,Xaver,Moser,xaver.moser@example.com,"Jennistrasse 1, 3509 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8627,2025-10-23 10:40:58,paid,5060,Enya,Weber,enya.weber@example.com,"Schürchstrasse 9, 4122 Neuenburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8499,2025-10-06 19:50:17,paid,5159,Luís,Frick,luís.frick@example.com,"Meierstrasse 226, 8142 Solothurn",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7111,2025-09-11 13:47:46,shipped,5168,Ennio,Schlatter,ennio.schlatter@example.com,"Schneiderstrasse 786, 8550 Basel-Stadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8604,2025-10-25 09:38:03,paid,5462,Adelina,Beck,adelina.beck@example.com,"Leustrasse 75, 5284 Neuenburg",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7511,2025-09-27 01:06:51,paid,5003,Marcia,Walder,marcia.walder@example.com,"Thommenstrasse 47, 5968 Genf",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7811,2025-09-15 17:57:38,completed,5843,Marcella,Roth,marcella.roth@example.com,"Lüthistrasse 39, 2038 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8017,2025-11-26 21:02:01,processing,5632,Lorin,Schoch,lorin.schoch@example.com,"Ernststrasse 38, 1820 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8703,2025-11-18 19:51:33,paid,5413,Nives,Weber,nives.weber@example.com,"Martinstrasse 14, 7817 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8505,2025-09-24 13:02:14,completed,5500,Rosalia,Hess,rosalia.hess@example.com,"Wengerstrasse 217, 6076 Waadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8907,2025-09-14 14:48:48,processing,5315,Ruth,Benz,ruth.benz@example.com,"Wengerstrasse 76, 5534 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7741,2025-09-13 18:41:56,shipped,5925,Serge,Bühler,serge.bühler@example.com,"Bucherstrasse 900, 7240 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7859,2025-11-11 08:36:58,completed,5254,Katharina,Schärer,katharina.schärer@example.com,"Steinerstrasse 7, 4994 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7556,2025-09-15 04:11:58,paid,5929,Kira,Scheidegger,kira.scheidegger@example.com,"Stettlerstrasse 873, 2183 Freiburg",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8735,2025-09-05 22:38:06,processing,5572,Radmila,Tobler,radmila.tobler@example.com,"Ammannstrasse 341, 9422 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8944,2025-10-05 02:09:40,shipped,5058,Frédéric,Schumacher,frédéric.schumacher@example.com,"Furrerstrasse 401, 9536 Schaffhausen",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7101,2025-09-07 21:39:38,paid,5859,Gerd,Hunziker,gerd.hunziker@example.com,"Jennistrasse 46, 2653 Waadt",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8255,2025-11-24 01:24:57,paid,5882,Ariana,Bianchi,ariana.bianchi@example.com,"Weibelstrasse 829, 8252 Zug",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8606,2025-09-20 11:28:13,paid,5709,Tiffany,Hartmann,tiffany.hartmann@example.com,"Stalderstrasse 90, 9719 Solothurn",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7662,2025-11-07 22:35:09,paid,5765,Silas,Bosshard,silas.bosshard@example.com,"Wirzstrasse 16, 3382 Neuenburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7635,2025-10-14 23:06:20,paid,5709,Davide,Stalder,davide.stalder@example.com,"Schulerstrasse 219, 8333 Thurgau",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7177,2025-09-23 06:58:51,paid,5520,Carmela,Kaiser,carmela.kaiser@example.com,"Spörristrasse 40, 9679 Genf",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7043,2025-11-24 02:25:20,paid,5000,Corinna,Widmer,corinna.widmer@example.com,"Hofstetterstrasse 95, 7691 Freiburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8201,2025-09-22 23:23:00,shipped,5028,Jasin,Jäggi,jasin.jäggi@example.com,"Baumgartnerstrasse 8, 1037 Uri",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8270,2025-09-18 00:06:16,shipped,5606,Balz,Flückiger,balz.flückiger@example.com,"Lustenbergerstrasse 48, 7976 Glarus",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7235,2025-11-24 15:31:24,completed,5500,Niels,Aebi,niels.aebi@example.com,"Brunnerstrasse 453, 8906 Zürich",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7316,2025-11-06 18:19:33,shipped,5083,Melvin,Weber,melvin.weber@example.com,"Eichenbergerstrasse 8, 3545 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8837,2025-11-03 20:52:31,completed,5233,Josefine,Merz,josefine.merz@example.com,"Schochstrasse 1, 6171 Jura",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8253,2025-10-02 00:07:54,completed,5751,Marcello,Schnyder,marcello.schnyder@example.com,"Kunzstrasse 70, 9844 Wallis",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8148,2025-10-12 06:20:14,completed,5137,Lindita,Schmidt,lindita.schmidt@example.com,"Haslerstrasse 9, 4425 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8527,2025-09-17 10:20:44,paid,5822,Nevin,Kälin,nevin.kälin@example.com,"Bieristrasse 98, 3616 Zürich",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7699,2025-10-31 02:41:19,shipped,5016,Lothar,Schumacher,lothar.schumacher@example.com,"Eugsterstrasse 16, 9219 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8981,2025-10-16 03:26:47,paid,5485,François,Wirz,françois.wirz@example.com,"Beckstrasse 1, 2922 Schwyz",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7090,2025-11-16 07:25:16,processing,5088,Pierina,Egli,pierina.egli@example.com,"Beckstrasse 17, 1130 St. Gallen",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8582,2025-10-30 08:08:34,completed,5659,Arben,Giger,arben.giger@example.com,"Stöcklistrasse 17, 3843 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7668,2025-09-12 09:47:08,completed,5723,Rafael,Albrecht,rafael.albrecht@example.com,"Beckstrasse 55, 8198 Uri",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7561,2025-11-24 20:48:32,processing,5639,Norah,Müller,norah.müller@example.com,"Hirtstrasse 91, 3621 Basel-Stadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7841,2025-09-12 18:31:53,paid,5843,Angelo,Schneider,angelo.schneider@example.com,"Stockerstrasse 89, 6476 Thurgau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8314,2025-09-10 22:53:26,completed,5464,Egon,Bieri,egon.bieri@example.com,"Schaubstrasse 96, 2914 Luzern",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7845,2025-11-07 20:18:06,completed,5705,Virginia,Hess,virginia.hess@example.com,"Reystrasse 33, 8261 St. Gallen",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7231,2025-10-20 18:57:02,paid,5146,Dimitri,Meili,dimitri.meili@example.com,"Bergerstrasse 799, 1543 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7902,2025-10-19 19:15:44,completed,5054,Sybille,Hoffmann,sybille.hoffmann@example.com,"Schäferstrasse 40, 5000 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7684,2025-10-10 07:51:08,completed,5623,Jaime,Schmidt,jaime.schmidt@example.com,"Bianchistrasse 6, 9559 Glarus",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8373,2025-11-16 02:42:12,processing,5916,Kay,Tobler,kay.tobler@example.com,"Bühlmannstrasse 26, 9662 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7699,2025-10-12 17:45:15,paid,5350,Danijela,Ammann,danijela.ammann@example.com,"Widmerstrasse 66, 8311 Uri",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8590,2025-11-21 00:33:21,paid,5192,Dora,Ott,dora.ott@example.com,"Jennistrasse 45, 2128 Luzern",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8756,2025-11-17 02:27:45,shipped,5889,Flavia,Scherrer,flavia.scherrer@example.com,"Hodelstrasse 78, 9848 Appenzell Innerrhoden",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8667,2025-10-24 07:51:07,shipped,5401,Maryse,Weber,maryse.weber@example.com,"Portmannstrasse 30, 3405 Glarus",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8805,2025-11-12 12:51:00,shipped,5461,Cedric,Thommen,cedric.thommen@example.com,"Hermannstrasse 50, 4291 Jura",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7258,2025-11-16 15:20:31,processing,5013,Hans-Peter,Geiger,hans-peter.geiger@example.com,"Hofstetterstrasse 45, 7895 Zug",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7144,2025-10-27 07:55:00,paid,5855,Sibylle,Mayer,sibylle.mayer@example.com,"Kunzstrasse 68, 2716 Waadt",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8606,2025-10-11 10:23:53,completed,5158,Sacha,Bolliger,sacha.bolliger@example.com,"Wettsteinstrasse 7, 1726 Neuenburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8184,2025-10-13 03:03:29,shipped,5392,Diogo,Walder,diogo.walder@example.com,"Rüeggstrasse 63, 9030 Genf",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7386,2025-10-20 14:46:29,completed,5056,Hassan,Staub,hassan.staub@example.com,"Schallerstrasse 87, 2691 Wallis",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7472,2025-09-04 06:05:11,processing,5302,Juliana,Meyer,juliana.meyer@example.com,"Walderstrasse 19, 8182 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7755,2025-11-01 22:59:08,shipped,5596,Vivian,Brunner,vivian.brunner@example.com,"Weberstrasse 604, 4092 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7824,2025-09-22 06:59:01,shipped,5324,Theophil,Lutz,theophil.lutz@example.com,"Walterstrasse 30, 2630 Jura",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8692,2025-10-29 20:28:57,completed,5070,Ariana,Thommen,ariana.thommen@example.com,"Schmidtstrasse 78, 7243 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7450,2025-11-01 02:40:33,processing,5940,Pawel,Hermann,pawel.hermann@example.com,"Rothstrasse 46, 5849 Jura",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8139,2025-10-22 00:07:32,completed,5368,Giancarlo,Aebi,giancarlo.aebi@example.com,"Toblerstrasse 13, 9676 Waadt",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8522,2025-09-08 19:26:54,paid,5603,Fritz,Stutz,fritz.stutz@example.com,"Gasserstrasse 93, 4715 Bern",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7198,2025-09-05 07:28:23,shipped,5916,Kevin,Roos,kevin.roos@example.com,"Käserstrasse 79, 3189 Tessin",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7358,2025-09-23 10:23:14,paid,5661,Ana,Frey,ana.frey@example.com,"Schenkstrasse 6, 2084 Basel-Stadt",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8371,2025-11-17 23:36:54,shipped,5076,Achim,Stettler,achim.stettler@example.com,"Schärstrasse 27, 3574 Thurgau",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7587,2025-11-06 04:12:45,paid,5387,Juliette,Ammann,juliette.ammann@example.com,"Haslerstrasse 235, 6412 Waadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8062,2025-09-19 07:32:00,completed,5541,Rebekka,Lang,rebekka.lang@example.com,"Hoferstrasse 5, 2392 Schaffhausen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8747,2025-11-20 15:49:08,shipped,5734,Liridon,Schäfer,liridon.schäfer@example.com,"Gigerstrasse 32, 6658 Freiburg",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8802,2025-11-25 02:53:54,completed,5441,Edina,Michel,edina.michel@example.com,"Gerberstrasse 77, 7567 Waadt",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7710,2025-11-17 12:28:02,completed,5188,Khaled,Ott,khaled.ott@example.com,"Furrerstrasse 280, 3482 Neuenburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7074,2025-11-19 00:03:25,paid,5909,Eveline,Fehr,eveline.fehr@example.com,"Bosshardstrasse 2, 3617 Genf",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7085,2025-10-26 00:20:58,processing,5551,Huguette,Suter,huguette.suter@example.com,"Wirzstrasse 25, 3647 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8044,2025-10-31 10:47:43,shipped,5425,Manuel,Gross,manuel.gross@example.com,"Blumstrasse 149, 5741 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8000,2025-09-14 00:59:20,completed,5517,Philipp,Eichenberger,philipp.eichenberger@example.com,"Ferraristrasse 96, 9277 Waadt",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8683,2025-09-25 22:57:30,paid,5967,Gabriela,Stöckli,gabriela.stöckli@example.com,"Grafstrasse 59, 1858 Genf",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8602,2025-11-26 10:27:57,processing,5824,Yves,Schenk,yves.schenk@example.com,"Ackermannstrasse 37, 3198 Solothurn",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8603,2025-10-09 06:49:46,processing,5673,Colette,Kälin,colette.kälin@example.com,"Freistrasse 396, 2135 Luzern",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7470,2025-11-15 13:24:14,completed,5405,Janos,Roos,janos.roos@example.com,"Hunzikerstrasse 773, 7001 Wallis",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7381,2025-11-12 20:10:52,paid,5703,Gabor,Schwarz,gabor.schwarz@example.com,"Bolligerstrasse 292, 9337 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8089,2025-09-20 07:37:41,shipped,5653,Maëlle,Schmid,maëlle.schmid@example.com,"Martinstrasse 244, 1240 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7389,2025-10-05 01:33:43,paid,5083,Gökhan,Wirth,gökhan.wirth@example.com,"Meierstrasse 98, 2800 Aargau",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7040,2025-10-13 22:52:42,paid,5006,Eduard,Steiner,eduard.steiner@example.com,"Gutstrasse 83, 6760 Schwyz",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8185,2025-10-06 16:43:40,completed,5389,Amy,Jost,amy.jost@example.com,"Zürcherstrasse 74, 3877 Glarus",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8730,2025-10-03 23:33:30,processing,5827,Lisa,Pfister,lisa.pfister@example.com,"Ritterstrasse 71, 9370 Schaffhausen",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8276,2025-09-02 00:46:59,processing,5507,Geneviève,Walter,geneviève.walter@example.com,"Hauserstrasse 41, 7504 St. Gallen",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7322,2025-09-11 09:41:02,processing,5305,Antoine,Iten,antoine.iten@example.com,"Knechtstrasse 195, 2360 St. Gallen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7717,2025-09-15 04:56:12,shipped,5878,Léon,Berger,léon.berger@example.com,"Blaserstrasse 6, 9295 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8707,2025-09-14 23:19:41,completed,5184,Emilie,Hirt,emilie.hirt@example.com,"Ackermannstrasse 23, 3453 Jura",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7994,2025-09-06 21:38:11,completed,5937,Audrey,Jäggi,audrey.jäggi@example.com,"Sutterstrasse 947, 2847 Luzern",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7150,2025-11-17 21:54:26,paid,5375,Joël,Hermann,joël.hermann@example.com,"Hürlimannstrasse 42, 8920 Zürich",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8877,2025-11-25 05:58:42,shipped,5060,Marie-Laure,Zollinger,marie-laure.zollinger@example.com,"Grossstrasse 15, 4109 Tessin",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7673,2025-09-16 01:58:24,processing,5311,Josefina,Meister,josefina.meister@example.com,"Steinerstrasse 19, 1038 Genf",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7611,2025-09-06 17:04:41,shipped,5475,Matthias,Senn,matthias.senn@example.com,"Gloorstrasse 151, 7244 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8911,2025-09-18 23:13:33,processing,5582,Sigrid,Giger,sigrid.giger@example.com,"Flückigerstrasse 358, 6441 Waadt",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7006,2025-11-27 10:32:02,processing,5687,Christelle,Frick,christelle.frick@example.com,"Lüscherstrasse 838, 3114 St. Gallen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8466,2025-11-10 10:43:58,shipped,5502,Gloria,Mayer,gloria.mayer@example.com,"Favrestrasse 80, 6107 Graubünden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7511,2025-09-17 14:14:20,shipped,5010,Rosalia,Stauffer,rosalia.stauffer@example.com,"Hotzstrasse 7, 1425 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7625,2025-10-14 03:02:30,shipped,5540,Monique,Meister,monique.meister@example.com,"Lehmannstrasse 50, 7502 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8910,2025-11-22 01:07:24,shipped,5913,Vlora,Iten,vlora.iten@example.com,"Schmidtstrasse 1, 2457 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8424,2025-09-17 23:53:49,shipped,5569,Alain,Hoffmann,alain.hoffmann@example.com,"Schallerstrasse 13, 5999 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8011,2025-11-27 07:49:52,processing,5014,Luise,Stettler,luise.stettler@example.com,"Vogelstrasse 928, 8564 Tessin",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8431,2025-10-19 01:39:29,completed,5204,Lionel,Felder,lionel.felder@example.com,"Steinerstrasse 81, 4553 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8357,2025-11-23 20:24:45,completed,5659,Luz,Schumacher,luz.schumacher@example.com,"Schmidstrasse 102, 3572 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7541,2025-09-12 15:48:38,completed,5976,Fabrice,Schaub,fabrice.schaub@example.com,"Bieristrasse 22, 3933 St. Gallen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7397,2025-09-17 15:52:11,paid,5479,Bruna,Ritter,bruna.ritter@example.com,"Portmannstrasse 285, 8231 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7616,2025-10-08 02:37:18,shipped,5014,Antje,Walter,antje.walter@example.com,"Baumannstrasse 8, 4294 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8306,2025-09-24 16:15:01,paid,5091,Leana,Ferrari,leana.ferrari@example.com,"Hunzikerstrasse 2, 7627 Jura",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8167,2025-09-24 10:40:33,completed,5476,Filipe,Hofmann,filipe.hofmann@example.com,"Betschartstrasse 95, 2473 Zürich",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8335,2025-11-08 06:11:18,shipped,5780,Nino,Mayer,nino.mayer@example.com,"Martinstrasse 25, 4572 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7693,2025-11-15 13:47:24,processing,5783,Jasmine,Zollinger,jasmine.zollinger@example.com,"Geigerstrasse 81, 5365 Uri",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7294,2025-09-16 15:09:15,processing,5387,Attila,Ott,attila.ott@example.com,"Friedlistrasse 935, 8322 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7197,2025-11-14 15:54:23,completed,5783,Kian,Lehmann,kian.lehmann@example.com,"Sigriststrasse 16, 3214 Zürich",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7988,2025-09-30 16:50:54,completed,5796,Rene,Stadelmann,rene.stadelmann@example.com,"Lüthistrasse 20, 7931 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7769,2025-10-30 04:07:17,paid,5250,Gabrielle,Maurer,gabrielle.maurer@example.com,"Kunzstrasse 34, 5293 Bern",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8904,2025-10-04 13:48:31,paid,5331,Rolf,Hodel,rolf.hodel@example.com,"Bärstrasse 102, 9472 Wallis",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8126,2025-11-08 20:00:40,paid,5036,Jocelyne,Furrer,jocelyne.furrer@example.com,"Vogtstrasse 23, 8935 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7872,2025-11-04 05:58:33,shipped,5591,Peter,Benz,peter.benz@example.com,"Bergerstrasse 50, 5061 Thurgau",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8287,2025-09-03 02:31:22,shipped,5881,Tony,Knecht,tony.knecht@example.com,"Schochstrasse 338, 2321 Schaffhausen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8022,2025-11-02 00:19:40,completed,5189,Vincenzo,Kohler,vincenzo.kohler@example.com,"Käserstrasse 97, 2016 Wallis",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7673,2025-11-13 22:49:42,processing,5623,Blerim,Hess,blerim.hess@example.com,"Favrestrasse 17, 5438 Graubünden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8760,2025-09-29 04:51:56,processing,5867,Jovana,Brunner,jovana.brunner@example.com,"Fuchsstrasse 3, 4350 Wallis",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8082,2025-09-05 17:54:43,processing,5933,Malgorzata,Berger,malgorzata.berger@example.com,"Hoferstrasse 307, 8523 Wallis",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8978,2025-10-18 22:06:51,shipped,5408,Esther,Schweizer,esther.schweizer@example.com,"Grafstrasse 1, 7279 Schaffhausen",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7262,2025-11-23 04:48:13,completed,5060,Liridon,Lutz,liridon.lutz@example.com,"Eggerstrasse 72, 5597 Bern",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7981,2025-09-13 05:04:26,shipped,5299,Robert,Marti,robert.marti@example.com,"Grobstrasse 65, 2430 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7831,2025-09-11 08:52:42,processing,5220,Tomas,Lehmann,tomas.lehmann@example.com,"Bauerstrasse 7, 2673 Jura",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8909,2025-09-10 15:33:01,processing,5748,Ariane,Mettler,ariane.mettler@example.com,"Kuhnstrasse 48, 9233 Luzern",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8444,2025-11-05 04:00:17,completed,5426,Jordan,Stauffer,jordan.stauffer@example.com,"Leustrasse 858, 6056 Uri",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7932,2025-11-07 13:35:19,paid,5491,Hansueli,Brun,hansueli.brun@example.com,"Bühlmannstrasse 17, 2965 Jura",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7949,2025-10-28 01:49:23,paid,5754,Maik,Stadelmann,maik.stadelmann@example.com,"Gasserstrasse 8, 9063 Wallis",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8187,2025-09-06 23:03:41,paid,5337,Selma,Bauer,selma.bauer@example.com,"Joststrasse 72, 5283 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8464,2025-09-27 17:30:59,processing,5020,Esther,Zingg,esther.zingg@example.com,"Rothstrasse 81, 3152 Zürich",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7105,2025-09-22 15:47:37,completed,5801,Emine,Merz,emine.merz@example.com,"Schmidtstrasse 178, 5208 Luzern",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8589,2025-09-06 16:14:52,processing,5377,Luca,Gerber,luca.gerber@example.com,"Hunzikerstrasse 54, 7222 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8871,2025-10-01 19:26:43,shipped,5945,Matthias,Baumgartner,matthias.baumgartner@example.com,"Joststrasse 44, 9781 Tessin",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7633,2025-09-12 07:14:27,completed,5477,Gaëlle,Schäfer,gaëlle.schäfer@example.com,"Spörristrasse 21, 8463 Zug",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7382,2025-09-11 20:43:13,completed,5193,Aldin,Lustenberger,aldin.lustenberger@example.com,"Stöcklistrasse 22, 4596 Neuenburg",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8117,2025-11-07 19:07:07,processing,5730,Séverine,Keller,séverine.keller@example.com,"Eglistrasse 520, 7857 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7774,2025-10-18 13:58:20,processing,5642,Gustav,Bühlmann,gustav.bühlmann@example.com,"Bianchistrasse 5, 9735 Uri",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8282,2025-10-31 05:16:23,paid,5695,Eleonore,Steiger,eleonore.steiger@example.com,"Jäggistrasse 79, 8843 St. Gallen",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8870,2025-10-25 19:27:16,completed,5657,Tristan,Wyss,tristan.wyss@example.com,"Ernistrasse 5, 4974 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7281,2025-09-15 11:48:48,completed,5049,Christof,Betschart,christof.betschart@example.com,"Schwabstrasse 747, 6998 Glarus",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7842,2025-11-27 11:07:53,paid,5541,Claudine,Bucher,claudine.bucher@example.com,"Eggerstrasse 25, 6840 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8771,2025-11-12 08:02:32,paid,5059,Ledion,Jenni,ledion.jenni@example.com,"Wagnerstrasse 37, 8044 Zug",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8922,2025-09-08 15:05:47,shipped,5474,Tanja,Ziegler,tanja.ziegler@example.com,"Pfisterstrasse 1, 3106 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7669,2025-10-19 17:32:44,completed,5375,Luciana,Albrecht,luciana.albrecht@example.com,"Baumgartnerstrasse 401, 1597 Genf",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7621,2025-09-29 12:45:03,shipped,5420,Clarissa,Stadelmann,clarissa.stadelmann@example.com,"Schürchstrasse 73, 6081 Glarus",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8242,2025-09-06 01:56:27,shipped,5579,Cristian,Hodel,cristian.hodel@example.com,"Hartmannstrasse 22, 3190 Jura",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8829,2025-11-05 01:01:27,shipped,5471,Günther,Steiger,günther.steiger@example.com,"Wengerstrasse 72, 1689 Wallis",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8465,2025-10-13 20:18:04,completed,5529,Luljeta,Ziegler,luljeta.ziegler@example.com,"Siegriststrasse 18, 8137 Genf",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8600,2025-10-02 02:18:55,completed,5940,William,Ackermann,william.ackermann@example.com,"Bolligerstrasse 757, 4484 Aargau",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8716,2025-10-18 03:04:38,shipped,5579,Nicola,Maurer,nicola.maurer@example.com,"Brunnerstrasse 511, 9589 Uri",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7523,2025-09-09 18:32:14,completed,5644,Enis,Bader,enis.bader@example.com,"Hofstetterstrasse 11, 1561 Graubünden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7967,2025-09-06 11:34:04,paid,5576,Debora,Schürch,debora.schürch@example.com,"Benzstrasse 84, 6319 Nidwalden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8554,2025-11-09 21:44:52,paid,5638,Mariam,Fehr,mariam.fehr@example.com,"Kälinstrasse 3, 7564 Nidwalden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8616,2025-10-08 19:23:50,shipped,5013,Kushtrim,Imhof,kushtrim.imhof@example.com,"Reystrasse 1, 3717 Thurgau",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7876,2025-09-06 12:23:53,shipped,5569,Anouk,Leu,anouk.leu@example.com,"Steffenstrasse 39, 6287 Obwalden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8473,2025-10-20 07:34:21,shipped,5367,Luise,Kohler,luise.kohler@example.com,"Maierstrasse 47, 1564 Wallis",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7112,2025-11-08 01:02:31,shipped,5778,Ilaria,Roth,ilaria.roth@example.com,"Wolfstrasse 15, 9505 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8686,2025-09-04 16:58:49,paid,5786,Alfred,Gloor,alfred.gloor@example.com,"Reystrasse 75, 8138 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8084,2025-11-13 17:26:23,paid,5708,Burak,Zbinden,burak.zbinden@example.com,"Maurerstrasse 610, 8486 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7069,2025-10-14 00:27:53,shipped,5059,Tanya,Schenk,tanya.schenk@example.com,"Grossstrasse 6, 6661 Graubünden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7862,2025-10-17 21:15:49,completed,5388,Reinhold,Gasser,reinhold.gasser@example.com,"Zieglerstrasse 485, 5180 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7379,2025-09-12 14:02:11,shipped,5373,Zoltan,Stadelmann,zoltan.stadelmann@example.com,"Bernasconistrasse 8, 8830 Wallis",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8466,2025-10-08 03:12:21,paid,5102,Lorenzo,Bolliger,lorenzo.bolliger@example.com,"Fuchsstrasse 16, 7950 St. Gallen",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8353,2025-11-01 21:55:14,paid,5854,Amira,Hofer,amira.hofer@example.com,"Ernistrasse 613, 6679 Tessin",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8692,2025-11-16 05:56:17,completed,5759,Abraham,Schürch,abraham.schürch@example.com,"Häfligerstrasse 89, 5762 Tessin",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7586,2025-09-19 12:43:54,shipped,5935,Anja,Egger,anja.egger@example.com,"Bühlerstrasse 6, 3126 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8139,2025-09-08 03:22:08,shipped,5334,Ralph,Wyss,ralph.wyss@example.com,"Ritterstrasse 531, 3297 Graubünden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8804,2025-10-31 05:42:05,processing,5337,Emanuele,Hunziker,emanuele.hunziker@example.com,"Mayerstrasse 4, 8855 Zürich",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8185,2025-10-19 08:22:17,completed,5825,Marino,Wyss,marino.wyss@example.com,"Huberstrasse 74, 1075 Zürich",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8831,2025-11-14 21:09:50,paid,5250,Corsin,Egli,corsin.egli@example.com,"Hirtstrasse 996, 8818 Neuenburg",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8227,2025-11-05 09:13:09,completed,5021,Aferdita,Maurer,aferdita.maurer@example.com,"Müllerstrasse 46, 2424 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7426,2025-11-28 17:13:43,processing,5531,Alvaro,Stocker,alvaro.stocker@example.com,"Friedlistrasse 38, 1258 Uri",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8247,2025-11-07 12:20:55,processing,5469,Khadija,Kaufmann,khadija.kaufmann@example.com,"Kaiserstrasse 7, 2685 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7097,2025-09-16 05:27:13,processing,5359,Andrea,Hoffmann,andrea.hoffmann@example.com,"Müllerstrasse 33, 2030 Genf",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7187,2025-09-06 20:10:16,paid,5726,Bukurije,Arnold,bukurije.arnold@example.com,"Studerstrasse 64, 4586 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8636,2025-11-12 18:31:16,paid,5273,Bojan,Zehnder,bojan.zehnder@example.com,"Steigerstrasse 78, 3537 Thurgau",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7790,2025-10-28 15:08:29,shipped,5601,Viviana,Gerber,viviana.gerber@example.com,"Schmidstrasse 973, 3668 Aargau",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8323,2025-11-28 20:32:50,shipped,5096,Karsten,Lüscher,karsten.lüscher@example.com,"Schumacherstrasse 7, 5643 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8622,2025-09-11 18:03:55,paid,5071,Dorian,Haas,dorian.haas@example.com,"Gloorstrasse 41, 4565 Obwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8026,2025-11-16 17:38:21,paid,5179,Sharon,Weibel,sharon.weibel@example.com,"Bolligerstrasse 187, 5773 Uri",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8267,2025-09-30 10:21:38,processing,5723,Rose,Lehmann,rose.lehmann@example.com,"Näfstrasse 45, 1883 Tessin",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8368,2025-11-11 21:19:15,completed,5534,Louise,Gut,louise.gut@example.com,"Merzstrasse 37, 4421 Luzern",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7107,2025-10-12 06:54:32,completed,5965,Gudrun,Bernasconi,gudrun.bernasconi@example.com,"Bergerstrasse 16, 7804 Bern",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7309,2025-11-13 22:49:56,processing,5787,Liridon,Walder,liridon.walder@example.com,"Kälinstrasse 65, 6820 Neuenburg",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8738,2025-09-05 10:30:11,shipped,5694,Jaqueline,Roth,jaqueline.roth@example.com,"Bieristrasse 2, 4664 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7313,2025-10-13 08:10:26,paid,5774,Tabea,Eichenberger,tabea.eichenberger@example.com,"Schwabstrasse 4, 4178 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7146,2025-09-17 14:52:08,processing,5340,Olena,Mäder,olena.mäder@example.com,"Michelstrasse 92, 9964 Genf",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8463,2025-10-28 03:23:19,shipped,5586,Paula,Sutter,paula.sutter@example.com,"Knechtstrasse 4, 3761 Jura",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8173,2025-11-13 14:07:54,processing,5413,Victor,Hofmann,victor.hofmann@example.com,"Bättigstrasse 66, 8748 Uri",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8148,2025-10-04 02:41:48,processing,5837,Ömer,Egger,ömer.egger@example.com,"Schallerstrasse 3, 4744 Jura",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7546,2025-10-24 06:19:18,processing,5848,Simona,Hotz,simona.hotz@example.com,"Kellerstrasse 89, 1006 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8841,2025-09-24 07:31:42,processing,5529,Aziz,Gut,aziz.gut@example.com,"Eugsterstrasse 86, 1204 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7901,2025-10-21 02:39:07,processing,5567,Ema,Christen,ema.christen@example.com,"Stettlerstrasse 5, 4591 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8891,2025-09-18 11:52:47,shipped,5313,Arno,Zürcher,arno.zürcher@example.com,"Schallerstrasse 11, 3910 Graubünden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7093,2025-09-24 04:27:33,processing,5012,Thierry,Lustenberger,thierry.lustenberger@example.com,"Bianchistrasse 5, 1332 Basel-Landschaft",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7276,2025-09-08 10:32:08,shipped,5770,Sacha,Aebi,sacha.aebi@example.com,"Kohlerstrasse 39, 1631 Waadt",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7097,2025-10-20 20:55:30,completed,5946,Juri,Wirth,juri.wirth@example.com,"Jennistrasse 1, 2265 Waadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8458,2025-09-01 10:56:06,completed,5980,Detlef,Hug,detlef.hug@example.com,"Maurerstrasse 57, 9463 Bern",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8377,2025-11-24 21:08:52,processing,5098,Patrik,Tanner,patrik.tanner@example.com,"Hermannstrasse 30, 6853 Thurgau",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7687,2025-10-18 19:33:37,completed,5394,Larissa,Bühler,larissa.bühler@example.com,"Widmerstrasse 58, 3031 Tessin",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8838,2025-11-21 08:15:58,processing,5263,Ann,Furrer,ann.furrer@example.com,"Favrestrasse 860, 3526 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7272,2025-11-08 00:18:13,paid,5455,Yannis,Kern,yannis.kern@example.com,"Aebistrasse 14, 8768 Graubünden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8408,2025-09-19 00:32:21,completed,5770,Leo,Hermann,leo.hermann@example.com,"Studerstrasse 29, 4536 Bern",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7814,2025-11-24 16:48:32,processing,5350,Ivo,Gasser,ivo.gasser@example.com,"Bucherstrasse 94, 8032 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7135,2025-10-14 17:47:02,shipped,5215,Ajla,Mettler,ajla.mettler@example.com,"Wyssstrasse 324, 8523 Schwyz",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7604,2025-09-30 06:55:10,shipped,5657,Monique,Ritter,monique.ritter@example.com,"Bättigstrasse 1, 3376 Glarus",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7829,2025-11-17 14:30:19,shipped,5773,Noelia,Forster,noelia.forster@example.com,"Staubstrasse 27, 8044 Schaffhausen",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8899,2025-10-04 16:42:44,paid,5055,Cedric,Käser,cedric.käser@example.com,"Schulerstrasse 84, 6302 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7517,2025-11-16 15:05:16,paid,5682,Ljubica,Gut,ljubica.gut@example.com,"Rüeggstrasse 8, 6968 Glarus",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8020,2025-11-06 17:06:21,shipped,5394,Emin,Blum,emin.blum@example.com,"Zbindenstrasse 38, 9042 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8846,2025-10-02 12:55:17,paid,5452,Barbara,Hirt,barbara.hirt@example.com,"Hafnerstrasse 9, 9266 Aargau",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8242,2025-10-09 16:38:38,processing,5259,Margaret,Baur,margaret.baur@example.com,"Hodelstrasse 28, 8200 Zürich",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7820,2025-09-03 13:51:27,completed,5395,Domenica,Marti,domenica.marti@example.com,"Weibelstrasse 630, 4876 Zürich",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8811,2025-09-11 18:13:42,processing,5211,Mihajlo,Lanz,mihajlo.lanz@example.com,"Brunstrasse 5, 2339 Freiburg",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7430,2025-10-17 18:00:03,completed,5467,Loris,Tanner,loris.tanner@example.com,"Spörristrasse 2, 8045 Neuenburg",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7747,2025-11-15 18:59:49,shipped,5788,Hannelore,Forster,hannelore.forster@example.com,"Lanzstrasse 47, 8135 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8667,2025-09-06 15:04:40,paid,5842,Raul,Ammann,raul.ammann@example.com,"Weberstrasse 93, 2505 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8357,2025-10-23 22:28:38,completed,5282,Berthe,Weibel,berthe.weibel@example.com,"Schneiderstrasse 28, 7884 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8422,2025-09-05 18:08:59,completed,5381,Leila,Kälin,leila.kälin@example.com,"Toblerstrasse 84, 5488 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8289,2025-09-24 22:37:02,paid,5549,Steve,Kuhn,steve.kuhn@example.com,"Weberstrasse 89, 4136 Glarus",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7470,2025-10-28 16:36:40,paid,5245,Janic,Siegrist,janic.siegrist@example.com,"Kesslerstrasse 77, 9616 Waadt",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7803,2025-10-04 03:46:59,paid,5367,Damian,Vogel,damian.vogel@example.com,"Brunnerstrasse 60, 6178 Zug",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7858,2025-10-04 14:26:48,processing,5694,Sanela,Friedli,sanela.friedli@example.com,"Hunzikerstrasse 151, 5700 Neuenburg",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8154,2025-11-28 05:59:16,completed,5835,Caterina,Jost,caterina.jost@example.com,"Schenkstrasse 2, 5749 Freiburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8799,2025-09-10 17:31:37,processing,5564,Nelly,Bosshard,nelly.bosshard@example.com,"Gerberstrasse 85, 8748 Genf",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7517,2025-10-24 19:48:09,completed,5780,Valentine,Albrecht,valentine.albrecht@example.com,"Lustenbergerstrasse 71, 7745 Zürich",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7235,2025-09-17 20:43:55,completed,5822,Chris,Stettler,chris.stettler@example.com,"Bergerstrasse 81, 5214 Zürich",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8909,2025-10-23 14:50:29,paid,5325,Marinette,Albrecht,marinette.albrecht@example.com,"Imhofstrasse 2, 5043 Glarus",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8394,2025-11-22 21:35:05,shipped,5262,Anouk,Steiger,anouk.steiger@example.com,"Zollingerstrasse 3, 2945 Wallis",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7606,2025-10-29 22:09:17,shipped,5024,Mehdi,Wettstein,mehdi.wettstein@example.com,"Bauerstrasse 3, 7314 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8743,2025-11-05 15:20:18,paid,5873,Matilda,Wegmann,matilda.wegmann@example.com,"Huberstrasse 47, 9773 St. Gallen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7830,2025-10-01 10:41:04,shipped,5871,Natascha,Eichenberger,natascha.eichenberger@example.com,"Steffenstrasse 36, 1996 Luzern",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8522,2025-09-22 00:54:21,shipped,5078,Lily,Steffen,lily.steffen@example.com,"Toblerstrasse 512, 2200 Aargau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8332,2025-09-15 15:18:38,completed,5010,Aurora,Beck,aurora.beck@example.com,"Suterstrasse 836, 4491 Glarus",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8856,2025-11-28 03:03:21,completed,5988,Quentin,Egli,quentin.egli@example.com,"Maurerstrasse 2, 4376 Appenzell Innerrhoden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8087,2025-11-11 21:02:05,shipped,5005,Harry,Bär,harry.bär@example.com,"Hofstetterstrasse 41, 5578 Uri",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8423,2025-11-04 05:45:44,shipped,5082,Giancarlo,Schäfer,giancarlo.schäfer@example.com,"Steinmannstrasse 71, 3081 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8499,2025-09-18 23:12:17,completed,5150,Jolanda,Hoffmann,jolanda.hoffmann@example.com,"Baurstrasse 47, 7027 Bern",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8696,2025-09-09 21:17:27,shipped,5987,Carolina,Lanz,carolina.lanz@example.com,"Rüeggstrasse 8, 4162 Zug",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8953,2025-10-08 04:42:14,completed,5324,Diar,Schürch,diar.schürch@example.com,"Blumstrasse 51, 9832 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7038,2025-10-20 15:51:51,paid,5352,Tiziana,Gerber,tiziana.gerber@example.com,"Lustenbergerstrasse 32, 9439 Basel-Stadt",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7419,2025-09-24 12:21:01,completed,5966,Kushtrim,Schneider,kushtrim.schneider@example.com,"Jäggistrasse 17, 7627 Basel-Stadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8127,2025-09-13 13:52:54,processing,5150,Emilio,Widmer,emilio.widmer@example.com,"Schmidstrasse 222, 3676 Freiburg",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8867,2025-10-02 16:45:43,completed,5211,Melissa,Zingg,melissa.zingg@example.com,"Moserstrasse 41, 2794 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8475,2025-09-28 06:26:54,processing,5050,Irène,Albrecht,irène.albrecht@example.com,"Hartmannstrasse 50, 8594 Luzern",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8835,2025-11-01 14:03:46,paid,5191,Léon,Grob,léon.grob@example.com,"Schlatterstrasse 44, 7497 Obwalden",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7493,2025-11-16 03:53:40,completed,5110,Roy,Müller,roy.müller@example.com,"Lehmannstrasse 99, 8365 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8038,2025-09-14 14:30:10,completed,5905,Davide,Wolf,davide.wolf@example.com,"Steigerstrasse 647, 9288 Thurgau",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8125,2025-10-23 17:32:41,paid,5823,Eva,Leu,eva.leu@example.com,"Kesslerstrasse 28, 7851 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7431,2025-09-04 02:41:29,processing,5931,Nuria,Schenk,nuria.schenk@example.com,"Stockerstrasse 42, 8655 Zug",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8634,2025-09-14 03:52:55,completed,5101,Lias,Hoffmann,lias.hoffmann@example.com,"Merzstrasse 489, 9676 Jura",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7055,2025-09-19 04:32:33,shipped,5225,Magda,Zimmermann,magda.zimmermann@example.com,"Schulerstrasse 7, 3432 Solothurn",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7956,2025-10-21 18:05:06,completed,5740,Annamarie,Wirz,annamarie.wirz@example.com,"Schmidtstrasse 739, 8617 Neuenburg",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7316,2025-11-07 01:02:26,completed,5090,Damiano,Burri,damiano.burri@example.com,"Sennstrasse 928, 2782 Zug",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7019,2025-10-09 18:43:47,completed,5308,Nathanael,Ferrari,nathanael.ferrari@example.com,"Spörristrasse 51, 5667 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8570,2025-10-12 15:05:05,completed,5448,Anne-Sophie,Wüthrich,anne-sophie.wüthrich@example.com,"Jennistrasse 33, 7730 Graubünden",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7809,2025-10-23 22:04:19,shipped,5929,Silas,Mayer,silas.mayer@example.com,"Bärstrasse 720, 7950 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8221,2025-11-06 09:07:37,processing,5872,Alvaro,Ammann,alvaro.ammann@example.com,"Hessstrasse 366, 2546 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8950,2025-09-20 01:46:36,completed,5710,Leon,Meister,leon.meister@example.com,"Imhofstrasse 61, 7525 Glarus",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7787,2025-10-10 18:07:09,paid,5831,Olga,Meister,olga.meister@example.com,"Martinstrasse 14, 4564 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8363,2025-09-29 01:29:37,shipped,5698,Diane,Schmid,diane.schmid@example.com,"Meyerstrasse 87, 6804 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7494,2025-10-29 23:11:55,completed,5536,Besarta,Pfister,besarta.pfister@example.com,"Kesslerstrasse 66, 9693 Jura",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7892,2025-09-19 06:51:29,processing,5215,Esra,Bolliger,esra.bolliger@example.com,"Lüthistrasse 4, 1080 Glarus",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8557,2025-10-22 05:12:04,shipped,5753,Marie-France,Felber,marie-france.felber@example.com,"Schärerstrasse 93, 5843 Waadt",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7022,2025-10-24 17:33:58,paid,5797,Ronny,Meister,ronny.meister@example.com,"Bernasconistrasse 66, 4491 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8845,2025-10-27 02:11:37,processing,5847,Umberto,Jost,umberto.jost@example.com,"Fankhauserstrasse 927, 1253 Zürich",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7350,2025-09-28 14:16:10,paid,5574,Christa,Eichenberger,christa.eichenberger@example.com,"Hürlimannstrasse 159, 9615 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7145,2025-11-20 05:37:34,completed,5405,Moritz,Fehr,moritz.fehr@example.com,"Steffenstrasse 22, 2101 St. Gallen",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7297,2025-11-21 00:50:00,completed,5413,Artur,Stettler,artur.stettler@example.com,"Schwabstrasse 991, 9629 Wallis",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8165,2025-11-03 02:08:26,shipped,5192,Aida,Schneider,aida.schneider@example.com,"Jäggistrasse 10, 1491 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8963,2025-09-11 06:14:44,shipped,5432,Agnese,Fuchs,agnese.fuchs@example.com,"Benzstrasse 65, 5360 Genf",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7222,2025-09-27 06:10:08,processing,5789,Jill,Meyer,jill.meyer@example.com,"Brunnerstrasse 46, 1645 Tessin",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7263,2025-09-04 02:13:20,processing,5712,Marian,Geiger,marian.geiger@example.com,"Langstrasse 56, 4072 Waadt",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8763,2025-11-03 04:10:33,processing,5656,Louis,Schneider,louis.schneider@example.com,"Studerstrasse 40, 6287 Zürich",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8406,2025-09-12 23:27:57,paid,5085,Franco,Schaub,franco.schaub@example.com,"Hafnerstrasse 61, 1590 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7093,2025-11-11 19:42:01,paid,5714,Laurin,Blaser,laurin.blaser@example.com,"Vogelstrasse 22, 6662 Uri",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7160,2025-10-01 14:15:53,processing,5562,Clémence,Gloor,clémence.gloor@example.com,"Hotzstrasse 83, 8884 Genf",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7854,2025-11-15 07:42:37,completed,5536,Kurt,Hoffmann,kurt.hoffmann@example.com,"Weibelstrasse 58, 1023 Graubünden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8305,2025-11-19 09:30:30,shipped,5671,Tomislav,Gerber,tomislav.gerber@example.com,"Weberstrasse 68, 8502 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8236,2025-09-19 00:21:44,paid,5419,Hilda,Suter,hilda.suter@example.com,"Michelstrasse 229, 2785 Zürich",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7003,2025-11-25 00:42:26,shipped,5608,Elmar,Imhof,elmar.imhof@example.com,"Bachmannstrasse 20, 9643 Aargau",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7269,2025-10-20 16:23:33,completed,5000,Carine,Brunner,carine.brunner@example.com,"Schwarzstrasse 27, 7640 Obwalden",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8522,2025-10-06 03:38:41,shipped,5276,Carmen,Bühler,carmen.bühler@example.com,"Stutzstrasse 70, 8854 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8047,2025-11-11 13:12:35,shipped,5102,Tibor,Häfliger,tibor.häfliger@example.com,"Zinggstrasse 44, 3007 Schwyz",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7275,2025-09-30 15:21:07,completed,5549,Shqipe,Ritter,shqipe.ritter@example.com,"Steinerstrasse 72, 1550 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8130,2025-09-04 15:34:53,paid,5406,Ajla,Moser,ajla.moser@example.com,"Meierstrasse 800, 4179 Basel-Stadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7865,2025-10-27 20:42:00,processing,5505,Friedrich,Bernasconi,friedrich.bernasconi@example.com,"Itenstrasse 322, 2063 Tessin",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8376,2025-09-21 16:42:50,paid,5680,Aldin,Brunner,aldin.brunner@example.com,"Hermannstrasse 13, 6646 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7487,2025-11-15 03:15:54,shipped,5571,Eugenio,Amrein,eugenio.amrein@example.com,"Stöcklistrasse 300, 7471 Schaffhausen",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7242,2025-10-28 22:48:09,shipped,5435,Fritz,Schweizer,fritz.schweizer@example.com,"Kaufmannstrasse 97, 7292 Graubünden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8956,2025-09-21 12:50:11,completed,5175,Tiziana,Betschart,tiziana.betschart@example.com,"Steinmannstrasse 280, 9886 Uri",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7579,2025-09-26 17:02:57,paid,5304,Chris,Bieri,chris.bieri@example.com,"Wirzstrasse 80, 7849 Zug",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7819,2025-11-19 17:27:46,completed,5137,Lorin,Albrecht,lorin.albrecht@example.com,"Schmidtstrasse 4, 6342 Uri",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7580,2025-09-21 11:08:40,processing,5123,Predrag,Albrecht,predrag.albrecht@example.com,"Zinggstrasse 695, 1658 Luzern",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7002,2025-09-13 00:08:03,paid,5252,Piero,Bühlmann,piero.bühlmann@example.com,"Scherrerstrasse 1, 9043 Wallis",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7688,2025-09-22 20:44:50,completed,5047,Bruno,Winkler,bruno.winkler@example.com,"Albrechtstrasse 4, 8174 Zug",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7317,2025-09-12 11:12:52,paid,5174,Fiona,Hirt,fiona.hirt@example.com,"Brunstrasse 62, 6776 Uri",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8861,2025-10-20 13:45:04,completed,5377,Dino,Giger,dino.giger@example.com,"Schweizerstrasse 37, 7072 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8723,2025-10-08 08:22:04,paid,5363,Lorin,Häfliger,lorin.häfliger@example.com,"Lüscherstrasse 942, 6358 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8971,2025-11-05 10:43:01,paid,5929,Myrta,Arnold,myrta.arnold@example.com,"Blaserstrasse 39, 2114 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7037,2025-09-19 15:13:34,processing,5458,Anton,Steinmann,anton.steinmann@example.com,"Bolligerstrasse 881, 2089 Solothurn",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7170,2025-09-04 15:27:22,processing,5589,Antonina,Wirz,antonina.wirz@example.com,"Schaubstrasse 31, 8568 Bern",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7474,2025-11-28 16:40:34,processing,5069,Dave,Gasser,dave.gasser@example.com,"Lehmannstrasse 49, 8490 Tessin",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7151,2025-09-12 15:35:28,shipped,5473,Tina,Tanner,tina.tanner@example.com,"Gloorstrasse 47, 7193 Luzern",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7012,2025-09-11 18:34:59,paid,5712,Myrta,Müller,myrta.müller@example.com,"Kesslerstrasse 3, 6011 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7661,2025-11-20 12:54:10,processing,5332,Jan,Gasser,jan.gasser@example.com,"Gigerstrasse 63, 8231 Uri",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8332,2025-09-20 20:43:36,paid,5837,Leonardo,Amrein,leonardo.amrein@example.com,"Staufferstrasse 212, 3504 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7178,2025-09-08 00:28:42,paid,5623,Sladjana,Zehnder,sladjana.zehnder@example.com,"Schaubstrasse 24, 6279 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8464,2025-09-23 03:52:10,shipped,5409,Luis,Walder,luis.walder@example.com,"Wüthrichstrasse 76, 1389 Genf",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+8476,2025-11-05 02:36:20,shipped,5523,Albulena,Lustenberger,albulena.lustenberger@example.com,"Freistrasse 908, 9862 St. Gallen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7461,2025-11-28 13:29:54,paid,5546,Priska,Tanner,priska.tanner@example.com,"Ammannstrasse 584, 5908 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7972,2025-10-29 19:23:34,paid,5884,Margrit,Roth,margrit.roth@example.com,"Hauserstrasse 11, 7850 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7698,2025-10-26 01:52:30,shipped,5179,Lidija,Hofstetter,lidija.hofstetter@example.com,"Gasserstrasse 3, 5865 Genf",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7936,2025-11-09 05:47:30,completed,5145,Alice,Schumacher,alice.schumacher@example.com,"Zbindenstrasse 9, 9142 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8671,2025-10-15 19:57:02,processing,5373,Carsten,Favre,carsten.favre@example.com,"Favrestrasse 33, 4450 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8291,2025-09-30 17:50:40,paid,5869,Dalibor,Siegrist,dalibor.siegrist@example.com,"Fehrstrasse 88, 4242 Jura",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7186,2025-10-21 09:08:39,paid,5081,Sasa,Schweizer,sasa.schweizer@example.com,"Stutzstrasse 47, 9458 Glarus",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8704,2025-10-04 08:35:29,paid,5579,Federica,Hofer,federica.hofer@example.com,"Baumgartnerstrasse 87, 6320 Uri",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7319,2025-11-07 17:47:17,completed,5986,Tom,Gasser,tom.gasser@example.com,"Wyssstrasse 31, 6762 Schwyz",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7163,2025-11-21 13:24:34,processing,5608,Laura,Moser,laura.moser@example.com,"Bieristrasse 112, 5444 St. Gallen",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7673,2025-11-24 00:09:23,shipped,5952,Giuliano,Moser,giuliano.moser@example.com,"Gerberstrasse 55, 3337 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8576,2025-09-03 16:09:29,shipped,5766,Eduard,Roth,eduard.roth@example.com,"Weibelstrasse 86, 7627 Solothurn",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8843,2025-10-02 12:15:31,completed,5636,Lisa,Fischer,lisa.fischer@example.com,"Felderstrasse 38, 7607 Glarus",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7939,2025-09-09 10:15:08,completed,5535,Noelia,Kaufmann,noelia.kaufmann@example.com,"Islerstrasse 4, 3334 Zug",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7180,2025-10-23 08:25:20,processing,5329,Ewald,Näf,ewald.näf@example.com,"Hürlimannstrasse 33, 1166 Thurgau",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8049,2025-11-04 11:45:32,completed,5289,Karl-Heinz,Häfliger,karl-heinz.häfliger@example.com,"Schwarzstrasse 10, 4351 Schwyz",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8485,2025-11-15 19:33:07,shipped,5682,Jenny,Lüscher,jenny.lüscher@example.com,"Lüscherstrasse 87, 2641 Basel-Stadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8459,2025-09-19 15:44:02,processing,5621,Eugenio,Christen,eugenio.christen@example.com,"Haslerstrasse 1, 8979 Luzern",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7980,2025-11-07 09:16:36,paid,5340,Eloïse,Schnyder,eloïse.schnyder@example.com,"Zieglerstrasse 6, 5028 Wallis",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7386,2025-10-05 17:43:59,processing,5212,Lorenzo,Baumgartner,lorenzo.baumgartner@example.com,"Schlatterstrasse 39, 6797 Wallis",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+7039,2025-11-02 20:18:23,shipped,5521,Salome,Mettler,salome.mettler@example.com,"Schärerstrasse 67, 7787 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7023,2025-09-05 05:55:55,shipped,5234,Josef,Jenni,josef.jenni@example.com,"Sidlerstrasse 77, 9130 Obwalden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8974,2025-10-01 13:49:41,completed,5152,Swen,Bernasconi,swen.bernasconi@example.com,"Kellerstrasse 85, 9387 Zug",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7286,2025-11-24 23:19:22,completed,5299,Fridolin,Probst,fridolin.probst@example.com,"Spörristrasse 24, 9171 Freiburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7140,2025-10-19 21:17:41,paid,5312,Margot,Meister,margot.meister@example.com,"Stettlerstrasse 26, 9518 Bern",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8779,2025-11-19 22:18:45,processing,5299,Amina,Benz,amina.benz@example.com,"Beckstrasse 466, 6322 Zug",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8163,2025-09-07 11:16:47,processing,5001,Nina,Wagner,nina.wagner@example.com,"Bernasconistrasse 94, 8227 Uri",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8936,2025-11-26 14:09:28,completed,5756,Stéphanie,Arnold,stéphanie.arnold@example.com,"Leustrasse 46, 5189 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8658,2025-09-25 18:17:27,paid,5788,Tommaso,Brun,tommaso.brun@example.com,"Bucherstrasse 9, 7608 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7538,2025-09-30 10:10:21,processing,5363,Elmar,Meyer,elmar.meyer@example.com,"Kaiserstrasse 902, 2711 Schaffhausen",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8707,2025-09-21 16:20:20,shipped,5357,Lias,Knecht,lias.knecht@example.com,"Vogelstrasse 23, 6415 Glarus",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7720,2025-11-23 10:37:56,completed,5390,Hamza,Forster,hamza.forster@example.com,"Kernstrasse 38, 9880 Nidwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8532,2025-09-19 20:12:13,completed,5330,Jonas,Michel,jonas.michel@example.com,"Benzstrasse 54, 4242 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8847,2025-09-05 08:27:55,paid,5730,Alina,Roos,alina.roos@example.com,"Lüscherstrasse 94, 1976 St. Gallen",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7644,2025-10-08 05:50:43,processing,5694,Céline,Bolliger,céline.bolliger@example.com,"Ernststrasse 96, 5471 Neuenburg",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7942,2025-09-01 07:28:16,completed,5859,Olivia,Ziegler,olivia.ziegler@example.com,"Fehrstrasse 9, 3287 Wallis",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7214,2025-09-25 12:06:07,processing,5352,Tanya,Roos,tanya.roos@example.com,"Haasstrasse 33, 4079 Waadt",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8097,2025-11-11 14:30:18,paid,5045,Isa,Hug,isa.hug@example.com,"Tannerstrasse 37, 3909 Obwalden",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7850,2025-09-13 08:07:57,paid,5818,Elin,Wagner,elin.wagner@example.com,"Zimmermannstrasse 16, 2330 Waadt",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7330,2025-11-22 13:16:09,processing,5297,Emir,Schär,emir.schär@example.com,"Islerstrasse 58, 4763 Appenzell Ausserrhoden",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8475,2025-11-02 21:34:13,completed,5404,Juliette,Schärer,juliette.schärer@example.com,"Häfligerstrasse 775, 6475 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8621,2025-10-01 16:03:20,shipped,5054,Saverio,Ott,saverio.ott@example.com,"Stettlerstrasse 85, 6915 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7886,2025-10-26 21:25:42,processing,5038,Hulda,Hofstetter,hulda.hofstetter@example.com,"Lutzstrasse 945, 4305 Luzern",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7347,2025-09-23 04:51:25,completed,5948,Josiane,Albrecht,josiane.albrecht@example.com,"Christenstrasse 93, 1458 Zürich",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+7500,2025-11-09 02:47:07,shipped,5952,Ben,Mettler,ben.mettler@example.com,"Bianchistrasse 31, 1531 Schwyz",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8976,2025-11-25 06:46:54,shipped,5380,Jannis,Leunberger,jannis.leunberger@example.com,"Kaiserstrasse 74, 1235 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7798,2025-09-27 05:28:44,paid,5120,Marielle,Kuhn,marielle.kuhn@example.com,"Eichenbergerstrasse 16, 3920 Jura",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7126,2025-10-18 11:14:48,shipped,5379,Alice,Schlatter,alice.schlatter@example.com,"Hessstrasse 79, 5255 Jura",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8006,2025-10-21 19:42:48,processing,5997,Skender,Kuhn,skender.kuhn@example.com,"Fehrstrasse 6, 8380 Glarus",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7974,2025-11-20 01:33:37,paid,5808,Gaëlle,Ferrari,gaëlle.ferrari@example.com,"Meierstrasse 11, 9831 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7767,2025-09-09 18:16:44,shipped,5085,Johann,Brun,johann.brun@example.com,"Thommenstrasse 68, 1525 Jura",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8205,2025-09-11 06:20:58,shipped,5131,Leano,Zimmermann,leano.zimmermann@example.com,"Lanzstrasse 1, 5979 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8372,2025-10-07 05:47:11,processing,5023,Ekaterina,Kern,ekaterina.kern@example.com,"Schulerstrasse 1, 4704 Bern",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7010,2025-10-09 10:23:19,shipped,5898,Zeljko,Seiler,zeljko.seiler@example.com,"Walterstrasse 70, 2634 Nidwalden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8300,2025-10-07 04:58:03,processing,5249,Mirko,Bosshard,mirko.bosshard@example.com,"Hirtstrasse 5, 6387 Glarus",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7992,2025-09-14 15:09:58,completed,5532,Janina,Haas,janina.haas@example.com,"Wüthrichstrasse 87, 5666 Zug",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8812,2025-10-18 11:08:42,shipped,5550,Amelia,Tanner,amelia.tanner@example.com,"Portmannstrasse 8, 6681 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8793,2025-10-21 16:30:38,processing,5515,Kai,Hafner,kai.hafner@example.com,"Kesslerstrasse 44, 1744 Appenzell Innerrhoden",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7554,2025-09-05 19:45:49,completed,5349,Kemal,Schmidt,kemal.schmidt@example.com,"Stutzstrasse 976, 5953 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8290,2025-11-16 21:01:12,completed,5366,Nelio,Fehr,nelio.fehr@example.com,"Bättigstrasse 21, 4927 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7089,2025-11-19 17:04:45,processing,5126,Marlene,Seiler,marlene.seiler@example.com,"Ernistrasse 55, 6566 Basel-Landschaft",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7380,2025-09-07 15:11:08,processing,5631,Margherita,Erni,margherita.erni@example.com,"Hotzstrasse 54, 1596 Tessin",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8108,2025-11-26 13:30:21,paid,5019,Maude,Baumgartner,maude.baumgartner@example.com,"Schallerstrasse 78, 5608 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8134,2025-09-01 08:58:33,processing,5817,Ann,Ziegler,ann.ziegler@example.com,"Zehnderstrasse 125, 8430 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8836,2025-11-10 08:18:05,processing,5009,Ilse,Schwarz,ilse.schwarz@example.com,"Itenstrasse 61, 6704 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7491,2025-11-10 04:19:48,shipped,5529,Kim,Hartmann,kim.hartmann@example.com,"Ackermannstrasse 346, 4345 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8100,2025-10-09 19:56:37,paid,5689,Andy,Beck,andy.beck@example.com,"Bergerstrasse 47, 1665 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8262,2025-09-09 09:55:00,processing,5581,Mentor,Bühler,mentor.bühler@example.com,"Schenkstrasse 55, 9763 Zürich",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8213,2025-09-08 00:25:36,completed,5423,Leonor,Schmidt,leonor.schmidt@example.com,"Bianchistrasse 86, 3543 Zürich",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8819,2025-09-16 08:37:41,paid,5100,Josefa,Jenni,josefa.jenni@example.com,"Fuchsstrasse 39, 8437 Solothurn",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8081,2025-10-28 20:09:33,shipped,5903,Joanna,Jost,joanna.jost@example.com,"Knechtstrasse 522, 9622 Freiburg",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8550,2025-11-11 19:24:44,shipped,5423,Paulette,Huber,paulette.huber@example.com,"Gutstrasse 27, 1852 Aargau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7671,2025-11-01 05:07:40,shipped,5525,Annalise,Berger,annalise.berger@example.com,"Suterstrasse 273, 4693 Aargau",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+8730,2025-11-12 00:06:49,processing,5692,Can,Haas,can.haas@example.com,"Steinerstrasse 364, 1069 Jura",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7880,2025-09-17 06:36:38,completed,5231,Mael,Benz,mael.benz@example.com,"Stuckistrasse 60, 7959 Schaffhausen",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8663,2025-09-07 18:20:13,processing,5364,Hans-Rudolf,Keller,hans-rudolf.keller@example.com,"Gasserstrasse 680, 4219 Tessin",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8648,2025-11-07 20:43:48,shipped,5867,Jaron,Ziegler,jaron.ziegler@example.com,"Brunstrasse 3, 7930 Wallis",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8899,2025-11-03 12:16:45,shipped,5372,Manfred,Blaser,manfred.blaser@example.com,"Wengerstrasse 84, 7893 Appenzell Innerrhoden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7724,2025-11-04 05:39:43,completed,5632,Luís,Christen,luís.christen@example.com,"Furrerstrasse 44, 5741 Glarus",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8005,2025-11-02 04:00:20,paid,5188,Barbara,Sidler,barbara.sidler@example.com,"Staubstrasse 529, 4955 Bern",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7203,2025-10-18 11:22:51,processing,5525,Jolanda,Bolliger,jolanda.bolliger@example.com,"Gloorstrasse 638, 6110 Nidwalden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7810,2025-09-30 08:48:01,processing,5845,Loredana,Stadelmann,loredana.stadelmann@example.com,"Schmidtstrasse 360, 2655 Obwalden",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7962,2025-10-17 19:39:54,paid,5816,Dusan,Felder,dusan.felder@example.com,"Baderstrasse 711, 2294 Freiburg",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8313,2025-11-21 17:51:43,processing,5268,Jon,Hauser,jon.hauser@example.com,"Schumacherstrasse 2, 9346 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+8788,2025-10-06 16:28:15,paid,5852,Nora,Tobler,nora.tobler@example.com,"Lustenbergerstrasse 81, 6266 Appenzell Innerrhoden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+8592,2025-11-01 07:30:59,shipped,5930,Lucas,Widmer,lucas.widmer@example.com,"Küngstrasse 281, 3991 Zug",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+7373,2025-10-28 02:57:23,processing,5311,Jacques,Schoch,jacques.schoch@example.com,"Wagnerstrasse 98, 8715 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8451,2025-09-30 13:44:22,shipped,5034,Darko,Lutz,darko.lutz@example.com,"Schwabstrasse 61, 6517 Schaffhausen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7365,2025-09-08 10:23:13,completed,5098,Erkan,Graf,erkan.graf@example.com,"Wirthstrasse 7, 9341 Freiburg",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8487,2025-10-11 06:57:44,shipped,5596,Can,Bär,can.bär@example.com,"Hotzstrasse 31, 7115 Waadt",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7303,2025-10-22 02:23:45,paid,5955,Sarina,Scheidegger,sarina.scheidegger@example.com,"Kuhnstrasse 46, 6051 Schaffhausen",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8586,2025-11-27 18:53:12,completed,5527,Adem,Bauer,adem.bauer@example.com,"Widmerstrasse 581, 3388 Solothurn",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8464,2025-11-22 03:52:33,completed,5009,Silja,Winkler,silja.winkler@example.com,"Sigriststrasse 43, 1759 Waadt",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+7329,2025-10-30 15:27:48,paid,5299,Juliette,Lanz,juliette.lanz@example.com,"Roosstrasse 88, 4393 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8582,2025-09-07 07:02:23,paid,5491,Patrick,Merz,patrick.merz@example.com,"Schwabstrasse 5, 9813 Basel-Stadt",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+7617,2025-11-28 11:49:52,shipped,5628,Isa,Eichenberger,isa.eichenberger@example.com,"Moserstrasse 25, 4784 Glarus",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7244,2025-09-08 10:55:43,paid,5715,Meret,Spörri,meret.spörri@example.com,"Huberstrasse 34, 6895 Tessin",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+7544,2025-11-26 21:11:11,paid,5052,Rafaela,Leu,rafaela.leu@example.com,"Siegriststrasse 50, 4376 Basel-Stadt",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+8712,2025-09-24 13:32:09,completed,5999,Sanije,Studer,sanije.studer@example.com,"Haasstrasse 45, 9744 Bern",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+8220,2025-09-01 04:38:46,paid,5108,Aurelio,Blaser,aurelio.blaser@example.com,"Kuhnstrasse 420, 7170 Graubünden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8314,2025-10-11 15:38:28,completed,5209,José,Iten,josé.iten@example.com,"Pfisterstrasse 66, 1092 Basel-Landschaft",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8891,2025-10-20 07:36:32,paid,5908,Marie-Jeanne,Stalder,marie-jeanne.stalder@example.com,"Gigerstrasse 992, 5305 Schaffhausen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7841,2025-10-17 17:45:11,shipped,5787,Fabiola,Frei,fabiola.frei@example.com,"Hofmannstrasse 47, 3375 Aargau",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8865,2025-09-12 03:14:56,shipped,5205,Mentor,Imhof,mentor.imhof@example.com,"Siegriststrasse 94, 7054 Basel-Stadt",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7881,2025-10-30 23:06:19,completed,5243,Alfred,Giger,alfred.giger@example.com,"Eglistrasse 850, 7882 Thurgau",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+8387,2025-11-28 06:53:10,paid,5344,Artur,Schär,artur.schär@example.com,"Hunzikerstrasse 64, 9338 St. Gallen",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7247,2025-09-15 09:33:10,paid,5487,Gina,Scherrer,gina.scherrer@example.com,"Wegmannstrasse 803, 1788 Zürich",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7354,2025-09-23 10:02:41,shipped,5419,Elias,Schoch,elias.schoch@example.com,"Freystrasse 970, 2797 Jura",1004,Red Cap,Accessoires,14.99,3,44.97,CHF,CAP-RED-UNI
+7712,2025-10-11 00:39:52,completed,5553,Marlyse,Favre,marlyse.favre@example.com,"Grossstrasse 95, 6737 Appenzell Ausserrhoden",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7830,2025-11-14 11:42:29,shipped,5147,Anne-Marie,Hirt,anne-marie.hirt@example.com,"Baderstrasse 6, 2242 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+7568,2025-11-22 03:05:15,paid,5332,Cem,Braun,cem.braun@example.com,"Lüthistrasse 910, 7284 Basel-Stadt",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7070,2025-10-24 08:06:10,paid,5200,Mergim,Betschart,mergim.betschart@example.com,"Walderstrasse 105, 2276 Zürich",1005,Green Jacket,Jacken,89.99,2,179.98,CHF,JACK-GRN-L
+8360,2025-11-05 02:21:27,shipped,5901,Beate,Leu,beate.leu@example.com,"Furrerstrasse 71, 3808 Obwalden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+8784,2025-10-30 08:10:34,paid,5863,Vincent,Wegmann,vincent.wegmann@example.com,"Kaufmannstrasse 57, 1785 Appenzell Innerrhoden",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+7402,2025-10-06 01:10:57,completed,5131,António,Schaub,antónio.schaub@example.com,"Freistrasse 5, 6605 Appenzell Ausserrhoden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7108,2025-11-11 03:49:42,completed,5406,Marion,Kälin,marion.kälin@example.com,"Schärstrasse 64, 8535 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7084,2025-09-08 02:12:29,processing,5543,Patrick,Fischer,patrick.fischer@example.com,"Suterstrasse 35, 7093 Zürich",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7470,2025-10-05 21:12:43,paid,5680,Zeno,Lutz,zeno.lutz@example.com,"Felderstrasse 38, 7806 Schwyz",1002,Blue Jeans,Hosen,49.99,2,99.98,CHF,JEANS-BLU-32
+7483,2025-09-07 02:12:38,shipped,5557,Valon,Peter,valon.peter@example.com,"Wirzstrasse 73, 8574 St. Gallen",1004,Red Cap,Accessoires,14.99,1,14.99,CHF,CAP-RED-UNI
+8260,2025-09-21 07:25:05,shipped,5063,Marjan,Ferrari,marjan.ferrari@example.com,"Hotzstrasse 76, 7821 Waadt",1001,Classic White T-Shirt,Shirts,19.99,3,59.97,CHF,TSHIRT-WHT-XS
+8584,2025-10-16 22:27:23,processing,5289,Mathieu,Bader,mathieu.bader@example.com,"Näfstrasse 429, 6159 Obwalden",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7606,2025-10-19 15:19:59,paid,5267,Simona,Schwarz,simona.schwarz@example.com,"Schäferstrasse 60, 2003 Basel-Stadt",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8836,2025-09-16 18:09:20,paid,5503,Eloïse,Egli,eloïse.egli@example.com,"Betschartstrasse 79, 8292 Schwyz",1004,Red Cap,Accessoires,14.99,4,59.96,CHF,CAP-RED-UNI
+7983,2025-11-12 15:06:05,shipped,5871,Cristiano,Maier,cristiano.maier@example.com,"Brunnerstrasse 82, 1550 Wallis",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8611,2025-10-25 01:13:44,processing,5281,Regula,Zbinden,regula.zbinden@example.com,"Zbindenstrasse 89, 1950 Glarus",1003,Black Hoodie,Sweatshirts,39.99,4,159.96,CHF,HOOD-BLK-M
+7793,2025-11-20 07:18:19,processing,5219,Till,Bachmann,till.bachmann@example.com,"Haslerstrasse 6, 1735 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,2,79.98,CHF,HOOD-BLK-M
+8263,2025-09-18 00:12:51,shipped,5959,Grzegorz,Steiger,grzegorz.steiger@example.com,"Schäferstrasse 4, 7389 Appenzell Ausserrhoden",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+7231,2025-09-26 01:50:34,completed,5412,Rafaela,Meili,rafaela.meili@example.com,"Baurstrasse 969, 9989 Aargau",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS
+8612,2025-09-01 14:44:25,processing,5179,Alisha,Schaller,alisha.schaller@example.com,"Schnyderstrasse 950, 4473 Appenzell Ausserrhoden",1005,Green Jacket,Jacken,89.99,4,359.96,CHF,JACK-GRN-L
+7961,2025-10-06 20:46:07,processing,5563,Agnès,Graf,agnès.graf@example.com,"Arnoldstrasse 195, 7995 Appenzell Innerrhoden",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7140,2025-10-12 04:49:32,processing,5458,Erwin,Zehnder,erwin.zehnder@example.com,"Baderstrasse 4, 5196 Schwyz",1005,Green Jacket,Jacken,89.99,1,89.99,CHF,JACK-GRN-L
+8264,2025-10-06 23:47:40,shipped,5097,Noëmi,Hermann,noëmi.hermann@example.com,"Merzstrasse 165, 3082 Zürich",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8281,2025-10-26 03:54:19,processing,5021,Joséphine,Staub,joséphine.staub@example.com,"Beckstrasse 533, 6724 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+7757,2025-10-06 12:07:41,completed,5329,Sibylle,Kohler,sibylle.kohler@example.com,"Langstrasse 6, 7414 Aargau",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+7009,2025-10-12 00:49:27,shipped,5451,Elisa,Frick,elisa.frick@example.com,"Fischerstrasse 2, 2978 Luzern",1004,Red Cap,Accessoires,14.99,2,29.98,CHF,CAP-RED-UNI
+8466,2025-11-13 23:15:15,completed,5364,Patrik,Meier,patrik.meier@example.com,"Staufferstrasse 63, 1668 Zürich",1002,Blue Jeans,Hosen,49.99,4,199.96,CHF,JEANS-BLU-32
+7237,2025-10-19 12:06:34,processing,5071,Lana,Bader,lana.bader@example.com,"Siegriststrasse 531, 8912 Graubünden",1001,Classic White T-Shirt,Shirts,19.99,2,39.98,CHF,TSHIRT-WHT-XS
+7371,2025-09-22 22:55:45,processing,5565,Raul,Mettler,raul.mettler@example.com,"Gigerstrasse 18, 1186 Graubünden",1003,Black Hoodie,Sweatshirts,39.99,3,119.97,CHF,HOOD-BLK-M
+8099,2025-09-05 11:14:18,paid,5991,Cäcilia,Siegrist,cäcilia.siegrist@example.com,"Studerstrasse 5, 6231 Solothurn",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+7312,2025-09-02 07:08:06,processing,5913,Jose,Gasser,jose.gasser@example.com,"Gigerstrasse 71, 6334 Basel-Landschaft",1001,Classic White T-Shirt,Shirts,19.99,1,19.99,CHF,TSHIRT-WHT-XS
+8913,2025-09-08 17:40:52,paid,5839,Ronny,Weibel,ronny.weibel@example.com,"Fankhauserstrasse 928, 7467 St. Gallen",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7071,2025-11-28 22:07:10,paid,5124,Kira,Jäggi,kira.jäggi@example.com,"Zimmermannstrasse 60, 7892 Graubünden",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8284,2025-11-10 10:36:14,paid,5358,Nelson,Haas,nelson.haas@example.com,"Zimmermannstrasse 50, 3761 Freiburg",1003,Black Hoodie,Sweatshirts,39.99,1,39.99,CHF,HOOD-BLK-M
+8563,2025-11-02 06:25:06,processing,5009,Yannic,Thommen,yannic.thommen@example.com,"Huberstrasse 88, 5890 Bern",1002,Blue Jeans,Hosen,49.99,3,149.97,CHF,JEANS-BLU-32
+8147,2025-11-13 11:39:53,processing,5250,Gianluca,Roth,gianluca.roth@example.com,"Christenstrasse 66, 3729 Basel-Landschaft",1005,Green Jacket,Jacken,89.99,3,269.97,CHF,JACK-GRN-L
+8182,2025-09-21 20:00:22,processing,5062,Noé,Kuhn,noé.kuhn@example.com,"Küngstrasse 73, 8226 Freiburg",1002,Blue Jeans,Hosen,49.99,1,49.99,CHF,JEANS-BLU-32
+7170,2025-11-17 14:16:27,processing,5701,Jonathan,Ritter,jonathan.ritter@example.com,"Widmerstrasse 525, 1696 Glarus",1001,Classic White T-Shirt,Shirts,19.99,4,79.96,CHF,TSHIRT-WHT-XS

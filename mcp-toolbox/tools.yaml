@@ -1,0 +1,48 @@
+# MCP Toolbox Configuration for InsightLoop
+# Database: SQLite (to be created with your custom data)
+# This is a TEMPLATE for Phase 1 verification
+
+sources:
+  my_database:
+    kind: sqlite
+    database: ../data/my_data.db  # PLACEHOLDER - will be created in Phase 2
+
+tools:
+  # Tool 1: Query data with flexible filtering
+  query_data:
+    kind: sqlite-sql
+    source: my_database
+    description: "Execute SQL query to retrieve data from main_table"
+    statement: "SELECT * FROM main_table LIMIT 10"
+
+  # Tool 2: Get table information
+  get_table_info:
+    kind: sqlite-sql
+    source: my_database
+    description: "Get list of all tables in the database"
+    statement: "SELECT name, type FROM sqlite_master WHERE type='table'"
+
+  # Tool 3: Count rows in main table
+  get_row_count:
+    kind: sqlite-sql
+    source: my_database
+    description: "Get total row count for main_table"
+    statement: "SELECT COUNT(*) as total_rows FROM main_table"
+
+# NOTE: This is a TEMPLATE configuration for Phase 1 validation
+#
+# In Phase 2, we will:
+# 1. Create the SQLite database with your actual data
+# 2. Add parameterized queries using parameters or templateParameters
+# 3. Configure domain-specific tools based on your data schema
+# 4. Test end-to-end integration with Claude Code
+#
+# Example of parameterized tool (to be added in Phase 2):
+# filter_by_column:
+#   kind: sqlite-sql
+#   source: my_database
+#   statement: "SELECT * FROM main_table WHERE column_name = ?"
+#   parameters:
+#     - name: value
+#       type: string
+#       description: Value to filter by
