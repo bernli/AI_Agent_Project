@@ -16,6 +16,8 @@ from .tools import analyze_dataframe, execute_python_analysis
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
 
 # BigQuery MCP Toolset
+# NOTE: Only expose tools that work with public datasets
+# Metadata tools (get_table_info, list_table_ids, get_dataset_info) fail on bigquery-public-data
 bigquery_mcp = McpToolset(
     connection_params=StdioConnectionParams(
         server_params=StdioServerParameters(
@@ -27,7 +29,9 @@ bigquery_mcp = McpToolset(
             }
         ),
         timeout=10  # Connection timeout in seconds
-    )
+    ),
+    # Whitelist: Only allow these tools (blocks metadata tools that fail on public datasets)
+    allowed_tools=["execute_sql", "ask_data_insights", "analyze_contribution"]
 )
 
 # Root Agent - Direct tool execution, no sub-agents
@@ -36,67 +40,40 @@ interactive_analyst_agent = Agent(
     model=config.main_model,
     description="Data analysis assistant that answers business questions using Python.",
     instruction="""
-You are Analytics Agent, a data analysis assistant that works with multiple data sources.
+You are Analytics Agent, a data analysis assistant.
 
 DATA SOURCES:
-1. **BigQuery E-Commerce Data** (via BigQuery MCP tools):
-   - Keywords: "ecommerce", "thelook", "online shop", "e-commerce", "USA", "America", "North America"
-   - Content: General e-commerce data from public dataset (primarily US/North American market)
-   - Public Dataset: bigquery-public-data.thelook_ecommerce
+1. **BigQuery E-Commerce** (keywords: "ecommerce", "USA", "America", "North America")
+   - Dataset: bigquery-public-data.thelook_ecommerce
    - Tables: orders, products, users, order_items, distribution_centers, events, inventory_items
-   - Use BigQuery MCP tools: execute_sql ONLY (do NOT use get_table_info, list_table_ids, get_dataset_info for public datasets)
 
-2. **Local CSV Files - Canadian Webshop** (via Python tools):
-   - Keywords: "Canada", "canadian", "neuer webshop", "new webshop", "CSV", file path, local file
-   - Content: Data from newly opened webshop in Canada
-   - Use analyze_dataframe() and execute_python_analysis() tools
+2. **Local CSV - Canadian Webshop** (keywords: "Canada", "canadian", "neuer webshop", "CSV", file path)
+   - Use: analyze_dataframe() → execute_python_analysis()
 
-WORKFLOW:
-1. **Identify data source** based on user question:
-   - If keywords like "Canada", "canadian", "neuer webshop", "new webshop" → Use local CSV (Canadian webshop data)
-   - If keywords like "ecommerce", "thelook", "USA", "America", "North America" → Use BigQuery MCP tools
-   - If file path or "CSV" mentioned explicitly → Use local Python tools
+BIGQUERY TOOL SELECTION:
+- **Default:** execute_sql (fast, predictable)
+  Use fully-qualified names: `bigquery-public-data`.`thelook_ecommerce`.`orders`
+  ⚠️ NEVER use get_table_info, list_table_ids, get_dataset_info - they fail on public datasets!
 
-2. **For BigQuery (ecommerce data)**:
-   - ONLY use execute_sql tool - metadata tools don't work with public datasets
-   - In SQL queries, use fully-qualified table names with backticks:
-     SELECT * FROM `bigquery-public-data`.`thelook_ecommerce`.`orders`
-   - Available tables: orders, products, users, order_items, distribution_centers, events, inventory_items
-   - Common columns in orders table: order_id, user_id, status, created_at, returned_at, shipped_at, delivered_at, num_of_item
-   - Present results in business terms
+- **For "why/what caused" questions:** analyze_contribution OR ask_data_insights
+  - analyze_contribution: Deep causal analysis with ML
+    ⚠️ ALWAYS warn user BEFORE calling: "Running contribution analysis, this takes ~1 minute..."
+  - ask_data_insights: Quick exploratory analysis (~10 sec)
+    Use for initial "why" questions, then offer analyze_contribution for deeper analysis
 
-3. **For local CSV files**:
-   - Call analyze_dataframe(file_path) first
-   - Write Python code and call execute_python_analysis(code=..., data_path=...)
-   - Present results to the user in business terms
+- **For open exploration:** ask_data_insights
+  Example: "What patterns exist in orders?"
 
-Context available:
-- dataframe_context: {dataframe_context?} (columns, dtypes, sample data, statistics)
+PYTHON (Local CSV):
+- df is pre-loaded, do NOT use pd.read_csv()
+- Store results in `result_value` or `result_df`
+- End with: # FILE_PATH: [path]
 
-Code Generation Rules (for local CSV analysis):
-- df is pre-loaded from data_path, do NOT use pd.read_csv()
-- Store scalar results in `result_value`
-- Store DataFrame results in `result_df`
-- End code with: # FILE_PATH: [path from dataframe_context]
-
-Tips:
-- Be conversational and helpful
-- Explain results clearly
-- If execution fails, explain the error and suggest fixes
-- For ecommerce questions, always use BigQuery MCP tools, not local files
-
-HANDLING MISSING OR UNAVAILABLE DATA:
-When a user asks for data that doesn't exist (e.g., time period with no data, non-existent columns):
-1. **Check the data first** - Always analyze what data is actually available before answering
-2. **Be transparent** - Clearly state when requested data is not available
-3. **Provide context** - Explain what data IS available (e.g., "The dataset only contains data from 2020-2023, but you asked for 2024")
-4. **Offer alternatives** - Suggest relevant analysis with available data (e.g., "I can show you the trend from the available years instead")
-5. **Never make up data** - If data doesn't exist, say so explicitly
-
-Example responses for missing data:
-- "I analyzed the Canadian webshop data, and there are no records for Q1 2025. The available data covers [actual date range]. Would you like me to analyze the most recent quarter instead?"
-- "The dataset doesn't contain a 'profit' column. Available columns are: [list]. I can calculate revenue or show sales trends instead."
-- "I found 0 orders matching those criteria. This could mean [possible reasons]. Let me show you the overall distribution instead."
+MISSING DATA:
+- Check data availability first
+- Be transparent when data doesn't exist
+- Suggest alternatives with available data
+- Never make up data
 """,
     tools=[
         FunctionTool(analyze_dataframe),
