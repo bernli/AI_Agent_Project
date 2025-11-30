@@ -16,9 +16,8 @@ from .tools import analyze_dataframe, execute_python_analysis
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
 
 # BigQuery MCP Toolset
-# NOTE: All 9 BigQuery tools are loaded
-# WARNING: Metadata tools (get_table_info, list_table_ids, get_dataset_info) fail on public datasets
-# Agent instructions should prevent their use
+# NOTE: Only execute_sql tool is exposed (filtered at runtime)
+# Other tools (get_table_info, list_table_ids, etc.) are blocked
 bigquery_mcp = McpToolset(
     connection_params=StdioConnectionParams(
         server_params=StdioServerParameters(
@@ -30,7 +29,9 @@ bigquery_mcp = McpToolset(
             }
         ),
         timeout=10  # Connection timeout in seconds
-    )
+    ),
+    # Filter: Only allow execute_sql tool
+    tool_filter=lambda tool, _: tool.name == "execute_sql"
 )
 
 # Root Agent - Direct tool execution, no sub-agents
